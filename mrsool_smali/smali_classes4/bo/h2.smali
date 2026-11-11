@@ -1,0 +1,490 @@
+.class public final Lbo/h2;
+.super Ljava/lang/Object;
+.source "CancelReasonQuery.kt"
+
+# interfaces
+.implements Lfa/h0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lbo/h2$a;,
+        Lbo/h2$b;,
+        Lbo/h2$c;,
+        Lbo/h2$d;,
+        Lbo/h2$e;,
+        Lbo/h2$f;,
+        Lbo/h2$g;,
+        Lbo/h2$h;,
+        Lbo/h2$i;,
+        Lbo/h2$j;,
+        Lbo/h2$k;,
+        Lbo/h2$l;,
+        Lbo/h2$m;,
+        Lbo/h2$n;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lfa/h0<",
+        "Lbo/h2$e;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0011\u0008\u0087\u0008\u0018\u0000 \u000b2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u000e!%\u0015&\'\u000b()*+,-\u0012$B\u0017\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000b\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\nJ\u000f\u0010\u000c\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\nJ\u001f\u0010\u0012\u001a\u00020\u00112\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0010\u001a\u00020\u000fH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0015\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u0014H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0010\u0010\u0017\u001a\u00020\u0005H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0017\u0010\nJ\u0010\u0010\u0019\u001a\u00020\u0018H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u001a\u0010\u001e\u001a\u00020\u001d2\u0008\u0010\u001c\u001a\u0004\u0018\u00010\u001bH\u00d6\u0003\u00a2\u0006\u0004\u0008\u001e\u0010\u001fR\u0017\u0010\u0004\u001a\u00020\u00038\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010 \u001a\u0004\u0008!\u0010\"R\u0017\u0010\u0006\u001a\u00020\u00058\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0015\u0010#\u001a\u0004\u0008$\u0010\n\u00a8\u0006."
+    }
+    d2 = {
+        "Lbo/h2;",
+        "Lfa/h0;",
+        "Lbo/h2$e;",
+        "Lhv/k;",
+        "reasonType",
+        "",
+        "orderId",
+        "<init>",
+        "(Lhv/k;Ljava/lang/String;)V",
+        "id",
+        "()Ljava/lang/String;",
+        "c",
+        "name",
+        "Lja/g;",
+        "writer",
+        "Lfa/q;",
+        "customScalarAdapters",
+        "Lpz/j0;",
+        "a",
+        "(Lja/g;Lfa/q;)V",
+        "Lfa/b;",
+        "b",
+        "()Lfa/b;",
+        "toString",
+        "",
+        "hashCode",
+        "()I",
+        "",
+        "other",
+        "",
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        "Lhv/k;",
+        "e",
+        "()Lhv/k;",
+        "Ljava/lang/String;",
+        "d",
+        "i",
+        "g",
+        "j",
+        "k",
+        "l",
+        "n",
+        "m",
+        "h",
+        "f",
+        "2026.02.18-12.16.34-v4.3.0-771416981_liveRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final c:Lbo/h2$d;
+
+
+# instance fields
+.field private final a:Lhv/k;
+
+.field private final b:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lbo/h2$d;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lbo/h2$d;-><init>(Lkotlin/jvm/internal/k;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lbo/h2;->c:Lbo/h2$d;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public constructor <init>(Lhv/k;Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "reasonType"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "orderId"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 12
+    .line 13
+    .line 14
+    iput-object p1, p0, Lbo/h2;->a:Lhv/k;
+
+    .line 15
+    .line 16
+    iput-object p2, p0, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 17
+    .line 18
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lja/g;Lfa/q;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "writer"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "customScalarAdapters"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sget-object v0, Lco/w4;->a:Lco/w4;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0, p1, p2, p0}, Lco/w4;->d(Lja/g;Lfa/q;Lbo/h2;)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public b()Lfa/b;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lfa/b<",
+            "Lbo/h2$e;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lco/m4;->a:Lco/m4;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    const/4 v2, 0x0
+
+    .line 5
+    const/4 v3, 0x0
+
+    .line 6
+    invoke-static {v0, v3, v1, v2}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    return-object v0
+.end method
+
+.method public c()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lbo/h2;->c:Lbo/h2$d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lbo/h2$d;->a()Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+.end method
+
+.method public final d()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final e()Lhv/k;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbo/h2;->a:Lhv/k;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lbo/h2;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    check-cast p1, Lbo/h2;
+
+    .line 12
+    .line 13
+    iget-object v1, p0, Lbo/h2;->a:Lhv/k;
+
+    .line 14
+    .line 15
+    iget-object v3, p1, Lbo/h2;->a:Lhv/k;
+
+    .line 16
+    .line 17
+    if-eq v1, v3, :cond_2
+
+    .line 18
+    .line 19
+    return v2
+
+    .line 20
+    :cond_2
+    iget-object v1, p0, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 21
+    .line 22
+    iget-object p1, p1, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 23
+    .line 24
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/t;->d(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 25
+    .line 26
+    .line 27
+    move-result p1
+
+    .line 28
+    if-nez p1, :cond_3
+
+    .line 29
+    .line 30
+    return v2
+
+    .line 31
+    :cond_3
+    return v0
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lbo/h2;->a:Lhv/k;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 8
+    .line 9
+    iget-object v1, p0, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v1
+
+    .line 15
+    add-int/2addr v0, v1
+
+    .line 16
+    return v0
+.end method
+
+.method public id()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "5dfe4450853c152d1052f2eda11f865f71cd0a8a358ce29208d4828f74e455fc"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public name()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "CancelReason"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lbo/h2;->a:Lhv/k;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lbo/h2;->b:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 6
+    .line 7
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 8
+    .line 9
+    .line 10
+    const-string v3, "CancelReasonQuery(reasonType="
+
+    .line 11
+    .line 12
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    const-string v0, ", orderId="
+
+    .line 19
+    .line 20
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    const-string v0, ")"
+
+    .line 27
+    .line 28
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 29
+    .line 30
+    .line 31
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v0
+
+    .line 35
+    return-object v0
+.end method

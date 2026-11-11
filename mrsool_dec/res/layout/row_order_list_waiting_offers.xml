@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/foreground_color_1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/order_item_padding" android:paddingEnd="@dimen/order_item_padding">
+        <include android:id="@id/orderDetailBase" layout="@layout/row_order_list_base_details" />
+        <include android:id="@id/tvWaitingOffers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginEnd="5.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/loadingLottie" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/orderDetailBase" layout="@layout/view_order_list_status" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/loadingLottie" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="10.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/tvWaitingOffers" app:layout_constraintTop_toBottomOf="@id/orderDetailBase" app:lottie_autoPlay="true" app:lottie_fileName="horizontal_loader_new_theme.json" app:lottie_loop="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

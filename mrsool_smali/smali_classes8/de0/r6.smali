@@ -1,0 +1,135 @@
+.class public Lde0/r6;
+.super Lde0/v;
+.source "SourceFile"
+
+
+# instance fields
+.field public l:Lde0/xa;
+
+
+# direct methods
+.method public constructor <init>([B[BIIJ)V
+    .locals 7
+
+    .line 1
+    const/16 v3, 0x40
+
+    .line 2
+    .line 3
+    const/16 v6, 0x40
+
+    .line 4
+    .line 5
+    const/16 v2, 0x40
+
+    .line 6
+    .line 7
+    move-object v0, p0
+
+    .line 8
+    move-object v1, p2
+
+    .line 9
+    move v4, p3
+
+    .line 10
+    move v5, p4
+
+    .line 11
+    invoke-direct/range {v0 .. v6}, Lde0/v;-><init>([BIIIII)V
+
+    .line 12
+    .line 13
+    .line 14
+    new-instance p3, Lde0/xa;
+
+    .line 15
+    .line 16
+    invoke-direct {p3}, Lde0/xa;-><init>()V
+
+    .line 17
+    .line 18
+    .line 19
+    iput-object p3, p0, Lde0/r6;->l:Lde0/xa;
+
+    .line 20
+    .line 21
+    invoke-virtual {p3, p1, p2, p5, p6}, Lde0/xa;->e([B[BJ)V
+
+    .line 22
+    .line 23
+    .line 24
+    const/4 p1, 0x1
+
+    .line 25
+    iput-boolean p1, p0, Lde0/jb;->h:Z
+
+    .line 26
+    .line 27
+    iput-boolean p1, p0, Lde0/jb;->a:Z
+
+    .line 28
+    .line 29
+    return-void
+.end method
+
+
+# virtual methods
+.method public q()V
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lde0/r6;->l:Lde0/xa;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lde0/jb;->d:[B
+
+    .line 4
+    .line 5
+    iget-object v2, v0, Lde0/xa;->a:[I
+
+    .line 6
+    .line 7
+    iget-object v3, v0, Lde0/xa;->b:[I
+
+    .line 8
+    .line 9
+    iget-object v4, v0, Lde0/xa;->c:[B
+
+    .line 10
+    .line 11
+    iget v5, v0, Lde0/xa;->d:I
+
+    .line 12
+    .line 13
+    invoke-static {v1, v2, v3, v4, v5}, Lde0/xa;->f([B[I[I[BI)V
+
+    .line 14
+    .line 15
+    .line 16
+    iget v2, v0, Lde0/xa;->d:I
+
+    .line 17
+    .line 18
+    array-length v1, v1
+
+    .line 19
+    add-int/2addr v2, v1
+
+    .line 20
+    rem-int/lit8 v2, v2, 0x40
+
+    .line 21
+    .line 22
+    iput v2, v0, Lde0/xa;->d:I
+
+    .line 23
+    .line 24
+    return-void
+.end method

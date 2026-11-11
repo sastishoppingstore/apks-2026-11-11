@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/profile_box_bg" />
+    <corners android:radius="14.0dp" />
+    <stroke android:width="0.20000005dp" android:color="@color/add_address_stroke" />
+</shape>

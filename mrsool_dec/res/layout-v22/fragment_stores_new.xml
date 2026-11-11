@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mrsool.utils.widgets.refresh.PullToRefreshView android:id="@id/pullToRefresh" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/mainLayout" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.flaviofaria.kenburnsview.KenBurnsView android:id="@id/homeBgView" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_home_logo" />
+            <androidx.core.widget.NestedScrollView android:id="@id/svContent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.google.android.material.card.MaterialCardView android:layout_gravity="center_horizontal" android:id="@id/loadingView" android:visibility="gone" android:layout_width="69.0dp" android:layout_height="32.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="4.0dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="16.0dp" app:cardElevation="4.0dp">
+                        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:layout_width="30.0dp" android:layout_height="30.0dp" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/primary_action" app:lottie_fileName="horizontal_loader.json" app:lottie_loop="true" />
+                    </com.google.android.material.card.MaterialCardView>
+                    <LinearLayout android:orientation="vertical" android:id="@id/llData" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="32.0dp">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+                            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearanceBold.ExtraLarge" />
+                            <include android:id="@id/iSubscriptionIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dp" layout="@layout/layout_subscription_icon_16" />
+                        </LinearLayout>
+                        <TextView android:textColor="@color/secondary_color" android:id="@id/tvSavedAmount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:includeFontPadding="false" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/TextAppearanceMedium.Small" />
+                        <include android:id="@id/searchView" layout="@layout/row_home_search" />
+                        <include android:id="@id/llHomebanner" layout="@layout/layout_warning_banner" />
+                        <FrameLayout android:id="@id/flServiceTypes" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:paddingHorizontal="16.0dp">
+                            <androidx.fragment.app.FragmentContainerView android:id="@id/fragmentServiceTypes" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                            <TableLayout android:id="@id/tbServiceTypes" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="0,1,2" android:shrinkColumns="0,1,2" />
+                        </FrameLayout>
+                        <include android:id="@id/promotionalBanner" layout="@layout/layout_home_promotional_banner" />
+                        <include android:id="@id/promotionalComponentsSection" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" layout="@layout/layout_promotional_components_section" />
+                        <include android:id="@id/llRecentOrder" layout="@layout/item_promoted_services" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/llMainPromoted" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <include android:id="@id/llSpecialServices" layout="@layout/item_promoted_services" />
+                    </LinearLayout>
+                </FrameLayout>
+            </androidx.core.widget.NestedScrollView>
+            <View android:id="@id/viewStatusBarLine" android:background="@color/foreground_color_2" android:layout_width="match_parent" android:layout_height="0.5dp" />
+            <View android:id="@id/shimmerBackgroundView" android:background="@color/foreground_color_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerLoading" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" app:shimmer_duration="1000">
+                <include android:visibility="gone" layout="@layout/layout_store_shimmer_new_cells" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </FrameLayout>
+    </com.mrsool.utils.widgets.refresh.PullToRefreshView>
+    <include android:layout_gravity="bottom" android:id="@id/iSubscriptionBottomSheet" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/bottomsheet_subscription_banner" />
+</FrameLayout>

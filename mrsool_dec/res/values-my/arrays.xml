@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>ဒီဂရီ စင်တီဂရိတ်</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>4G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>၀.၂၅ ဆ</item>
+        <item>၀.၅ ဆ</item>
+        <item>၀.၇၅ ဆ</item>
+        <item>ပုံမှန်</item>
+        <item>၁.၂၅ ဆ</item>
+        <item>၁.၅ ဆ</item>
+        <item>၂ ဆ</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>မြောက်</item>
+        <item>NE(အရှေ့မြောက်)</item>
+        <item>အရှေ့</item>
+        <item>SE(အရှေ့တောင်)</item>
+        <item>တောင်</item>
+        <item>SW(အနောက်တောင်)</item>
+        <item>အနောက်</item>
+        <item>NW(အနောက်မြောက်)</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>မြောက်ဘက်</item>
+        <item>အရှေ့မြောက်</item>
+        <item>အရှေ့</item>
+        <item>အရှေ့တောင်</item>
+        <item>တောင်ဘက်</item>
+        <item>အနောက်တောင်</item>
+        <item>အနောက်ဘက်</item>
+        <item>အနောက်မြောက်</item>
+    </string-array>
+</resources>

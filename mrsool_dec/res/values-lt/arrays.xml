@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 k.</item>
+        <item>0,5 k.</item>
+        <item>0,75 k.</item>
+        <item>Įprasta</item>
+        <item>1,25 k.</item>
+        <item>1,5 k.</item>
+        <item>2 k.</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Š</item>
+        <item>ŠR</item>
+        <item>R</item>
+        <item>PR</item>
+        <item>P</item>
+        <item>PV</item>
+        <item>V</item>
+        <item>ŠV</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>šiaurė</item>
+        <item>šiaurės rytai</item>
+        <item>rytai</item>
+        <item>pietryčiai</item>
+        <item>pietūs</item>
+        <item>pietvakariai</item>
+        <item>vakarai</item>
+        <item>šiaurės vakarai</item>
+    </string-array>
+</resources>

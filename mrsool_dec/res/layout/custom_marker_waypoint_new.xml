@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:theme="@style/AppTheme" android:orientation="vertical" android:id="@id/cvTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:importantForAccessibility="noHideDescendants" app:cardBackgroundColor="@color/ternary_color" app:cardCornerRadius="12.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/pure_white" android:ellipsize="end" android:gravity="center" android:id="@id/tvTitle" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dp" android:maxLines="1" android:includeFontPadding="false" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" style="@style/TextAppearanceMedium.Small" />
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivPin" android:visibility="visible" android:layout_width="@dimen/marker_48" android:layout_height="@dimen/marker_48" android:src="@drawable/ic_dropoff_other" android:scaleType="fitCenter" android:layout_below="@id/cvTitle" android:layout_centerHorizontal="true" android:importantForAccessibility="no" />
+</RelativeLayout>

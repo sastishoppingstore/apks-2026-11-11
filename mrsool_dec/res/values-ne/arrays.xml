@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C8650</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>०.२५ गुणा</item>
+        <item>०.५ गुणा</item>
+        <item>०.७५ गुणा</item>
+        <item>सामान्य</item>
+        <item>१.२५ गुणा</item>
+        <item>१.५ गुणा</item>
+        <item>२ गुणा</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>उ</item>
+        <item>उ.पू.</item>
+        <item>पू</item>
+        <item>द.पू.</item>
+        <item>द</item>
+        <item>द.प.</item>
+        <item>प</item>
+        <item>उ.प.</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>उत्तर</item>
+        <item>उत्तर पूर्व</item>
+        <item>पूर्व</item>
+        <item>दक्षिण पूर्व</item>
+        <item>दक्षिण</item>
+        <item>दक्षिण पश्चिम</item>
+        <item>पश्चिम</item>
+        <item>उत्तर पश्चिम</item>
+    </string-array>
+</resources>

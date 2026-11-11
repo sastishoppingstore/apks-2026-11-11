@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/general_toolbar_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:background="@color/colorPrimary1" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBack" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#fbfafc" android:gravity="center" android:layout_gravity="center" android:id="@id/tvTitle" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/inter_medium" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivRightIcon" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

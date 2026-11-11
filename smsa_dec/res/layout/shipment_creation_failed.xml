@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tvDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/inter_medium" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:id="@id/tvDialogMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:fontFamily="@font/inter_regular" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_5b" android:gravity="center" android:id="@id/tvMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/msg_do_you_want_to_delete_order" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/TextAppearanceMedium.ExtraLarge" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvReasons" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="32.0dp" android:layout_weight="1.0" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" />
+    <View android:background="#1a7a858c" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="32.0dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/search_text_gray" android:gravity="center" android:id="@id/tvNegative" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="54.0dp" android:text="@string/lbl_me_cancel" android:layout_weight="1.0" android:textAllCaps="true" style="@style/TextAppearanceMedium.Medium" />
+        <View android:background="#1a7a858c" android:layout_width="1.0dp" android:layout_height="match_parent" />
+        <TextView android:textColor="@color/red_lite_2" android:gravity="center" android:id="@id/tvPositive" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="54.0dp" android:text="@string/lbl_delete" android:layout_weight="1.0" android:textAllCaps="true" style="@style/TextAppearanceMedium.Medium" />
+    </LinearLayout>
+</LinearLayout>

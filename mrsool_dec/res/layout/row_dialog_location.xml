@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/llMain" android:background="?selectableItemBackground" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivLocationCategoryBg" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@color/secondary_color" app:shapeAppearanceOverlay="@style/circularImage" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivCategory" android:layout_width="10.0dp" android:layout_height="10.0dp" android:tint="@color/foreground_color_1" app:srcCompat="@drawable/ic_home_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+        <TextView android:textColor="@color/secondary_color" android:gravity="start" android:id="@id/tvBookMarkName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="19.0dp" android:text="@string/lbl_select_time" style="@style/TextAppearanceMedium.Small" />
+        <TextView android:textColor="@color/secondary_color" android:ellipsize="end" android:gravity="start" android:id="@id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="14.0dp" android:text="@string/lbl_select_time" android:maxLines="2" style="@style/TextAppearanceRegular.Small" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivDelete" android:background="?actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/lbl_remove" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" app:srcCompat="@drawable/ic_remove_location" />
+</LinearLayout>

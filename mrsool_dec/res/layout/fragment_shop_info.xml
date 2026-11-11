@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/llContainerMain" android:background="@color/background_color_2" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/pgLoading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+    <RelativeLayout android:id="@id/rlContainer" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/llBottomContainer">
+            <RelativeLayout android:id="@id/rlMap" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="45.0dp">
+                <FrameLayout android:id="@id/layMapContainer" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <include android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/row_google_map" />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fabMapStyle" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/ic_map_stlye" android:scaleType="center" android:layout_above="@id/fabMylocation" android:contentDescription="@string/lbl_map_type" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" app:backgroundTint="@color/foreground_color_1" app:elevation="6.0dp" app:fabSize="mini" app:tint="@color/secondary_color" />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fabMylocation" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/ic_my_location_new_order" android:scaleType="center" android:layout_alignParentBottom="true" android:contentDescription="@string/lbl_current_location" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" app:backgroundTint="@color/foreground_color_1" app:elevation="6.0dp" app:fabSize="mini" app:tint="@color/secondary_color" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/llOpenTiming" android:background="@color/background_color_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llTodayTiming" android:background="?selectableItemBackground" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLocation" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_time_open" android:scaleType="fitXY" />
+                        <TextView android:textColor="@color/success_color" android:id="@id/tvOpenClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Open" android:layout_weight="1.0" android:layout_marginStart="10.0dp" style="@style/TextAppearanceBold.Large" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/success_color" android:id="@id/tvTodaysTime" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_show_working_hours" android:layout_marginEnd="3.0dp" style="@style/TextAppearanceRegular.Medium" />
+                            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivDownUpHours" android:visibility="visible" android:layout_width="15.0dp" android:layout_height="9.0dp" android:src="@drawable/ic_up_skyblue" android:tint="@color/success_color" android:layout_marginStart="3.0dp" android:layout_marginEnd="18.0dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.github.aakira.expandablelayout.ExpandableLinearLayout android:orientation="vertical" android:id="@id/expWorkingHours" android:layout_width="match_parent" android:layout_height="wrap_content" app:ael_expanded="false" app:ael_interpolator="decelerate" app:ael_orientation="vertical">
+                            <LinearLayout android:orientation="horizontal" android:background="@color/background_color_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:orientation="vertical" android:id="@id/llWorkingHoursMonThurs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginRight="33.0dp" android:layout_marginBottom="3.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="33.0dp" />
+                            </LinearLayout>
+                        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+                    </LinearLayout>
+                    <View android:background="@color/foreground_color_3" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llMenuMain" android:background="@color/background_color_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMenu" android:background="?selectableItemBackground" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivMenu" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_menu_food" android:scaleType="fitXY" app:tint="@color/primary_action" />
+                        <TextView android:textColor="@color/primary_action" android:id="@id/tvMenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_menu" android:layout_weight="1.0" android:layout_marginStart="10.0dp" style="@style/TextAppearanceBold.Large" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/primary_action" android:id="@id/tvMenuDetail" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_show_menu" android:layout_marginEnd="3.0dp" style="@style/TextAppearanceRegular.Medium" />
+                            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivDownUpMenu" android:visibility="visible" android:layout_width="15.0dp" android:layout_height="9.0dp" android:src="@drawable/ic_up_skyblue" android:tint="@color/primary_action" android:layout_marginStart="3.0dp" android:layout_marginEnd="18.0dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.github.aakira.expandablelayout.ExpandableLinearLayout android:orientation="vertical" android:id="@id/expMenu" android:layout_width="match_parent" android:layout_height="wrap_content" app:ael_expanded="false" app:ael_interpolator="decelerate" app:ael_orientation="vertical">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvMenu" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="5.0dp" android:paddingStart="16.0dp" android:paddingEnd="8.0dp" />
+                    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+                    <View android:background="@color/foreground_color_3" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/llBottomContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/iOrderNow">
+            <LinearLayout android:orientation="vertical" android:background="@color/background_color_2" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="2.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+                <RelativeLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLocationTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_location_sky_blue_snall" android:tint="@color/primary_action" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/primary_action" android:id="@id/tvDistanceAway" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4.3 Km Away" android:includeFontPadding="false" android:layout_marginStart="4.0dp" android:layout_toEndOf="@id/ivLocationTemp" style="@style/TextAppearanceMedium" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/secondary_color" android:id="@id/tvShopAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1005,Spaceo Technologies," android:layout_below="@id/tvDistanceAway" android:layout_marginEnd="10.0dp" android:layout_alignStart="@id/tvDistanceAway" style="@style/TextAppearanceMedium" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <include android:layout_gravity="bottom" android:id="@id/iOrderNow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_order_now_new" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>C</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Şm</item>
+        <item>ŞmŞ</item>
+        <item>Ş</item>
+        <item>CŞ</item>
+        <item>C</item>
+        <item>CQ</item>
+        <item>Q</item>
+        <item>ŞmQ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>şimal</item>
+        <item>şimal-şərq</item>
+        <item>şərq</item>
+        <item>cənub-şərq</item>
+        <item>cənub</item>
+        <item>cənub-qərb</item>
+        <item>qərb</item>
+        <item>şimal-qərb</item>
+    </string-array>
+</resources>

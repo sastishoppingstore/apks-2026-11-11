@@ -1,0 +1,50 @@
+.class public final Ly6/p0;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "y6/q0"
+    }
+    d2 = {}
+    k = 0x4
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method public static final synthetic a(Ly6/l0;Lc00/p;)Ly6/l0;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Ly6/q0;->a(Ly6/l0;Lc00/p;)Ly6/l0;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public static final synthetic b(Ly6/l0;Lc00/p;)Ly6/l0;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Ly6/q0;->b(Ly6/l0;Lc00/p;)Ly6/l0;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

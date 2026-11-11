@@ -1,0 +1,16 @@
+.class public Lorg/bouncycastle/crypto/MaxBytesExceededException;
+.super Lorg/bouncycastle/crypto/RuntimeCryptoException;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lorg/bouncycastle/crypto/RuntimeCryptoException;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

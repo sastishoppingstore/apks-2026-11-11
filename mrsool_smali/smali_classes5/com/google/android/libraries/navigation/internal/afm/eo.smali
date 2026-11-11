@@ -1,0 +1,504 @@
+.class final Lcom/google/android/libraries/navigation/internal/afm/eo;
+.super Lcom/google/android/libraries/navigation/internal/afm/v;
+.source "PG"
+
+
+# instance fields
+.field final synthetic a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/libraries/navigation/internal/afm/et;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/google/android/libraries/navigation/internal/afm/v;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic a()Lcom/google/android/libraries/navigation/internal/afm/ge;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/eo;->d()Lcom/google/android/libraries/navigation/internal/afm/gw;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public final bridge synthetic b()Lcom/google/android/libraries/navigation/internal/afm/gi;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/eo;->d()Lcom/google/android/libraries/navigation/internal/afm/gw;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public final c()Lcom/google/android/libraries/navigation/internal/afm/hj;
+    .locals 5
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/eo;->d()Lcom/google/android/libraries/navigation/internal/afm/gw;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    iget-object v1, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 6
+    .line 7
+    invoke-static {v1}, Lcom/google/android/libraries/navigation/internal/afg/g;->b(Ljava/util/Map;)J
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-wide v1
+
+    .line 11
+    new-instance v3, Lcom/google/android/libraries/navigation/internal/afm/hq;
+
+    .line 12
+    .line 13
+    const/16 v4, 0x51
+
+    .line 14
+    .line 15
+    invoke-direct {v3, v0, v1, v2, v4}, Lcom/google/android/libraries/navigation/internal/afm/hq;-><init>(Lcom/google/android/libraries/navigation/internal/afm/gi;JI)V
+
+    .line 16
+    .line 17
+    .line 18
+    return-object v3
+.end method
+
+.method public final clear()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/google/android/libraries/navigation/internal/afm/k;->clear()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final comparator()Ljava/util/Comparator;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return-object v0
+.end method
+
+.method public final contains(Ljava/lang/Object;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p1}, Lcom/google/android/libraries/navigation/internal/afm/i;->containsKey(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
+
+    .line 7
+    return p1
+.end method
+
+.method public final d()Lcom/google/android/libraries/navigation/internal/afm/gw;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/android/libraries/navigation/internal/afm/en;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lcom/google/android/libraries/navigation/internal/afm/en;-><init>(Lcom/google/android/libraries/navigation/internal/afm/et;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object v0
+.end method
+
+.method public final e(Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+    .locals 0
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 2
+    .line 3
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    throw p1
+.end method
+
+.method public final f(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+    .locals 0
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 2
+    .line 3
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    throw p1
+.end method
+
+.method public final first()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    iget v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 4
+    .line 5
+    if-eqz v1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->a:[Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    iget v0, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->e:I
+
+    .line 10
+    .line 11
+    aget-object v0, v1, v0
+
+    .line 12
+    .line 13
+    return-object v0
+
+    .line 14
+    :cond_0
+    new-instance v0, Ljava/util/NoSuchElementException;
+
+    .line 15
+    .line 16
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+
+    .line 17
+    .line 18
+    .line 19
+    throw v0
+.end method
+
+.method public final forEach(Ljava/util/function/Consumer;)V
+    .locals 6
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    iget v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 4
+    .line 5
+    iget v0, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->e:I
+
+    .line 6
+    .line 7
+    :goto_0
+    if-eqz v1, :cond_0
+
+    .line 8
+    .line 9
+    add-int/lit8 v1, v1, -0x1
+
+    .line 10
+    .line 11
+    iget-object v2, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 12
+    .line 13
+    iget-object v3, v2, Lcom/google/android/libraries/navigation/internal/afm/et;->g:[J
+
+    .line 14
+    .line 15
+    aget-wide v4, v3, v0
+
+    .line 16
+    .line 17
+    long-to-int v3, v4
+
+    .line 18
+    iget-object v2, v2, Lcom/google/android/libraries/navigation/internal/afm/et;->a:[Ljava/lang/Object;
+
+    .line 19
+    .line 20
+    aget-object v0, v2, v0
+
+    .line 21
+    .line 22
+    invoke-interface {p1, v0}, Ljava/util/function/Consumer;->accept(Ljava/lang/Object;)V
+
+    .line 23
+    .line 24
+    .line 25
+    move v0, v3
+
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_0
+    return-void
+.end method
+
+.method public final g(Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+    .locals 0
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 2
+    .line 3
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    throw p1
+.end method
+
+.method public final bridge synthetic headSet(Ljava/lang/Object;)Ljava/util/SortedSet;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/google/android/libraries/navigation/internal/afm/eo;->e(Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final bridge synthetic iterator()Ljava/util/Iterator;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/eo;->d()Lcom/google/android/libraries/navigation/internal/afm/gw;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public final last()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    iget v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 4
+    .line 5
+    if-eqz v1, :cond_0
+
+    .line 6
+    .line 7
+    iget-object v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->a:[Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    iget v0, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->f:I
+
+    .line 10
+    .line 11
+    aget-object v0, v1, v0
+
+    .line 12
+    .line 13
+    return-object v0
+
+    .line 14
+    :cond_0
+    new-instance v0, Ljava/util/NoSuchElementException;
+
+    .line 15
+    .line 16
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
+
+    .line 17
+    .line 18
+    .line 19
+    throw v0
+.end method
+
+.method public final remove(Ljava/lang/Object;)Z
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    iget v1, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, p1}, Lcom/google/android/libraries/navigation/internal/afm/k;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object p1, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 9
+    .line 10
+    iget p1, p1, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 11
+    .line 12
+    if-eq p1, v1, :cond_0
+
+    .line 13
+    .line 14
+    const/4 p1, 0x1
+
+    .line 15
+    return p1
+
+    .line 16
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 17
+    return p1
+.end method
+
+.method public final size()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afm/eo;->a:Lcom/google/android/libraries/navigation/internal/afm/et;
+
+    .line 2
+    .line 3
+    iget v0, v0, Lcom/google/android/libraries/navigation/internal/afm/et;->k:I
+
+    .line 4
+    .line 5
+    return v0
+.end method
+
+.method public final bridge synthetic spliterator()Lj$/util/Spliterator;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/m;->c()Lcom/google/android/libraries/navigation/internal/afm/hj;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public synthetic spliterator()Ljava/util/Spliterator;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/android/libraries/navigation/internal/afm/eo;->spliterator()Lj$/util/Spliterator;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lj$/util/Spliterator$Wrapper;->convert(Lj$/util/Spliterator;)Ljava/util/Spliterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic subSet(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedSet;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/libraries/navigation/internal/afm/eo;->f(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final bridge synthetic tailSet(Ljava/lang/Object;)Ljava/util/SortedSet;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/google/android/libraries/navigation/internal/afm/eo;->g(Ljava/lang/Object;)Lcom/google/android/libraries/navigation/internal/afm/hi;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

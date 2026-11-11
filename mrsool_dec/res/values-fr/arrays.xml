@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>nord</item>
+        <item>nord-est</item>
+        <item>est</item>
+        <item>sud-est</item>
+        <item>sud</item>
+        <item>sud-ouest</item>
+        <item>ouest</item>
+        <item>nord-ouest</item>
+    </string-array>
+</resources>

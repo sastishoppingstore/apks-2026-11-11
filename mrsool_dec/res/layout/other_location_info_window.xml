@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/primary_color" app:cardCornerRadius="4.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/foreground_color_1" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:maxWidth="220.0dp" android:text="@string/lbl_other_drop_off_tooltip" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/TextAppearanceMedium" />
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatImageView android:orientation="horizontal" android:id="@id/ivToolTipArrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="7.0dp" android:src="@drawable/img_tooltip_arrow" android:tint="@color/primary_color" android:rotation="180.0" />
+</LinearLayout>

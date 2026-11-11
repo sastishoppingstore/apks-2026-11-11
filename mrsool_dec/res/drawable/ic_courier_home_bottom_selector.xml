@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@android:integer/config_shortAnimTime" android:exitFadeDuration="@android:integer/config_longAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_courier_home_bottom_selected" />
+    <item android:drawable="@drawable/ic_courier_home_bottom_unselected" />
+</selector>

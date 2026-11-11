@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/green_light_85" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/supportArticleMainContainer" android:layout_width="102.0dp" android:layout_height="102.0dp">
+        <ImageView android:id="@id/supportArticleIcon" android:layout_width="32.0dp" android:layout_height="32.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/color_green_3" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/color_green_3" android:gravity="center" android:id="@id/supportArticleName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="2" android:textDirection="locale" android:layout_marginStart="7.0dp" android:layout_marginEnd="7.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/supportArticleIcon" app:layout_constraintVertical_bias="0.8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

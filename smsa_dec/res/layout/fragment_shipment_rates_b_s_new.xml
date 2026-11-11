@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_shipment_rates_b_s_new_0" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp">
+        <ImageView android:layout_gravity="end" android:id="@id/closebtn" android:layout_width="18.0dp" android:layout_height="24.0dp" android:src="@drawable/bs_close_icon" android:scaleType="centerInside" android:layout_marginEnd="10.0dp" />
+        <View android:layout_gravity="center" android:layout_width="40.0dp" android:layout_height="4.0dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ratesLayout" android:background="@drawable/bg_profile_purple_gradient" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imgBox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/approxchargeslabel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/approx_shipment_charges" app:ct_textColor="#bdaacd" app:ct_textSize="14.0sp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentTotalCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" app:ct_fontFamily="@font/inter_bold" app:ct_text="0 SAR" app:ct_textColor="@color/white" app:ct_textSize="22.0sp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentAmountDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="Shipping 0 SAR" app:ct_textColor="#bdaacd" app:ct_textSize="11.0sp" />
+            </LinearLayout>
+            <ImageView android:id="@id/imgBox" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_box" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="#895bb0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="16.0dp" app:cardElevation="4.0dp" app:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/fromlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.5" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/from" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="end" android:id="@id/tolabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.5" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/to" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/imgvfromcountry" android:layout_width="32.0dp" android:layout_height="24.0dp" />
+                    <ImageView android:layout_width="0.0dp" android:layout_height="2.0dp" android:src="@drawable/bg_dotted_line" android:scaleType="fitXY" android:layout_weight="1.0" android:layout_marginHorizontal="8.0dp" />
+                    <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/shipment_rate_box" app:tint="#895bb0" />
+                    <ImageView android:layout_width="0.0dp" android:layout_height="2.0dp" android:src="@drawable/bg_dotted_line" android:scaleType="fitXY" android:layout_weight="1.0" android:layout_marginHorizontal="8.0dp" />
+                    <ImageView android:id="@id/imgvtocountry" android:layout_width="32.0dp" android:layout_height="24.0dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentFromCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="Saudi Arabia" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentFromCity" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="Riyadh" app:ct_textColor="#150640" app:ct_textSize="12.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentToCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="South Africa" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/shipmentToCity" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="Johannesburg" app:ct_textColor="#150640" app:ct_textSize="12.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#ededed" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="start" android:id="@id/shipmentTypeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/shipment_type" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="start" android:id="@id/shipmentType" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="" app:ct_textColor="#171421" app:ct_textSize="12.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/shipmentQtyLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/qty" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/shipmentQty" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="" app:ct_textColor="#171421" app:ct_textSize="12.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="end" android:id="@id/shipmentWeightLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/weight" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="end" android:id="@id/shipmentWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="" app:ct_textColor="#171421" app:ct_textSize="12.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/selectdeliveryoptionlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/select_delivery_option" app:ct_textColor="#5e5572" app:ct_textSize="14.0sp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDeliveryOptions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptyLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="120.0dp" android:layout_height="120.0dp" android:src="@drawable/no_delivery_options" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/no_rates" app:ct_textColor="#777777" app:ct_textSize="14.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/cvMain" android:background="?selectableItemBackground" android:layout_width="140.0dp" android:layout_height="match_parent" app:cardCornerRadius="4.0dp" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@id/viewContainer" android:background="@color/color_white_light" android:layout_width="0.0dp" android:layout_height="105.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/light_gray_10" android:ellipsize="end" android:id="@id/tvItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/lbl_show_all_items" android:maxLines="1" android:includeFontPadding="false" android:drawablePadding="6.0dp" android:drawableEnd="@drawable/ic_arrow_right_action" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp" app:drawableTint="@color/light_gray_10" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="@id/viewContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TextAppearanceMedium.Medium" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

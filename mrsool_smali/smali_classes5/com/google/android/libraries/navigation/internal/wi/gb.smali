@@ -1,0 +1,52 @@
+.class public final synthetic Lcom/google/android/libraries/navigation/internal/wi/gb;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcom/google/android/libraries/navigation/internal/mp/by;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/google/android/libraries/navigation/internal/mp/cs;Landroid/content/Context;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/android/libraries/navigation/internal/wi/gf;
+
+    .line 2
+    .line 3
+    invoke-static {p2}, Lcom/google/android/libraries/navigation/internal/wi/ge;->d(Landroid/content/Context;)F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
+
+    .line 7
+    float-to-int p1, p1
+
+    .line 8
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    return-object p1
+.end method

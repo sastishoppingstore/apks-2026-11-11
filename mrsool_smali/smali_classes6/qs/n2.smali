@@ -1,0 +1,59 @@
+.class public final synthetic Lqs/n2;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lc00/a;
+
+
+# instance fields
+.field public final synthetic F1:Landroid/content/Context;
+
+.field public final synthetic b:Lc/h;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lc/h;Landroid/content/Context;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lqs/n2;->b:Lc/h;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lqs/n2;->F1:Landroid/content/Context;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lqs/n2;->b:Lc/h;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lqs/n2;->F1:Landroid/content/Context;
+
+    .line 4
+    .line 5
+    invoke-static {v0, v1}, Lqs/h2$v;->c(Lc/h;Landroid/content/Context;)Lpz/j0;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="51.0dp" android:width="69.0dp" android:viewportWidth="69.0" android:viewportHeight="51.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:pivotX="34.5" android:pivotY="25.5" android:scaleX="2.269" android:scaleY="2.224" android:rotation="-27.659" android:translateX="-0.263" android:translateY="0.757">
+        <path android:fillColor="@drawable/$bg_coupon_row_item__0" android:pathData="M1.5 1.5V49.5H67.5V1.5" />
+    </group>
+</vector>

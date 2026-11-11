@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normala</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>I</item>
+        <item>IE</item>
+        <item>E</item>
+        <item>HE</item>
+        <item>H</item>
+        <item>HM</item>
+        <item>M</item>
+        <item>IM</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>iparraldea</item>
+        <item>ipar-ekialdea</item>
+        <item>ekialdea</item>
+        <item>hego-ekialdea</item>
+        <item>hegoaldea</item>
+        <item>hego-mendebaldea</item>
+        <item>mendebaldea</item>
+        <item>ipar-mendebaldea</item>
+    </string-array>
+</resources>

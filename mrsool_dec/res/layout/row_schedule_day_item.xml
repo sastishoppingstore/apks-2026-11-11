@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cvDayRoot" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/foreground_color_1" app:cardCornerRadius="0.0dp" app:cardElevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40.0dp" android:minHeight="56.0dp" android:paddingStart="4.0dp" android:paddingEnd="4.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/ternary_color" android:id="@id/tvDayOfWeek" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearanceRegular.Small" />
+        <TextView android:textColor="@color/primary_color" android:layout_gravity="center" android:id="@id/tvDateOfMonth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" style="@style/TextAppearanceMedium.Large" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

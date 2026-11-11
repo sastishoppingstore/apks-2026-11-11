@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/mcvSubscriptionIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="30.0dp" app:cardElevation="0.0dp" app:strokeColor="@color/foreground_color_1" app:strokeWidth="1.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivSubscriptionIcon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/ic_mrsool_black" />
+</com.google.android.material.card.MaterialCardView>

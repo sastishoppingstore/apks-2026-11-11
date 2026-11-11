@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normāls</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Z</item>
+        <item>ZA</item>
+        <item>A</item>
+        <item>DA</item>
+        <item>D</item>
+        <item>DR</item>
+        <item>R</item>
+        <item>ZR</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>uz ziemeļiem</item>
+        <item>uz ziemeļaustrumiem</item>
+        <item>uz austrumiem</item>
+        <item>uz dienvidaustrumiem</item>
+        <item>uz dienvidiem</item>
+        <item>uz dienvidrietumiem</item>
+        <item>uz rietumiem</item>
+        <item>uz ziemeļrietumiem</item>
+    </string-array>
+</resources>

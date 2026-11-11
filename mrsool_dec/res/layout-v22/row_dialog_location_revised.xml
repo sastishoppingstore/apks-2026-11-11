@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/llMain" android:background="?selectableItemBackground" android:paddingLeft="16.0dp" android:paddingTop="10.0dp" android:paddingRight="16.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivLocationCategoryBg" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@color/primary_action_alpha_10" app:shapeAppearanceOverlay="@style/circularImage" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivCategory" android:layout_width="16.0dp" android:layout_height="16.0dp" android:tint="@color/primary_action" app:srcCompat="@drawable/ic_home_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginRight="8.0dp" android:layout_weight="1.0" android:layout_marginHorizontal="8.0dp">
+        <TextView android:textAppearance="@style/TextAppearanceBold.Small" android:textColor="@color/primary_color" android:gravity="start" android:id="@id/tvBookMarkName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_select_time" />
+        <TextView android:textAppearance="@style/TextAppearanceMedium.Medium" android:textColor="@color/secondary_color" android:ellipsize="end" android:gravity="start" android:id="@id/tvLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:text="@string/lbl_select_time" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivDelete" android:background="?actionBarItemBackground" android:layout_width="24.0dp" android:layout_height="24.0dp" android:contentDescription="@string/lbl_remove" app:srcCompat="@drawable/ic_delete_location_new" />
+</LinearLayout>

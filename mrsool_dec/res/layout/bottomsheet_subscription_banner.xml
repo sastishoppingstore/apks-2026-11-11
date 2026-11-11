@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clSubscribe" android:background="@color/black" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivBg" android:layout_width="match_parent" android:layout_height="0.0dp" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <include android:id="@id/iCoreView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_subscription_core" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivIcon" android:layout_width="72.0dp" android:layout_height="80.0dp" android:layout_marginTop="-9.0dp" android:layout_marginBottom="-7.0dp" android:scaleType="fitXY" android:tint="@color/white" android:layout_marginStart="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_subscription_banner_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

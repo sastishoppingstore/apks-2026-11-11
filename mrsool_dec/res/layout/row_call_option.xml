@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llPhone" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_call_black_24dp" android:tint="@color/dialog_btn_color" />
+    <TextView android:textColor="@color/camera_gray_bg" android:layout_gravity="start" android:id="@id/tvPhone" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_ok" android:textAllCaps="true" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" style="@style/TextAppearanceProximaNovaRegular.ExtraLarge" />
+</LinearLayout>

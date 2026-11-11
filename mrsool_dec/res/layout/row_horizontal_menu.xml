@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="8.0dp" app:cardPreventCornerOverlap="false">
+        <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+            <ImageView android:id="@id/ivMenu" android:visibility="visible" android:layout_width="80.0dp" android:layout_height="80.0dp" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

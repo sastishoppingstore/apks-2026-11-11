@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llGoldBarIns" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivGoldBar" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/gold_bar_icon" android:scaleType="fitCenter" android:layout_marginStart="@dimen/dimen_4" />
+    <TextView android:textColor="@color/secondary_color" android:id="@id/tvGoldBarInstruction" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="6.0dp" style="@style/TextAppearanceRegular.Medium" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+.class public Lcom/huawei/riemann/location/bean/log/GloAuxItem;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public channelNumber:I
+
+.field public signalsAvailable:I
+
+.field public svid:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Okujwayelekile</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>nyakatho</item>
+        <item>nyakatho-mpumalanga</item>
+        <item>mpumalanga</item>
+        <item>ningizimu-mpumalanga</item>
+        <item>ningizimi</item>
+        <item>ningizumu-ntshonalanga</item>
+        <item>ntshonalanga</item>
+        <item>nyakatho-ntshonalanga</item>
+    </string-array>
+</resources>

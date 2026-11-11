@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">Почати навігацію по маршруту %d</item>
+        <item quantity="few">Почати навігацію по маршруту %d</item>
+        <item quantity="many">Почати навігацію по маршруту %d</item>
+        <item quantity="other">Почати навігацію по маршруту %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">Доступний %d велосипед</item>
+        <item quantity="few">Доступно %d велосипеди</item>
+        <item quantity="many">Доступно %d велосипедів</item>
+        <item quantity="other">Доступно %d велосипеда</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Вільна %d стійка</item>
+        <item quantity="few">Вільні %d стійки</item>
+        <item quantity="many">Вільні %d стійок</item>
+        <item quantity="other">Вільно %d стійки</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Азимут на карті: %d градус.</item>
+        <item quantity="few">Азимут на карті: %d градуси.</item>
+        <item quantity="many">Азимут на карті: %d градусів.</item>
+        <item quantity="other">Азимут на карті: %d градуса.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s день</item>
+        <item quantity="few">%s дні</item>
+        <item quantity="many">%s днів</item>
+        <item quantity="other">%s дня</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s дн.</item>
+        <item quantity="few">%s дн.</item>
+        <item quantity="many">%s дн.</item>
+        <item quantity="other">%s дн.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s д.</item>
+        <item quantity="few">%s дн.</item>
+        <item quantity="many">%s дн.</item>
+        <item quantity="other">%s дн.</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s день</item>
+        <item quantity="few">%s дні</item>
+        <item quantity="many">%s днів</item>
+        <item quantity="other">%s дня</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+        <item quantity="other">%s год</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+        <item quantity="other">%s год</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+        <item quantity="other">%s год</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s хвилина</item>
+        <item quantity="few">%s хвилини</item>
+        <item quantity="many">%s хвилин</item>
+        <item quantity="other">%s хвилини</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s хв</item>
+        <item quantity="few">%s хв</item>
+        <item quantity="many">%s хв</item>
+        <item quantity="other">%s хв</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s хв</item>
+        <item quantity="few">%s хв</item>
+        <item quantity="many">%s хв</item>
+        <item quantity="other">%s хв</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s секунда</item>
+        <item quantity="few">%s секунди</item>
+        <item quantity="many">%s секунд</item>
+        <item quantity="other">%s секунди</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Рухайтеся в цьому напрямку ще %1$s фут</item>
+        <item quantity="few">Рухайтеся в цьому напрямку ще %1$s фути</item>
+        <item quantity="many">Рухайтеся в цьому напрямку ще %1$s футів</item>
+        <item quantity="other">Рухайтеся в цьому напрямку ще %1$s фута</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Рухайтеся в цьому напрямку ще %1$s кілометр</item>
+        <item quantity="few">Рухайтеся в цьому напрямку ще %1$s кілометри</item>
+        <item quantity="many">Рухайтеся в цьому напрямку ще %1$s кілометрів</item>
+        <item quantity="other">Рухайтеся в цьому напрямку ще %1$s кілометра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Рухайтеся в цьому напрямку ще %1$s метр</item>
+        <item quantity="few">Рухайтеся в цьому напрямку ще %1$s метри</item>
+        <item quantity="many">Рухайтеся в цьому напрямку ще %1$s метрів</item>
+        <item quantity="other">Рухайтеся в цьому напрямку ще %1$s метра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Рухайтеся в цьому напрямку ще %1$s милю</item>
+        <item quantity="few">Рухайтеся в цьому напрямку ще %1$s милі</item>
+        <item quantity="many">Рухайтеся в цьому напрямку ще %1$s миль</item>
+        <item quantity="other">Рухайтеся в цьому напрямку ще %1$s милі</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Рухайтеся в цьому напрямку ще %1$s ярд</item>
+        <item quantity="few">Рухайтеся в цьому напрямку ще %1$s ярди</item>
+        <item quantity="many">Рухайтеся в цьому напрямку ще %1$s ярдів</item>
+        <item quantity="other">Рухайтеся в цьому напрямку ще %1$s ярда</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Продовжуйте рухатись по %2$s ще %1$s фут</item>
+        <item quantity="few">Продовжуйте рухатись по %2$s ще %1$s фути</item>
+        <item quantity="many">Продовжуйте рухатись по %2$s ще %1$s футів</item>
+        <item quantity="other">Продовжуйте рухатись по %2$s ще %1$s фута</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Продовжуйте рухатись по %2$s ще %1$s кілометр</item>
+        <item quantity="few">Продовжуйте рухатись по %2$s ще %1$s кілометри</item>
+        <item quantity="many">Продовжуйте рухатись по %2$s ще %1$s кілометрів</item>
+        <item quantity="other">Продовжуйте рухатись по %2$s ще %1$s кілометра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Продовжуйте рухатись по %2$s ще %1$s метр</item>
+        <item quantity="few">Продовжуйте рухатись по %2$s ще %1$s метри</item>
+        <item quantity="many">Продовжуйте рухатись по %2$s ще %1$s метрів</item>
+        <item quantity="other">Продовжуйте рухатись по %2$s ще %1$s метра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Продовжуйте рухатись по %2$s ще %1$s милю</item>
+        <item quantity="few">Продовжуйте рухатись по %2$s ще %1$s милі</item>
+        <item quantity="many">Продовжуйте рухатись по %2$s ще %1$s миль</item>
+        <item quantity="other">Продовжуйте рухатись по %2$s ще %1$s милі</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Продовжуйте рухатись по %2$s ще %1$s ярд</item>
+        <item quantity="few">Продовжуйте рухатись по %2$s ще %1$s ярди</item>
+        <item quantity="many">Продовжуйте рухатись по %2$s ще %1$s ярдів</item>
+        <item quantity="other">Продовжуйте рухатись по %2$s ще %1$s ярда</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">За %1$s фут</item>
+        <item quantity="few">За %1$s фути</item>
+        <item quantity="many">За %1$s футів</item>
+        <item quantity="other">За %1$s фута</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">За %1$s кілометр</item>
+        <item quantity="few">За %1$s кілометри</item>
+        <item quantity="many">За %1$s кілометрів</item>
+        <item quantity="other">За %1$s кілометра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">За %1$s метр</item>
+        <item quantity="few">За %1$s метри</item>
+        <item quantity="many">За %1$s метрів</item>
+        <item quantity="other">За %1$s метра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">За %1$s милю</item>
+        <item quantity="few">За %1$s милі</item>
+        <item quantity="many">За %1$s миль</item>
+        <item quantity="other">За %1$s милі</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">За %1$s ярд</item>
+        <item quantity="few">За %1$s ярди</item>
+        <item quantity="many">За %1$s ярдів</item>
+        <item quantity="other">За %1$s ярда</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s кілометр на годину</item>
+        <item quantity="few">%s кілометри на годину</item>
+        <item quantity="many">%s кілометрів на годину</item>
+        <item quantity="other">%s кілометра на годину</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s миля на годину</item>
+        <item quantity="few">%s милі на годину</item>
+        <item quantity="many">%s миль на годину</item>
+        <item quantity="other">%s милі на годину</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">До пункту призначення залишився %1$s фут</item>
+        <item quantity="few">До пункту призначення залишилося %1$s фути</item>
+        <item quantity="many">До пункту призначення залишилося %1$s футів</item>
+        <item quantity="other">До пункту призначення залишилося %1$s фута</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">До пункту призначення залишився %1$s кілометр</item>
+        <item quantity="few">До пункту призначення залишилося %1$s кілометри</item>
+        <item quantity="many">До пункту призначення залишилося %1$s кілометрів</item>
+        <item quantity="other">До пункту призначення залишилося %1$s кілометра</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">До пункту призначення залишився %1$s метр</item>
+        <item quantity="few">До пункту призначення залишилося %1$s метри</item>
+        <item quantity="many">До пункту призначення залишилося %1$s метрів</item>
+        <item quantity="other">До пункту призначення залишилося %1$s метра</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">До пункту призначення залишилася %1$s миля</item>
+        <item quantity="few">До пункту призначення залишилося %1$s милі</item>
+        <item quantity="many">До пункту призначення залишилося %1$s миль</item>
+        <item quantity="other">До пункту призначення залишилося %1$s милі</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">До пункту призначення залишився %1$s ярд</item>
+        <item quantity="few">До пункту призначення залишилося %1$s ярди</item>
+        <item quantity="many">До пункту призначення залишилося %1$s ярдів</item>
+        <item quantity="other">До пункту призначення залишилося %1$s ярда</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d зупинка</item>
+        <item quantity="few">%d зупинки</item>
+        <item quantity="many">%d зупинок</item>
+        <item quantity="other">%d зупинки</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d сповіщення</item>
+        <item quantity="few">+%d сповіщення</item>
+        <item quantity="many">+%d сповіщень</item>
+        <item quantity="other">+%d сповіщення</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">і ще %d сповіщення</item>
+        <item quantity="few">і ще %d сповіщення</item>
+        <item quantity="many">і ще %d сповіщень</item>
+        <item quantity="other">і ще %d сповіщення</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">ще %d</item>
+        <item quantity="few">ще %d</item>
+        <item quantity="many">ще %d</item>
+        <item quantity="other">ще %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">і ще %d</item>
+        <item quantity="few">і ще %d</item>
+        <item quantity="many">і ще %d</item>
+        <item quantity="other">і ще %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотати вперед на %d секунду</item>
+        <item quantity="few">Перемотати вперед на %d секунди</item>
+        <item quantity="many">Перемотати вперед на %d секунд</item>
+        <item quantity="other">Перемотати вперед на %d секунди</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотати назад на %d секунду</item>
+        <item quantity="few">Перемотати назад на %d секунди</item>
+        <item quantity="many">Перемотати назад на %d секунд</item>
+        <item quantity="other">Перемотати назад на %d секунди</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">%d нового сповіщення</item>
+    </plurals>
+</resources>

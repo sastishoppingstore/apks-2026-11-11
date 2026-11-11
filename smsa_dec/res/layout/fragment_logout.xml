@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="16.0dp" app:cardElevation="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end" android:id="@id/close" android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_cross_new" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textColor="#24212a" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/logout_desc" app:ct_textSize="20.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textColor="#7c7a7f" android:layout_gravity="center" android:id="@id/tvSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/logout_sub_desc" app:ct_textSize="14.0sp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <com.google.android.material.button.MaterialButton android:textSize="13.0sp" android:id="@id/btnStaySignedIn" android:layout_width="0.0dp" android:layout_height="50.0dp" android:text="@string/stay_signed_in" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" style="@style/StaySignedInButton" />
+            <com.google.android.material.button.MaterialButton android:textSize="13.0sp" android:id="@id/btnLogout" android:layout_width="0.0dp" android:layout_height="50.0dp" android:text="@string/logout" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="8.0dp" style="@style/PrimaryButton" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

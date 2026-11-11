@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/tvTitle" android:background="@drawable/marker_order_location_pin" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_dropoff" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/TextAppearanceRegular.Small" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivToolTipArrow" android:layout_width="6.0dp" android:layout_height="3.8499756dp" android:src="@drawable/img_tooltip_arrow" android:scaleType="centerInside" android:rotation="180.0" app:tint="@color/dark_gray13" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/cvMarkerPlace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginBottom="5.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="32.0dp" app:cardElevation="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llTitle">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivMarkerPlace" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_margin="4.0dp" android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivYou" android:visibility="gone" android:layout_width="38.0dp" android:layout_height="38.0dp" android:layout_margin="4.0dp" android:src="@drawable/ic_car" android:scaleType="fitCenter" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

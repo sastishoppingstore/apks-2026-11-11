@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end|bottom" android:id="@id/layoutLock" android:background="@drawable/bg_chat_message_box" android:visibility="gone" android:layout_width="56.0dp" android:layout_height="180.0dp" android:layout_margin="4.0dp" android:importantForAccessibility="noHideDescendants">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/imageViewLock" android:padding="18.0dp" android:layout_width="56.0dp" android:layout_height="wrap_content" android:src="@drawable/ic_chat_lock" />
+            <ImageView android:id="@id/imageViewLockArrow" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="-8.0dp" android:src="@drawable/arrow" android:tint="@color/sky_blue_color" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56.0dp">
+        <FrameLayout android:id="@id/flStop" android:background="@color/white" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="@dimen/chat_bottom_bar_height" android:layout_marginBottom="8.0dp" android:layout_centerVertical="true" android:contentDescription="stop" android:layout_marginEnd="@dimen/chat_bottom_bar_right_padding" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop_record_ic" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llPlayRecord" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/chat_bottom_bar_height" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/ivDelete" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/img_delete_audio" android:contentDescription="@string/lbl_delete" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="30.0dp" android:layout_marginEnd="25.0dp">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/ivPlayPause" android:tag="0" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_play_new" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/sbAudioPlay" android:layout_width="0.0dp" android:layout_height="3.0dp" android:progress="0" android:progressDrawable="@drawable/audio_progress_skyblue" android:thumb="@drawable/audio_progress_thumb" android:layout_weight="1.0" android:paddingStart="10.0dp" android:paddingEnd="5.0dp" />
+                <TextView android:textColor="@color/gray_2" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvTime" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="56.0dp" android:text="00:00" style="@style/TextAppearanceRegular.Large" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/flSendAudio" android:background="@color/transparent" android:clickable="true" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="@dimen/chat_bottom_bar_height" android:contentDescription="@string/lbl_send_recording">
+                <ImageView android:layout_gravity="center" android:id="@id/ivSendAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chat_send_act" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMessage" android:layout_width="match_parent" android:layout_height="@dimen/chat_bottom_bar_height" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/chat_edit_text_margin_right_1">
+            <ImageView android:id="@id/ivActionMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_more_option" android:scaleType="center" android:minWidth="40.0dp" android:minHeight="40.0dp" android:contentDescription="@string/lbl_more_options" android:layout_marginStart="@dimen/chat_bottom_bar_right_padding" />
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rlMessage" android:background="@drawable/ic_chat_msg_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/chat_bottom_bar_right_padding">
+                <EditText android:textSize="14.0sp" android:textColor="@color/color_light_black" android:id="@id/editTextMessage" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="" android:ems="10" android:inputType="textPersonName" android:imeOptions="actionSend" android:contentDescription="@string/lbl_compose_message" android:paddingStart="15.0dp" android:paddingEnd="40.0dp" />
+                <FrameLayout android:layout_gravity="end|center" android:id="@id/flSend" android:background="@color/transparent" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="@dimen/chat_bottom_bar_height" android:layout_centerVertical="true" android:contentDescription="@string/lbl_send_message" android:importantForAccessibility="yes" android:layout_alignParentEnd="true">
+                    <ImageView android:layout_gravity="center" android:id="@id/ivSend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chat_send" android:importantForAccessibility="no" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/layoutSlideCancel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_centerInParent="true" android:translationZ="4.0dp">
+            <ImageView android:id="@id/ivSlideArrow" android:visibility="visible" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/arrow" android:tint="@color/Black" android:rotation="-90.0" android:layout_marginEnd="8.0dp" />
+            <TextView android:textStyle="normal" android:textColor="@color/gray_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_slide_to_cancel" style="@style/TextAppearanceLight.Large" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="end|bottom" android:id="@id/progressBar" android:padding="4.0dp" android:visibility="gone" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="@dimen/chat_bottom_bar_height" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/chat_bottom_bar_right_padding" android:layout_alignParentEnd="true" style="?android:progressBarStyle" />
+        <TextView android:textStyle="normal" android:textColor="@color/gray_2" android:layout_gravity="center|bottom" android:id="@id/tvCancel" android:padding="10.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_dg_title_cancel" android:layout_centerInParent="true" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" style="@style/TextAppearanceRegular.Medium" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/imageViewAttachment" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="visible" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="56.0dp" android:src="@drawable/ic_chat_camera" android:scaleType="center" android:contentDescription="@string/lbl_attachment" android:layout_marginEnd="50.0dp" android:layout_alignParentEnd="true" />
+    <FrameLayout android:layout_gravity="end|bottom" android:id="@id/flAudio" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/chat_bottom_bar_height" android:layout_height="56.0dp" android:contentDescription="@string/lbl_audio_message" android:layout_marginEnd="@dimen/chat_bottom_bar_right_padding" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@id/ivMicBg" android:visibility="invisible" android:layout_width="37.0dp" android:layout_height="37.0dp" android:src="@drawable/bg_sky_blue_circle" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/imageAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chat_audio" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llrecording" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:translationZ="4.0dp">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:layout_gravity="start|bottom" android:background="#ffffff" android:layout_width="70.0dp" android:layout_height="36.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" />
+            <LinearLayout android:layout_gravity="start|bottom" android:background="@drawable/shadow" android:layout_width="20.0dp" android:layout_height="36.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="90.0dp" />
+            <ImageView android:layout_gravity="start|bottom" android:id="@id/imageViewMic" android:layout_width="15.0dp" android:layout_height="15.0dp" android:layout_marginBottom="20.0dp" android:src="@drawable/circle_badge_view" android:tint="@color/red_lite" android:layout_marginStart="15.0dp" />
+            <LinearLayout android:gravity="start|bottom" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layoutDustin" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@id/dustin_cover" android:visibility="gone" android:layout_width="32.0dp" android:layout_height="4.0dp" android:src="@drawable/dustbin_cover_ic" />
+                <ImageView android:id="@id/dustin" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="18.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/dustbin_wheel_ic" android:layout_marginStart="16.0dp" />
+            </LinearLayout>
+            <TextView android:textStyle="normal" android:textColor="@color/gray_2" android:gravity="center" android:layout_gravity="start|bottom" android:id="@id/textViewTime" android:padding="8.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="56.0dp" android:text="0:00" android:layout_marginStart="32.0dp" style="@style/TextAppearanceRegular.Large" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

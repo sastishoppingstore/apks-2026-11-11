@@ -1,0 +1,175 @@
+.class public abstract Lb2/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lg2/a;
+
+.field public final b:Landroid/content/Context;
+
+.field public final c:Ljava/lang/Object;
+
+.field public final d:Ljava/util/LinkedHashSet;
+
+.field public e:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Leb/b0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lb2/e;->a:Lg2/a;
+
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    const-string p2, "context.applicationContext"
+
+    invoke-static {p1, p2}, Lk9/i;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object p1, p0, Lb2/e;->b:Landroid/content/Context;
+
+    new-instance p1, Ljava/lang/Object;
+
+    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lb2/e;->c:Ljava/lang/Object;
+
+    new-instance p1, Ljava/util/LinkedHashSet;
+
+    invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
+
+    iput-object p1, p0, Lb2/e;->d:Ljava/util/LinkedHashSet;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a()Ljava/lang/Object;
+.end method
+
+.method public final b(La2/b;)V
+    .locals 2
+
+    const-string v0, "listener"
+
+    invoke-static {p1, v0}, Lk9/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lb2/e;->c:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lb2/e;->d:Ljava/util/LinkedHashSet;
+
+    invoke-virtual {v1, p1}, Ljava/util/AbstractCollection;->remove(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lb2/e;->d:Ljava/util/LinkedHashSet;
+
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p0}, Lb2/e;->e()V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    monitor-exit v0
+
+    return-void
+
+    :goto_1
+    monitor-exit v0
+
+    throw p1
+.end method
+
+.method public final c(Ljava/lang/Object;)V
+    .locals 4
+
+    iget-object v0, p0, Lb2/e;->c:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lb2/e;->e:Ljava/lang/Object;
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    if-eqz v1, :cond_0
+
+    monitor-exit v0
+
+    return-void
+
+    :cond_0
+    :try_start_1
+    iput-object p1, p0, Lb2/e;->e:Ljava/lang/Object;
+
+    iget-object p1, p0, Lb2/e;->d:Ljava/util/LinkedHashSet;
+
+    invoke-static {p1}, LX8/i;->g0(Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object p1
+
+    iget-object v1, p0, Lb2/e;->a:Lg2/a;
+
+    check-cast v1, Leb/b0;
+
+    iget-object v1, v1, Leb/b0;->d:Ljava/lang/Object;
+
+    check-cast v1, LL2/r;
+
+    new-instance v2, LB0/w;
+
+    const/16 v3, 0x19
+
+    invoke-direct {v2, p1, v3, p0}, LB0/w;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    invoke-virtual {v1, v2}, LL2/r;->execute(Ljava/lang/Runnable;)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    monitor-exit v0
+
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit v0
+
+    throw p1
+.end method
+
+.method public abstract d()V
+.end method
+
+.method public abstract e()V
+.end method

@@ -1,0 +1,26 @@
+.class public Lcom/google/maps/api/android/lib6/common/apiexception/ApiIllegalStateException;
+.super Ljava/lang/IllegalStateException;
+.source "PG"
+
+# interfaces
+.implements Lcom/google/maps/api/android/lib6/common/apiexception/ApiExpectedException;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    return-void
+.end method

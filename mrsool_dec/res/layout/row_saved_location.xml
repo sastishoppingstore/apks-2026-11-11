@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/llMain" android:background="?selectableItemBackground" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivBackground" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@color/text_color_7b" app:shapeAppearanceOverlay="@style/circularImage" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivCategory" android:layout_width="14.0dp" android:layout_height="12.0dp" app:srcCompat="@drawable/ic_home_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+        <TextView android:textColor="@color/secondary_color" android:ellipsize="end" android:gravity="start" android:id="@id/tvBookMarkName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_select_time" android:maxLines="1" android:includeFontPadding="false" style="@style/TextAppearanceBold.Small" />
+        <TextView android:textColor="@color/ternary_color" android:ellipsize="end" android:gravity="start" android:id="@id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_select_time" android:maxLines="2" style="@style/TextAppearanceRegular.Small" />
+        <include android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginEnd="16.0sp" layout="@layout/view_horizontal_divider" />
+    </LinearLayout>
+</LinearLayout>

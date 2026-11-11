@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Ж</item>
+        <item>З</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Нормално</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>С</item>
+        <item>СИ</item>
+        <item>И</item>
+        <item>ЮИ</item>
+        <item>Ю</item>
+        <item>ЮЗ</item>
+        <item>З</item>
+        <item>СЗ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>север</item>
+        <item>североизток</item>
+        <item>изток</item>
+        <item>югоизток</item>
+        <item>юг</item>
+        <item>югозапад</item>
+        <item>запад</item>
+        <item>северозапад</item>
+    </string-array>
+</resources>

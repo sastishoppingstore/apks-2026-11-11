@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/layout_title_bar" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/llLanChngEnglish" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp" android:paddingStart="16.0dp" android:paddingEnd="20.0dp">
+            <TextView android:textColor="@color/shops_title_text_gray" android:gravity="start" android:id="@id/tvEngLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_lang_english" style="@style/TextAppearanceRegular.Large" />
+            <ImageView android:id="@id/imgLanChngEnglish" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_checkmark_sky_blue" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/light_gray_6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/llLanChngArabic" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="20.0dp">
+            <TextView android:textColor="@color/shops_title_text_gray" android:id="@id/tvArLbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_lan_arabic" style="@style/TextAppearanceRegular.Large" />
+            <ImageView android:id="@id/imgLanChngArabic" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_checkmark_sky_blue" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pgLanChange" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+</RelativeLayout>

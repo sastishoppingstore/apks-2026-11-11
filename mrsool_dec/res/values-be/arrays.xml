@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Звычайная</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2х</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Пн</item>
+        <item>ПнУ</item>
+        <item>У</item>
+        <item>ПдУ</item>
+        <item>Пд</item>
+        <item>ПдЗ</item>
+        <item>З</item>
+        <item>ПнЗ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>поўнач</item>
+        <item>паўночны ўсход</item>
+        <item>усход</item>
+        <item>паўднёвы ўсход</item>
+        <item>поўдзень</item>
+        <item>паўднёвы захад</item>
+        <item>захад</item>
+        <item>паўночны захад</item>
+    </string-array>
+</resources>

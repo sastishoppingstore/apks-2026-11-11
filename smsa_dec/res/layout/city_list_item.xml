@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootItem" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp" android:weightSum="1.0">
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/itemName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="#171421" app:ct_textSize="16.0sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:background="@color/line" android:layout_width="match_parent" android:layout_height="0.100000024dp" />
+</LinearLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="zero">التنقّل، المسار %d</item>
+        <item quantity="one">التنقّل، المسار %d</item>
+        <item quantity="two">التنقّل، المسار %d</item>
+        <item quantity="few">التنقّل، المسار %d</item>
+        <item quantity="many">التنقّل، المسار %d</item>
+        <item quantity="other">التنقّل، المسار %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="zero">تتوفر %d دراجة</item>
+        <item quantity="one">تتوفر دراجة واحدة (%d)</item>
+        <item quantity="two">تتوفر دراجتان (%d)</item>
+        <item quantity="few">تتوفر %d دراجات</item>
+        <item quantity="many">تتوفر %d دراجة</item>
+        <item quantity="other">تتوفر %d دراجة</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="zero">يتوفّر %d موقف للدرّاجات الهوائية</item>
+        <item quantity="one">يتوفّر موقف واحد (%d) للدرّاجات الهوائية</item>
+        <item quantity="two">يتوفّر موقفان (%d) للدرّاجات الهوائية</item>
+        <item quantity="few">تتوفّر %d مواقف للدرّاجات الهوائية</item>
+        <item quantity="many">يتوفّر %d موقفًا للدرّاجات الهوائية</item>
+        <item quantity="other">يتوفّر %d موقف للدرّاجات الهوائية</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="zero">اتّجاه الخريطة %d درجة.</item>
+        <item quantity="one">اتّجاه الخريطة درجة واحدة (%d).</item>
+        <item quantity="two">اتّجاه الخريطة درجتان (%d).</item>
+        <item quantity="few">اتّجاه الخريطة %d درجات.</item>
+        <item quantity="many">اتّجاه الخريطة %d درجة.</item>
+        <item quantity="other">اتّجاه الخريطة %d درجة.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s ي</item>
+        <item quantity="one">%s ي</item>
+        <item quantity="two">%s ي</item>
+        <item quantity="few">%s ي</item>
+        <item quantity="many">%s ي</item>
+        <item quantity="other">%s ي</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="zero">%s يوم</item>
+        <item quantity="one">يوم واحد (%s)</item>
+        <item quantity="two">يومان (%s)</item>
+        <item quantity="few">%s أيام</item>
+        <item quantity="many">%s يومًا</item>
+        <item quantity="other">%s يوم</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="zero">%s ساعة</item>
+        <item quantity="one">ساعة واحدة (%s)</item>
+        <item quantity="two">ساعتان (%s)</item>
+        <item quantity="few">%s ساعات</item>
+        <item quantity="many">%s ساعة</item>
+        <item quantity="other">%s ساعة</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="zero">%s س</item>
+        <item quantity="one">%s س</item>
+        <item quantity="two">%s س</item>
+        <item quantity="few">%s س</item>
+        <item quantity="many">%s س</item>
+        <item quantity="other">%s س</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s س</item>
+        <item quantity="one">%s س</item>
+        <item quantity="two">%s س</item>
+        <item quantity="few">%s س</item>
+        <item quantity="many">%s س</item>
+        <item quantity="other">%s س</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="zero">%s دقيقة</item>
+        <item quantity="one">دقيقة واحدة (%s)</item>
+        <item quantity="two">دقيقتان (%s)</item>
+        <item quantity="few">%s دقائق</item>
+        <item quantity="many">%s دقيقة</item>
+        <item quantity="other">%s دقيقة</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="zero">%s د</item>
+        <item quantity="one">%s د</item>
+        <item quantity="two">%s د</item>
+        <item quantity="few">%s د</item>
+        <item quantity="many">%s د</item>
+        <item quantity="other">%s د</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="zero">%s د</item>
+        <item quantity="one">%s د</item>
+        <item quantity="two">%s د</item>
+        <item quantity="few">%s د</item>
+        <item quantity="many">%s د</item>
+        <item quantity="other">%s د</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="zero">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="two">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="zero">%s ثانية</item>
+        <item quantity="one">ثانية واحدة (%s)</item>
+        <item quantity="two">ثانيتان (%s)</item>
+        <item quantity="few">%s ثوانٍ</item>
+        <item quantity="many">%s ثانيةً</item>
+        <item quantity="other">%s ثانية</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s قدم</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ قدم واحدة (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ قدمين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أقدام</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s قدمًا</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="zero">استمر في القيادة لمسافة %1$s كيلومتر</item>
+        <item quantity="one">استمر في القيادة لمسافة كيلومتر واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة كيلومترين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة %1$s كيلومترات</item>
+        <item quantity="many">استمر في القيادة لمسافة %1$s كيلومترًا</item>
+        <item quantity="other">استمر في القيادة لمسافة %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s متر</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ متر واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ مترين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أمتار</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s مترًا</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s ميل</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ ميل واحد (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ ميلين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s أميال</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s ميلاً</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="zero">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+        <item quantity="one">استمر في القيادة لمسافة‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">استمر في القيادة لمسافة‏ ياردتين (%1$s)</item>
+        <item quantity="few">استمر في القيادة لمسافة‏ %1$s ياردات</item>
+        <item quantity="many">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+        <item quantity="other">استمر في القيادة لمسافة‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="zero">استمر في %2$s لمسافة %1$s قدم</item>
+        <item quantity="one">استمر في %2$s لمسافة قدم واحدة (%1$s)</item>
+        <item quantity="two">استمر في %2$s لمسافة قدمين (%1$s)</item>
+        <item quantity="few">استمر في %2$s لمسافة %1$s أقدام</item>
+        <item quantity="many">استمر في %2$s لمسافة %1$s قدمًا</item>
+        <item quantity="other">استمر في %2$s لمسافة %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="zero">استمر في %2$s لمسافة %1$s كيلومتر</item>
+        <item quantity="one">استمر في %2$s لمسافة كيلومتر واحد (%1$s)</item>
+        <item quantity="two">استمر في %2$s لمسافة كيلومترين (%1$s)</item>
+        <item quantity="few">استمر في %2$s لمسافة %1$s كيلومترات</item>
+        <item quantity="many">استمر في %2$s لمسافة %1$s كيلومترًا</item>
+        <item quantity="other">استمر في %2$s لمسافة %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="zero">استمر في %2$s لمسافة %1$s متر</item>
+        <item quantity="one">استمر في %2$s لمسافة متر واحد (%1$s)</item>
+        <item quantity="two">استمر في %2$s لمسافة مترين (%1$s)</item>
+        <item quantity="few">استمر في %2$s لمسافة %1$s أمتار</item>
+        <item quantity="many">استمر في %2$s لمسافة %1$s مترًا</item>
+        <item quantity="other">استمر في %2$s لمسافة %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="zero">استمر في %2$s لمسافة %1$s ميل</item>
+        <item quantity="one">استمر في %2$s لمسافة ميل واحد (%1$s)</item>
+        <item quantity="two">استمر في %2$s لمسافة ميلين (%1$s)</item>
+        <item quantity="few">استمر في %2$s لمسافة %1$s أميال</item>
+        <item quantity="many">استمر في %2$s لمسافة %1$s ميلاً</item>
+        <item quantity="other">استمر في %2$s لمسافة %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="zero">استمر في‏ %2$s لمسافة‏ %1$s ياردة</item>
+        <item quantity="one">استمر في‏ %2$s لمسافة‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">استمر في‏ %2$s لمسافة‏ ياردتين (%1$s)</item>
+        <item quantity="few">استمر في‏ %2$s لمسافة‏ %1$s ياردات</item>
+        <item quantity="many">استمر في‏ %2$s لمسافة‏ %1$s ياردة</item>
+        <item quantity="other">استمر في‏ %2$s لمسافة‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="zero">على بُعد‏ %1$s قدم</item>
+        <item quantity="one">على بُعد‏ قدم واحدة (%1$s)</item>
+        <item quantity="two">على بُعد‏ قدمين (%1$s)</item>
+        <item quantity="few">على بُعد‏ %1$s أقدام</item>
+        <item quantity="many">على بُعد‏ %1$s قدمًا</item>
+        <item quantity="other">على بُعد‏ %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="zero">على بعد %1$s كيلومتر</item>
+        <item quantity="one">على بعد‏ كيلومتر واحد (%1$s)</item>
+        <item quantity="two">على بعد كيلومترين (%1$s)</item>
+        <item quantity="few">على بعد %1$s كيلومترات</item>
+        <item quantity="many">على بعد %1$s كيلومترًا</item>
+        <item quantity="other">على بعد %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="zero">على بُعد %1$s متر</item>
+        <item quantity="one">على بُعد متر واحد (%1$s)</item>
+        <item quantity="two">على بُعد مترين (%1$s)</item>
+        <item quantity="few">على بُعد %1$s أمتار</item>
+        <item quantity="many">على بُعد %1$s مترًا</item>
+        <item quantity="other">على بُعد %1$s متر</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="zero">على بعد‏ %1$s ميل</item>
+        <item quantity="one">على بعد‏ ميل واحد (%1$s)</item>
+        <item quantity="two">على بعد‏ ميلين (%1$s)</item>
+        <item quantity="few">على بعد‏ %1$s أميال</item>
+        <item quantity="many">على بعد‏ %1$s ميلاً</item>
+        <item quantity="other">على بعد‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="zero">على بعد %1$s ياردة</item>
+        <item quantity="one">على بعد‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">على بعد ياردتين (%1$s)</item>
+        <item quantity="few">على بعد %1$s ياردات</item>
+        <item quantity="many">على بعد %1$s ياردة</item>
+        <item quantity="other">على بعد %1$s ياردة</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s كيلومتر في الساعة</item>
+        <item quantity="one">كيلومتر واحد (%s) في الساعة</item>
+        <item quantity="two">كيلومتران (%s) في الساعة</item>
+        <item quantity="few">%s كيلومترات في الساعة</item>
+        <item quantity="many">%s كيلومترًا في الساعة</item>
+        <item quantity="other">%s كيلومتر في الساعة</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s ميل في الساعة</item>
+        <item quantity="one">ميل واحد (%s) في الساعة</item>
+        <item quantity="two">ميلان (%s) في الساعة</item>
+        <item quantity="few">%s أميال في الساعة</item>
+        <item quantity="many">%s ميلاً في الساعة</item>
+        <item quantity="other">%s ميل في الساعة</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد %1$s قدم</item>
+        <item quantity="one">تصل إلى وجهتك بعد قدم واحدة (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد قدمين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد %1$s أقدام</item>
+        <item quantity="many">تصل إلى وجهتك بعد %1$s قدمًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد %1$s قدم</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s كيلومتر</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ كيلومتر واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ كيلومترين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s كيلومترات</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s كيلومترًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s كيلومتر</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s متر</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ متر واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ مترين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s أمتار</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s مترًا</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s متر</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s ميل</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ ميل واحد (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد ميلين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s أميال</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s ميلاً</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s ميل</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="zero">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+        <item quantity="one">تصل إلى وجهتك بعد‏ ياردة واحدة (%1$s)</item>
+        <item quantity="two">تصل إلى وجهتك بعد‏ ياردتين (%1$s)</item>
+        <item quantity="few">تصل إلى وجهتك بعد‏ %1$s ياردات</item>
+        <item quantity="many">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+        <item quantity="other">تصل إلى وجهتك بعد‏ %1$s ياردة</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="zero">%d محطة</item>
+        <item quantity="one">محطة واحدة (%d)</item>
+        <item quantity="two">محطتان (%d)</item>
+        <item quantity="few">%d محطات</item>
+        <item quantity="many">%d محطة</item>
+        <item quantity="other">%d محطة</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="zero">%d تنبيه إضافي</item>
+        <item quantity="one">%d تنبيه إضافي</item>
+        <item quantity="two">تنبيهان (%d) إضافيان</item>
+        <item quantity="few">%d تنبيهات إضافية</item>
+        <item quantity="many">%d تنبيهًا إضافيًا</item>
+        <item quantity="other">%d تنبيه إضافي</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="zero">+ %d تنبيه</item>
+        <item quantity="one">+ تنبيه (%d) واحد</item>
+        <item quantity="two">+ تنبيهين (%d)</item>
+        <item quantity="few">+ %d تنبيهات</item>
+        <item quantity="many">+ %d تنبيهًا</item>
+        <item quantity="other">+ %d تنبيه</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="zero">+%d أخرى</item>
+        <item quantity="one">+%d آخر</item>
+        <item quantity="two">+%d آخران</item>
+        <item quantity="few">+%d أخرى</item>
+        <item quantity="many">+%d أخرى</item>
+        <item quantity="other">+%d أخرى</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="zero">+ %d أخرى</item>
+        <item quantity="one">+ %d أخرى</item>
+        <item quantity="two">+ %d أخريين</item>
+        <item quantity="few">+ %d أخرى</item>
+        <item quantity="many">+ %d أخرى</item>
+        <item quantity="other">+ %d أخرى</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="mins_plurals">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%s دقائق</item>
+        <item quantity="many">%s دقيقة</item>
+        <item quantity="other">%s دقيقة</item>
+    </plurals>
+    <plurals name="minutes_plurals">
+        <item quantity="zero">دقيقة</item>
+        <item quantity="one">دقيقة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%s دقائق</item>
+        <item quantity="many">%s دقيقة</item>
+        <item quantity="other">%s دقيقة</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="numberOfCouponAvailable">
+        <item quantity="one">%s كوبون</item>
+        <item quantity="other">%s الكوبونات</item>
+    </plurals>
+    <plurals name="numberOfItems">
+        <item quantity="one">صنف واحد</item>
+        <item quantity="other">%s أصناف</item>
+    </plurals>
+    <plurals name="numberOfOrders">
+        <item quantity="one">%s طلب</item>
+        <item quantity="other">%s طلبات</item>
+    </plurals>
+    <plurals name="seconds_plurals">
+        <item quantity="zero">ثانية</item>
+        <item quantity="one">ثانية</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%s ثواني</item>
+        <item quantity="many">%s ثانية</item>
+        <item quantity="other">%s ثانية</item>
+    </plurals>
+    <plurals name="time_ago_in_hours">
+        <item quantity="zero">منذ لحظات</item>
+        <item quantity="one">منذ ساعة</item>
+        <item quantity="two">منذ ساعتان</item>
+        <item quantity="few">منذ %s ساعات</item>
+        <item quantity="many">منذ %s ساعات</item>
+        <item quantity="other">منذ %s ساعة</item>
+    </plurals>
+    <plurals name="time_ago_in_minutes">
+        <item quantity="zero">منذ لحظات</item>
+        <item quantity="one">منذ دقيقة</item>
+        <item quantity="two">منذ دقيقتان</item>
+        <item quantity="few">منذ %s دقائق</item>
+        <item quantity="many">منذ %s دقائق</item>
+        <item quantity="other">منذ %s دقيقة</item>
+    </plurals>
+</resources>

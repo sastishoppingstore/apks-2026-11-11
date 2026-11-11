@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.radiobutton.MaterialRadioButton android:textSize="14.0sp" android:textColor="#150640" android:id="@id/rbOption" android:tag="layout/delivery_option_item_new_0" android:background="@drawable/bg_delivery_option" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:checked="false" android:fontFamily="@font/inter_regular" android:letterSpacing="-0.04" app:buttonTint="#ff6a00"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

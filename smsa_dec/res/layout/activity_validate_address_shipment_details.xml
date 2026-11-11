@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_validate_address_shipment_details_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/headerBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" layout="@layout/header_layout" />
+    <View android:id="@id/divider" android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="15.0dp" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:layout_marginHorizontal="10.0dp" android:layout_marginVertical="10.0dp" app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16.0dp" app:cardElevation="4.0dp" app:cardUseCompatPadding="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvTrackingId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:drawablePadding="5.0dp" android:layout_below="@id/tvDate" android:drawableEnd="@drawable/ic_copy" app:ct_fontFamily="@font/inter_semibold" app:ct_textColor="#440099" app:ct_textSize="18.0sp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvStatus" android:background="@drawable/status_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/in_transit" android:layout_alignParentEnd="true" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp" app:ct_fontFamily="@font/inter_semibold" app:ct_textColor="@android:color/white" app:ct_textSize="10.0sp" />
+            </RelativeLayout>
+            <View android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginHorizontal="10.0dp" />
+            <LinearLayout android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/from" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/from" app:ct_textColor="#929096" app:ct_textSize="11.0sp" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="24.0dp" android:layout_height="18.0dp" android:src="@drawable/usaflag" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvfromCity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="6.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_textColor="#171421" app:ct_textSize="16.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/ic_account_new" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/tvfromClientName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="#150640" app:ct_textSize="14.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/shipment_item_arrow" android:layout_marginHorizontal="8.0dp" />
+                <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/to" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/to" app:ct_textColor="#929096" app:ct_textSize="11.0sp" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvToCity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:ct_fontFamily="@font/inter_medium" app:ct_textColor="#150640" app:ct_textSize="16.0sp" />
+                        <ImageView android:layout_width="24.0dp" android:layout_height="18.0dp" android:src="@drawable/arabic_new" android:layout_marginStart="6.0dp" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <View android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+                        <ImageView android:layout_width="14.0dp" android:layout_height="14.0dp" android:src="@drawable/ic_account_new" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:ellipsize="end" android:id="@id/tvConsigneeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="#150640" app:ct_textSize="14.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginHorizontal="10.0dp" />
+            <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+                <include android:layout_gravity="start" android:id="@id/shipmentWeight" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/item_weight" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+                <include android:layout_gravity="center" android:id="@id/shipmentPieces" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/quantity" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+                <include android:layout_gravity="end" android:id="@id/estimatedDel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/amount_due" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout android:orientation="vertical" android:id="@id/addressLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvAddressDeatils" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginStart="10.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/address_details" app:ct_textColor="#7e7492" app:ct_textSize="14.0sp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:id="@id/card_view_Addr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginHorizontal="10.0dp">
+                <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvAddressType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="10.0dp" android:drawableStart="@drawable/pref_del_home" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/Home" app:ct_textColor="#171421" app:ct_textSize="12.0sp" />
+                        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp">
+                            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvHomeAddr" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="4.0" app:ct_fontFamily="@font/inter_regular" app:ct_text="" app:ct_textColor="#5e5572" app:ct_textSize="14.0sp" />
+                            <LinearLayout android:gravity="center" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/img_english" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/retailCenterLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginHorizontal="10.0dp" layout="@layout/item_retail_center" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.button.MaterialButton android:id="@id/btnConfirm" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginBottom="10.0dp" android:text="@string/confirm" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:layout_marginHorizontal="10.0dp" style="@style/PrimaryButton" />
+    </RelativeLayout>
+</LinearLayout>

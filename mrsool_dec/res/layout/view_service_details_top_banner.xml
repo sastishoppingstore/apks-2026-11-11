@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/llAboveDetail" android:background="@color/background_color_2" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imgPkgInfo" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@string/lbl_store_banner" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerTopBanner" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:background="@color/foreground_color_2" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</FrameLayout>

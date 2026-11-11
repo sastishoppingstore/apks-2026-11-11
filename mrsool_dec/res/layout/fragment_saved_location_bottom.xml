@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_bot_order_header" />
+    <include layout="@layout/view_horizontal_divider" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvSavedLocation" android:paddingTop="10.0dp" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <include android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:layout_marginBottom="30.0dp" layout="@layout/layout_loading_item" />
+    </FrameLayout>
+</LinearLayout>

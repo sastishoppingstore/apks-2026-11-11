@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:orientation="vertical" android:id="@id/cvPopular" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginBottom="2.0dp" android:minWidth="100.0dp" android:layout_marginEnd="8.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="4.0dp" app:cardElevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="9.0dp" android:paddingEnd="9.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivShop" android:layout_width="35.0dp" android:layout_height="35.0dp" android:src="@drawable/profilephotoframe" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp">
+                <TextView android:textColor="@color/primary_color" android:ellipsize="end" android:id="@id/tvShopName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dp" android:text="@string/lbl_popular_around_you" android:maxLines="1" style="@style/TextAppearanceMedium.ExtraSmall" />
+                <TextView android:textColor="@color/secondary_color" android:ellipsize="end" android:id="@id/tvShopCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dp" android:text="@string/lbl_popular_around_you" android:maxLines="1" style="@style/TextAppearanceMedium.ExtraExtraSmall" />
+                <com.google.android.material.card.MaterialCardView android:id="@id/cvDiscount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" app:cardBackgroundColor="@color/discount_and_alert_action" app:cardCornerRadius="7.0dp">
+                    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/btnDiscount" android:paddingTop="1.0dp" android:paddingBottom="1.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30.0dp" android:minHeight="8.0dp" android:text="30 % OFF" android:maxLines="1" android:fontFamily="sans-serif-medium" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" style="@style/TextAppearanceMedium.ExtraExtraSmall" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5.0dp">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llRating" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivRating" android:layout_width="wrap_content" android:layout_height="12.0dp" android:src="@drawable/img_star_yellow_new" android:layout_marginStart="2.0dp" />
+                    <TextView android:textColor="@color/primary_color" android:ellipsize="end" android:gravity="bottom" android:id="@id/tvRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.7" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="3.0dp" style="@style/TextAppearanceMedium.ExtraSmall" />
+                </LinearLayout>
+                <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/llDistance" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/primary_color" android:ellipsize="end" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3.7" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="3.0dp" android:layout_marginEnd="1.0dp" style="@style/TextAppearanceMedium.ExtraSmall" />
+                    <TextView android:textColor="@color/secondary_color" android:gravity="center" android:id="@id/tvDistanceKm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_distance" android:includeFontPadding="false" style="@style/TextAppearanceMedium.ExtraExtraSmall" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

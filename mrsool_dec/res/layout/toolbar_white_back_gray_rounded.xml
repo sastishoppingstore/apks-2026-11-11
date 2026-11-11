@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/top_bar_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_back_rounded" android:scaleType="center" android:contentDescription="@string/lbl_back" android:layout_marginStart="@dimen/dimen_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/secondary_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_12" android:layout_toEndOf="@id/ivClose" app:layout_constraintBottom_toBottomOf="@id/ivClose" app:layout_constraintStart_toEndOf="@id/ivClose" app:layout_constraintTop_toTopOf="@id/ivClose" style="@style/TextAppearanceMedium.Large" />
+        <View android:id="@id/divider" android:background="@color/background_color" android:layout_width="wrap_content" android:layout_height="1.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

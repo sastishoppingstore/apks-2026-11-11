@@ -1,0 +1,122 @@
+.class public final synthetic LM0/C;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Ld2/l;
+
+.field public final synthetic c:LB0/f;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ld2/l;LB0/f;I)V
+    .locals 0
+
+    iput p3, p0, LM0/C;->a:I
+
+    iput-object p1, p0, LM0/C;->b:Ld2/l;
+
+    iput-object p2, p0, LM0/C;->c:LB0/f;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 5
+
+    iget v0, p0, LM0/C;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    iget-object v0, p0, LM0/C;->b:Ld2/l;
+
+    iget-object v1, p0, LM0/C;->c:LB0/f;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    monitor-enter v1
+
+    monitor-exit v1
+
+    iget-object v0, v0, Ld2/l;->c:Ljava/lang/Object;
+
+    check-cast v0, LB0/F;
+
+    sget v2, Lx0/v;->a:I
+
+    iget-object v0, v0, LB0/F;->a:LB0/I;
+
+    iget-object v0, v0, LB0/I;->s:LC0/h;
+
+    iget-object v2, v0, LC0/h;->d:LC0/g;
+
+    iget-object v2, v2, LC0/g;->e:Ljava/lang/Object;
+
+    check-cast v2, LI0/z;
+
+    invoke-virtual {v0, v2}, LC0/h;->N(LI0/z;)LC0/a;
+
+    move-result-object v2
+
+    new-instance v3, LB0/u;
+
+    const/16 v4, 0x8
+
+    invoke-direct {v3, v2, v1, v4}, LB0/u;-><init>(LC0/a;Ljava/lang/Object;I)V
+
+    const/16 v1, 0x3fc
+
+    invoke-virtual {v0, v2, v1, v3}, LC0/h;->R(LC0/a;ILx0/i;)V
+
+    return-void
+
+    :pswitch_0
+    iget-object v0, p0, LM0/C;->b:Ld2/l;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget v1, Lx0/v;->a:I
+
+    iget-object v0, v0, Ld2/l;->c:Ljava/lang/Object;
+
+    check-cast v0, LB0/F;
+
+    iget-object v0, v0, LB0/F;->a:LB0/I;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iget-object v0, v0, LB0/I;->s:LC0/h;
+
+    invoke-virtual {v0}, LC0/h;->Q()LC0/a;
+
+    move-result-object v1
+
+    new-instance v2, LB0/o;
+
+    iget-object v3, p0, LM0/C;->c:LB0/f;
+
+    const/16 v4, 0x1b
+
+    invoke-direct {v2, v1, v3, v4}, LB0/o;-><init>(LC0/a;Ljava/lang/Object;I)V
+
+    const/16 v3, 0x3f7
+
+    invoke-virtual {v0, v1, v3, v2}, LC0/h;->R(LC0/a;ILx0/i;)V
+
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

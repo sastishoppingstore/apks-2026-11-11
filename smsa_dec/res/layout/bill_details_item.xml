@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/llbillDetails" android:background="@drawable/apperance_unselect" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:layout_marginEnd="7.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#24212a" android:id="@id/tvParcelType" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#24212a" android:gravity="end" android:id="@id/tvParcelAmount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#7c7a7f" android:id="@id/tvVatPercentage" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#7c7a7f" android:gravity="end" android:id="@id/tvVatValue" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#7c7a7f" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/shipping" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#7c7a7f" android:gravity="end" android:id="@id/tvBaseValue" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View android:background="#e9e9ea" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#0c001e" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/total_amount" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#24212a" android:gravity="end" android:id="@id/tvTotalAmount" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#31aa74" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/loyalty_points" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="#31aa74" android:gravity="end" android:id="@id/tvLPValue" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="@dimen/_5sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#0c001e" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/toPay" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#24212a" android:gravity="end" android:id="@id/tvToPay" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" android:fontFamily="@font/inter_regular" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

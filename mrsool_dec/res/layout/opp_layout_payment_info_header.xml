@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/connect_checkout_insert_payment_data_header" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView android:id="@id/payment_info_title" android:paddingTop="25.0dp" android:paddingBottom="20.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkout_layout_text_payment_info" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="?checkoutTextViewStyle" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/logo" android:padding="5.0dp" android:layout_width="80.0dp" android:layout_height="55.0dp" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" style="?checkoutMethodImageViewStyle" />
+        <ProgressBar android:id="@id/loading_panel" android:padding="5.0dp" android:layout_width="80.0dp" android:layout_height="55.0dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

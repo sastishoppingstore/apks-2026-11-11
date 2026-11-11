@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/imgView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:src="@drawable/wlk_through_four" android:layout_centerInParent="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginHorizontal="20.0dp">
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center_horizontal" android:id="@id/headerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="10.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/intro_header1" app:ct_textColor="@color/intro_header" app:ct_textSize="24.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/subText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/intro_text1" app:ct_textColor="@color/intro_desc" app:ct_textSize="14.0sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

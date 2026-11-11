@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="maps_compass_directions">
+        <item>উত্তৰ</item>
+        <item>উত্তৰ-পূব</item>
+        <item>পূব</item>
+        <item>দক্ষিণ-পূর্ব</item>
+        <item>দক্ষিণ</item>
+        <item>দক্ষিণ-পশ্চিম</item>
+        <item>পশ্চিম</item>
+        <item>উত্তৰ-পশ্চিম</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>উত্তৰ</item>
+        <item>উত্তৰ-পূব</item>
+        <item>পূব</item>
+        <item>দক্ষিণ-পূব</item>
+        <item>দক্ষিণ</item>
+        <item>দক্ষিণ-পশ্চিম</item>
+        <item>পশ্চিম</item>
+        <item>উত্তৰ-পশ্চিম</item>
+    </string-array>
+</resources>

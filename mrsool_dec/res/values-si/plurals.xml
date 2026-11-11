@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">සංචලන කරන්න, ගමන් මඟ %d</item>
+        <item quantity="other">සංචලන කරන්න, ගමන් මඟ %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">බයිසිකල් %d ක් තිබේ</item>
+        <item quantity="other">බයිසිකල් %d ක් තිබේ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">මඩු %d ක් තිබේ</item>
+        <item quantity="other">මඩු %d ක් තිබේ</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">අංශක %d ඇති සිතියම.</item>
+        <item quantity="other">අංශක %d ඇති සිතියම.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">දින %sක්</item>
+        <item quantity="other">දින %sක්</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">දි %sක්</item>
+        <item quantity="other">දි %sක්</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">දි%s</item>
+        <item quantity="other">දි%s</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">දින %sක්</item>
+        <item quantity="other">දින %sක්</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">පැය %sක්</item>
+        <item quantity="other">පැය %sක්</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">පැය %sක්</item>
+        <item quantity="other">පැය %sක්</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">පැ%s</item>
+        <item quantity="other">පැ%s</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">විනාඩි %sක්</item>
+        <item quantity="other">විනාඩි %sක්</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">මිනි %sක්</item>
+        <item quantity="other">මිනි %sක්</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">වි%s</item>
+        <item quantity="other">වි%s</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">තත්පර %s ක්</item>
+        <item quantity="other">තත්පර %s ක්</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">අඩි %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">අඩි %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">කිලෝමීටර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">කිලෝමීටර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">මීටර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">මීටර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">සැතපුම් %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">සැතපුම් %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">යාර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">යාර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s ඔස්සේ අඩි %1$sක් ඉදිරියටම යන්න</item>
+        <item quantity="other">%2$s ඔස්සේ අඩි %1$sක් ඉදිරියටම යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s දිගේ කිලෝමීටර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">%2$s දිගේ කිලෝමීටර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s දිගේ මීටර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">%2$s දිගේ මීටර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s දිගේ සැතපුම් %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">%2$s දිගේ සැතපුම් %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s දිගේ යාර %1$sක් අඛණ්ඩව යන්න</item>
+        <item quantity="other">%2$s දිගේ යාර %1$sක් අඛණ්ඩව යන්න</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">අඩි %1$sකින්</item>
+        <item quantity="other">අඩි %1$sකින්</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">කිලෝමීටර් %1$sකින්</item>
+        <item quantity="other">කිලෝමීටර් %1$sකින්</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">මීටර %1$sකින්</item>
+        <item quantity="other">මීටර %1$sකින්</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">සැතපුම් %1$sකින්</item>
+        <item quantity="other">සැතපුම් %1$sකින්</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">යාර %1$sකින්</item>
+        <item quantity="other">යාර %1$sකින්</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">පැයකට කිලෝමීටර %sක්</item>
+        <item quantity="other">පැයකට කිලෝමීටර %sක්</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">පැයකට සැතපුම් %sක්</item>
+        <item quantity="other">පැයකට සැතපුම් %sක්</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">ඔබේ ගමනාන්තය අඩි %1$sක් ඉදිරියෙන් ඇත</item>
+        <item quantity="other">ඔබේ ගමනාන්තය අඩි %1$sක් ඉදිරියෙන් ඇත</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">ඔබේ ගමනාන්තය ඇත්තේ කිලෝමීටර් %1$sක් ඉදිරියෙනි</item>
+        <item quantity="other">ඔබේ ගමනාන්තය ඇත්තේ කිලෝමීටර් %1$sක් ඉදිරියෙනි</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">ඔබේ ගමනාන්තය ඇත්තේ මීටර් %1$sක් ඉදිරියෙනි</item>
+        <item quantity="other">ඔබේ ගමනාන්තය ඇත්තේ මීටර් %1$sක් ඉදිරියෙනි</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">ඔබේ ගමනාන්තය සැතපුම් %1$sක් ඉදිරියෙන් ඇත</item>
+        <item quantity="other">ඔබේ ගමනාන්තය සැතපුම් %1$sක් ඉදිරියෙන් ඇත</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">ඔබේ ගමනාන්තය යාර %1$sක් ඉදිරියෙන් ඇත</item>
+        <item quantity="other">ඔබේ ගමනාන්තය යාර %1$sක් ඉදිරියෙන් ඇත</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">නැවතුම් %dක්</item>
+        <item quantity="other">නැවතුම් %dක්</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">ඇඟවීම් +%dක්</item>
+        <item quantity="other">ඇඟවීම් +%dක්</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ ඇඟවීම් %d ක්</item>
+        <item quantity="other">+ ඇඟවීම් %d ක්</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">තව +%dක්</item>
+        <item quantity="other">තව +%dක්</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">තව + %d ක්</item>
+        <item quantity="other">තව + %d ක්</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">තත්පර %dක් වේගයෙන් ඉදිරියට</item>
+        <item quantity="other">තත්පර %dක් වේගයෙන් ඉදිරියට</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">තත්පර %dක් ආපස්සට</item>
+        <item quantity="other">තත්පර %dක් ආපස්සට</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">නව දැනුම්දීම් %dක්</item>
+        <item quantity="other">නව දැනුම්දීම් %dක්</item>
+    </plurals>
+</resources>

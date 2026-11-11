@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/foreground_color_1" android:padding="@dimen/dimen_16" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" layout="@layout/layout_bottomsheet_header_with_icon" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvActions" android:layout_width="match_parent" android:layout_height="0.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_default="wrap" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+    <androidx.appcompat.widget.AppCompatTextView android:enabled="false" android:textSize="20.0sp" android:textColor="@color/background_color" android:gravity="center" android:id="@id/tvSubmit" android:background="@drawable/bg_border_primary_action_filled_2" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_32" android:text="@string/label_refund_continue" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/rvActions" style="@style/TextAppearanceMedium.ExtraLarge" />
+    <View android:layout_width="wrap_content" android:layout_height="@dimen/dimen_20" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvSubmit" />
+</androidx.constraintlayout.widget.ConstraintLayout>

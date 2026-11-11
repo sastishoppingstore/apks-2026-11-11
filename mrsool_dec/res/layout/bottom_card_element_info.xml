@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottomSheet" android:background="@color/white" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="59.0">
+            <TextView android:textSize="20.0sp" android:textColor="@color/sky_blue_color" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_expiration_date" style="@style/TextAppearanceMedium" />
+            <TextView android:textColor="@color/shops_title_text_gray" android:id="@id/tvDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="You Should be able to find this date under the card number, on the front side " style="@style/TextAppearanceMedium.Medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="41.0">
+            <ImageView android:layout_gravity="end" android:id="@id/ivDemoImage" android:layout_width="113.0dp" android:layout_height="71.0dp" android:src="@drawable/img_card_exp_date" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton android:textSize="18.0sp" android:gravity="center" android:id="@id/btnOk" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:minHeight="48.0dp" android:text="@string/lbl_okay_cap" android:includeFontPadding="false" android:insetTop="0.0dp" android:insetBottom="0.0dp" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:letterSpacing="0.0" app:backgroundTint="@color/sky_blue_color" app:cornerRadius="4.0dp" />
+</LinearLayout>

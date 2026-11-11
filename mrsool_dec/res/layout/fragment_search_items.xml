@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/startGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="12.0dp" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/endGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="12.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvStoreItems" android:paddingTop="8.0dp" android:paddingBottom="90.0dp" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:spanCount="2" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/shimmerEffect" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shimmer_duration="800">
+        <include android:id="@id/llShimmerItems" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16.0dp" layout="@layout/layout_search_shimmer_grid" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <include android:id="@id/llEmptyStoreView" android:visibility="gone" layout="@layout/view_no_search_result" />
+</androidx.constraintlayout.widget.ConstraintLayout>

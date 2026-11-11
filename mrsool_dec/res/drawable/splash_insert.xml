@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/ic_mrsool_logo_black" android:insetLeft="50.0dp" android:insetRight="50.0dp" android:insetTop="50.0dp" android:insetBottom="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

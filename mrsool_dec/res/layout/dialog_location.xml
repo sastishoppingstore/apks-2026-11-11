@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/foreground_color_3" app:cardCornerRadius="5.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/foreground_color_3" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvLocation" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:scrollbars="none" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llMap" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dp" android:layout_height="20.0dp" app:srcCompat="@drawable/ic_map_order_new" />
+                <TextView android:textColor="@color/primary_action" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/lbl_select_location_on_map" android:layout_marginStart="9.0dp" style="@style/TextAppearanceMedium.Medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

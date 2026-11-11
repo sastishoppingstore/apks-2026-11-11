@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">Navigation, Route %d</item>
+        <item quantity="other">Navigation, Route %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d Fahrrad verfügbar</item>
+        <item quantity="other">%d Fahrräder verfügbar</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d Fahrradstellplatz frei</item>
+        <item quantity="other">%d Fahrradstellplätze frei</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Ausrichtung der Karte: %d Grad (bzgl. N).</item>
+        <item quantity="other">Ausrichtung der Karte: %d Grad (bzgl. N).</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s Tag</item>
+        <item quantity="other">%s Tage</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s T</item>
+        <item quantity="other">%s T</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s Tag</item>
+        <item quantity="other">%s Tage</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s Stunde</item>
+        <item quantity="other">%s Stunden</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s Minute</item>
+        <item quantity="other">%s Minuten</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s Sekunde</item>
+        <item quantity="other">%s Sekunden</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Der Straße %1$s Fuß folgen</item>
+        <item quantity="other">Der Straße %1$s Fuß folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Der Straße %1$s Kilometer folgen</item>
+        <item quantity="other">Der Straße %1$s Kilometer folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Der Straße %1$s Meter folgen</item>
+        <item quantity="other">Der Straße %1$s Meter folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Der Straße %1$s Meile folgen</item>
+        <item quantity="other">Der Straße %1$s Meilen folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Der Straße %1$s Yard folgen</item>
+        <item quantity="other">Der Straße %1$s Yards folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Dem Straßenverlauf von %2$s%1$s Fuß folgen</item>
+        <item quantity="other">Dem Straßenverlauf von %2$s%1$s Fuß folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Dem Straßenverlauf von %2$s%1$s Kilometer folgen</item>
+        <item quantity="other">Dem Straßenverlauf von %2$s%1$s Kilometer folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Dem Straßenverlauf von %2$s%1$s Meter folgen</item>
+        <item quantity="other">Dem Straßenverlauf von %2$s%1$s Meter folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Dem Straßenverlauf von %2$s%1$s Meile folgen</item>
+        <item quantity="other">Dem Straßenverlauf von %2$s%1$s Meilen folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Dem Straßenverlauf von %2$s für %1$s Yard folgen</item>
+        <item quantity="other">Dem Straßenverlauf von %2$s für %1$s Yards folgen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Nach %1$s Fuß</item>
+        <item quantity="other">Nach %1$s Fuß</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Nach %1$s Kilometer</item>
+        <item quantity="other">Nach %1$s Kilometern</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Nach %1$s Meter</item>
+        <item quantity="other">Nach %1$s Metern</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Nach %1$s Meile</item>
+        <item quantity="other">Nach %1$s Meilen</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Nach %1$s Yard</item>
+        <item quantity="other">Nach %1$s Yards</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s Kilometer pro Stunde</item>
+        <item quantity="other">%s Kilometer pro Stunde</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s Meile pro Stunde</item>
+        <item quantity="other">%s Meilen pro Stunde</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Dein Ziel ist %1$s Fuß entfernt</item>
+        <item quantity="other">Dein Ziel ist %1$s Fuß entfernt</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Dein Ziel ist %1$s Kilometer entfernt</item>
+        <item quantity="other">Dein Ziel ist %1$s Kilometer entfernt</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Dein Ziel ist %1$s Meter entfernt</item>
+        <item quantity="other">Dein Ziel ist %1$s Meter entfernt</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Dein Ziel ist %1$s Meile entfernt</item>
+        <item quantity="other">Dein Ziel ist %1$s Meilen entfernt</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Dein Ziel ist %1$s Yard entfernt</item>
+        <item quantity="other">Dein Ziel ist %1$s Yards entfernt</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d Haltestelle</item>
+        <item quantity="other">%d Haltestellen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">%d Benachrichtigung</item>
+        <item quantity="other">%d Benachrichtigungen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d Benachrichtigung</item>
+        <item quantity="other">+ %d Benachrichtigungen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+ %d mehr</item>
+        <item quantity="other">+ %d mehr</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d weitere</item>
+        <item quantity="other">+ %d weitere</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d Sekunde vorspulen</item>
+        <item quantity="other">%d Sekunden vorspulen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d Sekunde zurückspulen</item>
+        <item quantity="other">%d Sekunden zurückspulen</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.media3.ui.PlayerView android:layout_gravity="center" android:id="@id/playerView" android:background="@android:color/transparent" android:layout_width="296.0dp" android:layout_height="166.0dp" app:resize_mode="zoom" app:shutter_background_color="@android:color/transparent" app:surface_type="texture_view" app:use_controller="false" />
+</FrameLayout>

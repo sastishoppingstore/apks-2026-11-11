@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?windowBackground" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header" layout="@layout/opp_layout_actionbar" />
+    </FrameLayout>
+</RelativeLayout>

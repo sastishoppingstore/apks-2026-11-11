@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/clContainerMain" android:background="@color/foreground_color_2" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:LoadingButton="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/foreground_color_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56.0dp" android:elevation="0.0dp" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:popupTheme="@style/AppTheme.PopupOverlay1" app:theme="@style/ToolbarTheme">
+        <include android:id="@id/viewToolbar" layout="@layout/toolbar_view_new_order_flow" />
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout android:id="@id/scrollContainer" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <include android:layout_gravity="bottom" android:id="@id/orderChatView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8.0dp" layout="@layout/view_order_chat" />
+        <androidx.core.widget.NestedScrollView android:paddingBottom="16.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/llDetails" android:background="@color/transparent" android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:background="@color/foreground_color_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8.0dp" />
+                <com.google.android.material.card.MaterialCardView android:id="@id/cvOrderStateView" android:tag="0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.mrsool.order.buyer.BuyerOrderStateIndicatorView android:id="@id/orderStateView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:transitionName="orderstate" />
+                        <FrameLayout android:id="@id/layRatingContainerService" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView android:id="@id/cvShadow1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="-28.0dp" android:layout_marginBottom="4.0dp" android:alpha="0.75" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="3.0dp" />
+                <com.google.android.material.card.MaterialCardView android:id="@id/cvShadow2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="-28.0dp" android:layout_marginBottom="6.0dp" android:alpha="0.75" android:layout_marginStart="32.0dp" android:layout_marginEnd="32.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="2.0dp" />
+                <LinearLayout android:orientation="vertical" android:id="@id/llAnimation" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.google.android.material.card.MaterialCardView android:id="@id/cvOrderReceipt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp">
+                        <include android:id="@id/orderReceiptView" layout="@layout/view_order_receipt" />
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:id="@id/cvShadow3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="-28.0dp" android:layout_marginBottom="4.0dp" android:alpha="0.75" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="3.0dp" />
+                    <com.google.android.material.card.MaterialCardView android:id="@id/cvShadow4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30.0dp" android:layout_marginTop="-28.0dp" android:layout_marginBottom="6.0dp" android:alpha="0.75" android:layout_marginStart="32.0dp" android:layout_marginEnd="32.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="2.0dp" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/llAnimationSubGroup" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.card.MaterialCardView android:id="@id/cvBonusCourier" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp">
+                            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <FrameLayout android:id="@id/layRatingContainerCourier" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                                <include android:id="@id/bonusAndCourierView" layout="@layout/row_bonus_and_courier_detail" />
+                            </FrameLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <LinearLayout android:id="@id/courierAssignmentContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4">
+                            <include android:id="@id/courierAssignmentLayout" layout="@layout/layout_courier_assignment" />
+                        </LinearLayout>
+                        <com.google.android.material.card.MaterialCardView android:id="@id/cvOrderDetails" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp">
+                            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <include android:id="@id/orderDetailView" layout="@layout/view_order_detail" />
+                                <com.mrsool.customeview.CircularProgressButton android:id="@id/btnReOrder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:minHeight="32.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" app:buttonBackgroundColor="@color/secondary_action" app:buttonCornerRadius="4.0dp" app:buttonText="@string/lbl_reorder" app:buttonTextColor="@color/black" app:buttonTextSize="16.0sp" app:buttonTypeface="sans-serif-medium" app:drawablePadding="10.0dp" app:drawableStart="@drawable/ic_reorder_new" app:progressBarColor="@color/black" style="@style/DialogButton" />
+                                <include android:id="@id/llReorderUnavailable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginRight="16.0dp" android:layout_marginBottom="16.0dp" layout="@layout/layout_reorder_unavailable" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <LinearLayout android:id="@id/llWaitingForOffer" android:tag="0" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <include android:id="@id/pendingOfferView" layout="@layout/layout_waiting_for_offer_revised" />
+                        </LinearLayout>
+                        <com.google.android.material.card.MaterialCardView android:id="@id/cvReceiptDownload" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp">
+                            <include android:id="@id/receiptDownloadView" layout="@layout/view_download_receipt" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/groupData" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="toolbar,scrollContainer" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/loaderView" android:layout_width="wrap_content" android:layout_height="50.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/primary_action" app:lottie_fileName="horizontal_loader.json" app:lottie_loop="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

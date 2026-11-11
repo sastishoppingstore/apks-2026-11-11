@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/nsoftware.3ds.Theme" android:gravity="top" android:orientation="vertical" android:id="@id/toolbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/nsoftware.3ds.Toolbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_constraint_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/toolbar_title" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_checkout" android:singleLine="true" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/nsoftware.3ds.Toolbar.Title" />
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/nsoftware.3ds.Button.Borderless.Cancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

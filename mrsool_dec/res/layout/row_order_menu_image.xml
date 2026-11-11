@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/pgBillImage" android:visibility="gone" android:layout_width="25.0dp" android:layout_height="25.0dp" android:indeterminateTint="@color/primary_action" style="?android:progressBarStyle" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/flAddImage" android:background="@drawable/bg_ripple_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="12.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="8.0dp">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivImage" android:padding="1.0dp" android:layout_width="65.0dp" android:layout_height="65.0dp" android:scaleType="centerCrop" app:shapeAppearance="@style/roundedImage16" app:strokeWidth="1.0dp" />
+        <FrameLayout android:id="@id/flAddImageSub" android:background="@drawable/bg_round_corner_with_border_4" android:layout_width="65.0dp" android:layout_height="65.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_plus" app:tint="@color/ternary_color" />
+            <TextView android:textAppearance="@style/TextAppearanceMedium.Small" android:textColor="@color/ternary_color" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/tvAddMoreLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_add_image" android:textAllCaps="true" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/ivDelete" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/ic_delete_alert" android:layout_marginStart="2.0dp" />
+</FrameLayout>

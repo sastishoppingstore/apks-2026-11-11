@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">ಮಾರ್ಗ %d ಅನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</item>
+        <item quantity="other">ಮಾರ್ಗ %d ಅನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಬೈಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="other">%d ಡಾಕ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Map ಬೇರಿಂಗ್ %d ಡಿಗ್ರಿಗಳು.</item>
+        <item quantity="other">Map ಬೇರಿಂಗ್ %d ಡಿಗ್ರಿಗಳು.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ದಿನಗಳು</item>
+        <item quantity="other">%s ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s ದಿ</item>
+        <item quantity="other">%s ದಿ</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sದಿ</item>
+        <item quantity="other">%sದಿ</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ದಿನಗಳು</item>
+        <item quantity="other">%s ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ಗಂಟೆಗಳು</item>
+        <item quantity="other">%s ಗಂಟೆಗಳು</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ಗಂ</item>
+        <item quantity="other">%s ಗಂ</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sಗಂ</item>
+        <item quantity="other">%sಗಂ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s ನಿಮಿಷಗಳು</item>
+        <item quantity="other">%s ನಿಮಿಷಗಳು</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s ನಿ</item>
+        <item quantity="other">%s ನಿಮಿ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sನಿ</item>
+        <item quantity="other">%sನಿ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s ಸೆಕೆಂಡ್‌ಗಳು</item>
+        <item quantity="other">%s ಸೆಕೆಂಡ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s ಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಅಡಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಮೀಟರ್‌‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಮೀಟರ್‌‌ಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಮೈಲಿಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s ನಲ್ಲಿ %1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+        <item quantity="other">%2$s ನಲ್ಲಿ %1$s ಗಜಗಳಷ್ಟು ಮುಂದುವರಿಯಿರಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s ಅಡಿಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಅಡಿಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಕಿಲೋಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s ಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಮೀಟರ್‌ಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s ಮೈಲಿಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಮೈಲಿಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s ಗಜಗಳಲ್ಲಿ</item>
+        <item quantity="other">%1$s ಗಜಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಕಿಲೋಮೀಟರ್‌ಗಳು</item>
+        <item quantity="other">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಕಿಲೋಮೀಟರ್‌ಗಳು</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಮೈಲಿಗಳು</item>
+        <item quantity="other">ಪ್ರತಿ ಗಂಟೆಗೆ %s ಮೈಲಿಗಳು</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಅಡಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಅಡಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಕಿಲೋಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೀಟರ್‌ಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೈಲಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನವು %1$s ಮೈಲಿಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಗಜಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+        <item quantity="other">ನಿಮ್ಮ ಗಮ್ಯಸ್ಥಾನ %1$s ಗಜಗಳಷ್ಟು ದೂರದಲ್ಲಿದೆ</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ನಿಲ್ದಾಣಗಳು</item>
+        <item quantity="other">%d ನಿಲ್ದಾಣಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">+%d ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ಎಚ್ಚರಿಕೆಗಳು</item>
+        <item quantity="other">+ %d ಎಚ್ಚರಿಕೆಗಳು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">+%d ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ಇನ್ನಷ್ಟು</item>
+        <item quantity="other">+ %d ಇನ್ನಷ್ಟು</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ಫಾಸ್ಟ್ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</item>
+        <item quantity="other">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ಫಾಸ್ಟ್ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ರಿವೈಂಡ್ ಮಾಡಿ</item>
+        <item quantity="other">%d ಸೆಕೆಂಡ್‌ಗಳಷ್ಟು ರಿವೈಂಡ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+</resources>

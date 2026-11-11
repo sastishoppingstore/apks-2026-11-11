@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/activity_my_account_0" android:layout_width="match_parent" android:layout_height="match_parent" android:backgroundTint="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="center" android:id="@id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/shipment_type" layout="@layout/header_layout" />
+    <View android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="15.0dp" />
+    <include android:id="@id/viewAccountHeader" layout="@layout/account_header" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/profileperefenceslabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" bind:ct_fontFamily="@font/inter_regular" bind:ct_text="@string/profile_preferences" bind:ct_textColor="#7f7594" bind:ct_textSize="14.0sp" />
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp" bind:cardBackgroundColor="#faf9fc" bind:cardCornerRadius="16.0dp" bind:cardElevation="0.0dp">
+                <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dp" android:paddingVertical="4.0dp">
+                    <include android:id="@id/viewAddressbook" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewRetailCenters" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/preferedDeliveryMethod" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewSelectLanguage" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewBiometric" layout="@layout/profile_item" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/paymentslabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" bind:ct_fontFamily="@font/inter_regular" bind:ct_text="@string/payments_activity" bind:ct_textColor="#7f7594" bind:ct_textSize="14.0sp" />
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp" bind:cardBackgroundColor="#faf9fc" bind:cardCornerRadius="16.0dp" bind:cardElevation="0.0dp">
+                <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dp" android:paddingVertical="4.0dp">
+                    <include android:id="@id/viewShipmentHistory" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewLoyPoints" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewSavedCards" layout="@layout/profile_item" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/supportlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dp" bind:ct_fontFamily="@font/inter_regular" bind:ct_text="@string/support_information" bind:ct_textColor="#7f7594" bind:ct_textSize="14.0sp" />
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp" bind:cardBackgroundColor="#faf9fc" bind:cardCornerRadius="16.0dp" bind:cardElevation="0.0dp">
+                <LinearLayout android:orientation="vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dp" android:paddingVertical="4.0dp">
+                    <include android:id="@id/viewAboutUs" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewSupport" layout="@layout/profile_item" />
+                    <View android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                    <include android:id="@id/viewFeedback" layout="@layout/profile_item" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginHorizontal="10.0dp" bind:cardBackgroundColor="#faf9fc" bind:cardCornerRadius="16.0dp" bind:cardElevation="0.0dp">
+                <LinearLayout android:orientation="vertical" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10.0dp" android:paddingVertical="4.0dp">
+                    <include android:id="@id/viewLogout" layout="@layout/profile_item" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:visibility="gone" android:layout_width="100.0dp" android:layout_height="24.0dp" android:layout_marginTop="24.0dp" android:src="@drawable/profile_smsa_grey" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:layout_gravity="center" android:id="@id/appversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="30.0dp" android:text="" android:textAllCaps="false" bind:ct_fontFamily="@font/tajawal_regular" bind:ct_textColor="#888e96" bind:ct_textSize="12.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

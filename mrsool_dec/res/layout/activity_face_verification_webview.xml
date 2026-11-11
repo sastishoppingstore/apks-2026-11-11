@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:id="@id/flToolbar" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="56.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="start|center" android:id="@id/ivBack" android:background="@drawable/bg_ripple_25" android:paddingTop="6.0dp" android:paddingBottom="6.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/ic_back_arrow_new" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" app:tint="@color/secondary_color" />
+        <TextView android:textColor="@color/primary_color" android:gravity="center" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/lbl_face_verification" style="@style/TextAppearanceMedium.ExtraLarge" />
+    </FrameLayout>
+    <WebView android:id="@id/wvFaceVerification" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/flToolbar" />
+    <View android:id="@id/vOverLay" android:background="#99000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lvLoader" android:layout_width="42.0dp" android:layout_height="42.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/primary_action" app:lottie_fileName="horizontal_loader.json" app:lottie_loop="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

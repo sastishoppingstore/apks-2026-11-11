@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16.0dp" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="24.0dp" app:cardElevation="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end" android:id="@id/closebtn" android:layout_width="18.0dp" android:layout_height="24.0dp" android:src="@drawable/bs_close_icon" android:scaleType="centerInside" android:layout_marginEnd="10.0dp" />
+        <ImageView android:layout_gravity="center" android:layout_width="60.0dp" android:layout_height="60.0dp" android:src="@drawable/pickup_truck" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/tvpickupconfirmtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:fontFamily="@font/inter_semibold" app:ct_text="@string/pickup_scheduled" app:ct_textColor="#2ba24c" app:ct_textSize="18.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/tvpickupconfirmeddesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/pickup_confirmed" app:ct_textColor="#7c7a7f" app:ct_textSize="13.0sp" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="16.0dp" app:cardElevation="0.0dp" app:strokeColor="#e3e0f3" app:strokeWidth="1.0dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:background="@drawable/bg_summary_header" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvpickupsummarylabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dp" android:drawableStart="@drawable/pickup_summary" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/pickup_summary" app:ct_textColor="#440099" app:ct_textSize="14.0sp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_summary_content" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvreflabel" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/pickup_ref_no" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvrefvalue" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_semibold" app:ct_text="0008" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvpickupdatelabel" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/date" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvpickupdate" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_semibold" app:ct_text="Tue, Jan 26" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvpickuptimelabel" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/time" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvpickuptime" android:layout_width="match_parent" android:layout_height="match_parent" app:ct_fontFamily="@font/inter_semibold" app:ct_text="9 AM - 11 AM" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="20.0dp">
+            <com.google.android.material.button.MaterialButton android:id="@id/btnbacktoHome" android:layout_width="0.0dp" android:layout_height="56.0dp" android:text="@string/back_to_home" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" android:letterSpacing="-0.04" style="@style/StaySignedInButton" />
+            <com.google.android.material.button.MaterialButton android:id="@id/btncreatenew" android:layout_width="0.0dp" android:layout_height="56.0dp" android:text="@string/create_new" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="8.0dp" android:letterSpacing="-0.04" style="@style/PrimaryButton" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llSettingAnnouncementNoti" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="68.0dp" android:paddingStart="18.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_announcement" />
+                    <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:text="@string/lbl_announcements_optional" android:layout_weight="1.0" android:layout_marginStart="9.0dp" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+                <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16.0dp" android:text="@string/announcement_noti_detail" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="23.0dp" style="@style/TextAppearanceRegular.Small" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/swtSettingAnnouncementNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/light_gray_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llSettingNewOrderNoti" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="68.0dp" android:paddingStart="18.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_order" />
+                    <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:text="@string/lbl_new_order_notifications_couriers" android:layout_weight="1.0" android:layout_marginStart="9.0dp" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+                <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16.0dp" android:text="@string/new_order_noti_detail" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="21.0dp" style="@style/TextAppearanceRegular.Small" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/swtSettingNewOrderNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/light_gray_6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llSettingNearByNoti" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="68.0dp" android:paddingStart="18.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_nearby" />
+                    <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:text="@string/lbl_nearby_notification" android:layout_weight="1.0" android:layout_marginStart="9.0dp" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+                <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16.0dp" android:text="@string/nearby_order_noti_detail" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="19.0dp" style="@style/TextAppearanceRegular.Small" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/swtSettingnearByNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/light_gray_6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+</LinearLayout>

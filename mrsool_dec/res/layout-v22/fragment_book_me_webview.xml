@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/webViewBookMe" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/progressBarBookMe" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/mockPaymentButton" android:visibility="gone" android:layout_width="60.0dp" android:layout_height="60.0dp" android:layout_margin="@dimen/dimen_16" android:src="@drawable/ic_meem_credit_card" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/webViewBookMe" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/errorViewBookMe" android:padding="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_margin="16.0dp" android:src="@drawable/ic_error_round_red" />
+        <TextView android:id="@id/tvErrorBookMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:layout_marginRight="16.0dp" android:text="@string/msg_error_server_issue" android:textAlignment="center" android:layout_marginHorizontal="16.0dp" style="@style/TextAppearanceMedium.Large" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btnRetryBookMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16" android:text="@string/intercom_retry" style="@style/ButtonSmall.Green" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

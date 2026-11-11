@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_txt_toolbar_back_with_shadow" />
+    <TextView android:textColor="@android:color/holo_red_dark" android:id="@id/error_message" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_pack_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

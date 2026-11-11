@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/light_black" android:gravity="center_vertical" android:id="@id/tvIssue" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <View android:id="@id/divider" android:background="@color/divider_color_1a_7a" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

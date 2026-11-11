@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_main" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_notification_toolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="center" android:id="@id/pg1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/primary_action" style="?android:progressBarStyle" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvNotification" android:visibility="invisible" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/layNDF" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/ivNDF" android:layout_width="120.0dp" android:layout_height="120.0dp" android:src="@drawable/ic_notification_bottom_unselected" android:layout_centerInParent="true" />
+            <TextView android:textSize="24.0sp" android:textColor="@color/secondary_color" android:id="@id/txtNDF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0sp" android:text="@string/hint_no_notification" android:layout_below="@id/ivNDF" android:layout_centerHorizontal="true" style="@style/TextAppearanceProximaNovaRegular" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/pgLoadMore" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="back_coupon_number_size">14.0sp</dimen>
+    <dimen name="coupon_description_size">8.5sp</dimen>
+    <dimen name="coupon_text_size">34.0sp</dimen>
+</resources>

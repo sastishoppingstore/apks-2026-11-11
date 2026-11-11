@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootItem" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp" android:weightSum="1.0" android:paddingHorizontal="@dimen/_10sdp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/flagIcn" android:layout_width="0.0dp" android:layout_height="20.0dp" android:layout_weight="0.1" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/itemName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.7" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="@color/country_name" app:ct_textSize="16.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="end" android:layout_gravity="center" android:id="@id/itemCountryCode" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.2" app:ct_fontFamily="@font/inter_medium" app:ct_text="" app:ct_textColor="@color/country_code" app:ct_textSize="16.0sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View android:background="@color/line" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

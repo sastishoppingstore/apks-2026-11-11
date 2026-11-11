@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grouped_cards_item_image" android:padding="4.0dp" android:layout_width="80.0dp" android:layout_height="55.0dp" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="?checkoutMethodImageViewStyle" />
+    <ProgressBar android:id="@id/loading_panel" android:padding="4.0dp" android:layout_width="80.0dp" android:layout_height="55.0dp" android:indeterminate="true" />
+</RelativeLayout>

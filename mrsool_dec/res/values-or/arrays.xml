@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="maps_compass_directions">
+        <item>ଉ.</item>
+        <item>ଉ.ପୂ.</item>
+        <item>ପୂ.</item>
+        <item>ଦ.ପୂ.</item>
+        <item>ଦ.</item>
+        <item>ଦ.ପ.</item>
+        <item>ପ.</item>
+        <item>ଉ.ପ.</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>ଉତ୍ତର</item>
+        <item>ଉତ୍ତରପୂର୍ବ</item>
+        <item>ପୂର୍ବ</item>
+        <item>ଦକ୍ଷିଣପୂର୍ବ</item>
+        <item>ଦକ୍ଷିଣ</item>
+        <item>ଦକ୍ଷିଣପଶ୍ଚିମ</item>
+        <item>ପଶ୍ଚିମ</item>
+        <item>ଉତ୍ତରପଶ୍ଚିମ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loginView" android:background="@drawable/background_new" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/logoLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dp" layout="@layout/logo_layout" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_below="@id/logoLayout" android:layout_marginHorizontal="24.0dp">
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/let_s_get_s" android:layout_width="wrap_content" android:layout_height="36.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/let_s_get_s" app:ct_textColor="#24212a" app:ct_textSize="24.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center" android:id="@id/enter_your_" android:layout_width="wrap_content" android:layout_height="24.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/enter_your_" app:ct_textColor="#7c7a7f" app:ct_textSize="14.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/phoneNumber" android:layout_width="wrap_content" android:layout_height="24.0dp" android:layout_marginTop="40.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/phone_number" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="60.0dp" android:layout_marginTop="10.0dp">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/mobileLayout" android:background="@drawable/edittext_active" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/flagIcn" android:layout_width="32.0dp" android:layout_height="24.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="3.0dp" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/phone_code_new" android:layout_gravity="center" android:id="@id/phoneCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:fontFamily="@font/inter_medium" android:layout_marginEnd="3.0dp" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="10.0dp" android:layout_height="15.0dp" android:src="@drawable/ic_cursor" android:layout_marginStart="3.0dp" />
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="16.0sp" android:textColor="@color/et_ph_no" android:layout_gravity="center_vertical" android:id="@id/phoneNum" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLength="13" android:inputType="number" android:drawableEnd="@drawable/smartphone" android:fontFamily="@font/inter_medium" android:paddingEnd="10.0dp" android:layout_marginStart="5.0dp" android:letterSpacing="-0.04" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center" android:orientation="vertical" android:id="@id/llBiometric" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/ic_fingerprint" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/unlock_with_fingerprint" style="@style/Medium16FBFAFC" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.button.MaterialButton android:id="@id/continueBtn" android:layout_marginBottom="50.0dp" android:text="@string/continue_txt" android:layout_alignParentBottom="true" android:letterSpacing="-0.04" android:layout_marginHorizontal="24.0dp" style="@style/PrimaryButton_Disabled" />
+</RelativeLayout>

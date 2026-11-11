@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/home_bg" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/text_color_5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_order_details" style="@style/TextAppearanceMedium.Medium" />
+            <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <com.google.android.material.button.MaterialButton android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/btnTextStyle" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="85.0dp" android:minHeight="24.0dp" android:text="@string/lbl_list_form" android:textAllCaps="false" android:fontFamily="sans-serif" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" app:backgroundTint="@color/sky_blue_color" app:cornerRadius="4.0dp" app:icon="@drawable/ic_list_form" app:iconGravity="end" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/flTextContainer" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:layout_weight="1.0">
+            <EditText android:gravity="start" android:id="@id/etTextForm" android:background="@color/white" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/lbl_hint_order_details" style="@style/TextAppearanceRegular" />
+            <ScrollView android:id="@id/svContent" android:background="@drawable/bg_bot_order" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                <LinearLayout android:orientation="vertical" android:id="@id/llItems" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </FrameLayout>
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnDone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_done" android:textAllCaps="false" android:fontFamily="sans-serif-medium" app:backgroundTint="@color/bg_done_selector" app:cornerRadius="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/llRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llMain" android:background="@drawable/marker_bg_new_small" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <TextView android:textSize="13.0sp" android:textColor="@color/Black" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dp" android:maxLines="1" android:includeFontPadding="false" style="@style/TextAppearanceMedium" />
+    </LinearLayout>
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivPin" android:padding="@dimen/dimen_2" android:visibility="visible" android:layout_width="@dimen/marker_35" android:layout_height="@dimen/marker_35" android:src="@drawable/icon_home_pickup" android:scaleType="fitCenter" android:layout_below="@id/llMain" android:layout_centerHorizontal="true" android:importantForAccessibility="no" app:shapeAppearanceOverlay="@style/circularImage" />
+</RelativeLayout>

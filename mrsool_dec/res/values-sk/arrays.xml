@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 ×</item>
+        <item>0,5 ×</item>
+        <item>0,75 ×</item>
+        <item>Normálne</item>
+        <item>1,25 ×</item>
+        <item>1,5 ×</item>
+        <item>2 ×</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>JV</item>
+        <item>J</item>
+        <item>JZ</item>
+        <item>Z</item>
+        <item>SZ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>sever</item>
+        <item>severovýchod</item>
+        <item>východ</item>
+        <item>juhovýchod</item>
+        <item>juh</item>
+        <item>juhozápad</item>
+        <item>západ</item>
+        <item>severozápad</item>
+    </string-array>
+</resources>

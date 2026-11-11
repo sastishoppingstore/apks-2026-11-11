@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/supportToolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/ic_back_arrow_new" app:titleCentered="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/lbl_frequently_asked" android:layout_marginStart="16.0dp" style="@style/TextAppearanceBlack" />
+    <View android:background="@color/light_gray_18" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/supportRecycler" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</androidx.appcompat.widget.LinearLayoutCompat>

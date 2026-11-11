@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar_white_back_gray_rounded" />
+    <include layout="@layout/layout_add_card" />
+    <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/btnPay" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16" android:minHeight="48.0dp" android:text="@string/lbl_save_f_caps" android:insetTop="0.0dp" android:insetBottom="0.0dp" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:letterSpacing="0.0" app:backgroundTint="@color/primary_action" app:cornerRadius="0.0dp" />
+</LinearLayout>

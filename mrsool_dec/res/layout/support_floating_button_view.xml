@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="10.0dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/sfb" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="56.0dp" android:layout_height="56.0dp" android:src="@drawable/ic_headphone_support_agent" android:elevation="0.0dp" app:backgroundTint="@color/color_green_3" app:elevation="3.0dp" app:tint="@color/white" />
+    <ImageView android:layout_width="12.0dp" android:layout_height="12.0dp" android:layout_marginTop="11.0dp" android:src="@drawable/circle_red" android:layout_marginStart="11.0dp" android:translationZ="999.0dp" app:tint="@color/red_lite_action" />
+</FrameLayout>

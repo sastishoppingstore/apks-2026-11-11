@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llPlaceOrderMain" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:enabled="false" android:textColor="@color/foreground_color_1" android:gravity="center" android:id="@id/btnPlaceOrder" android:background="@drawable/bg_rounded_4_primary_action" android:paddingTop="13.0dp" android:paddingBottom="13.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_place_order" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" style="@style/TextAppearanceBold.Large" />
+</LinearLayout>

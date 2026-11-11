@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cvMain" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_category_checkbox" />
+    <TextView android:textColor="@color/shops_title_text_gray" android:layout_gravity="center_vertical" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Coffie" android:layout_marginStart="8.0dp" style="@style/TextAppearanceRegular.Medium" />
+</LinearLayout>

@@ -1,0 +1,79 @@
+.class Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager$2;
+.super Lorg/jivesoftware/smack/AbstractConnectionClosedListener;
+.source "InBandBytestreamManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;-><init>(Lorg/jivesoftware/smack/XMPPConnection;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;
+
+
+# direct methods
+.method constructor <init>(Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager$2;->this$0:Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lorg/jivesoftware/smack/AbstractConnectionClosedListener;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public connectionTerminated()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager$2;->this$0:Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;->access$000(Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;)Ljava/util/Map;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
+
+    .line 8
+    .line 9
+    .line 10
+    iget-object v0, p0, Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager$2;->this$0:Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;
+
+    .line 11
+    .line 12
+    invoke-static {v0}, Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;->access$100(Lorg/jivesoftware/smackx/bytestreams/ibb/InBandBytestreamManager;)Ljava/util/List;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method

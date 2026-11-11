@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/llContainerMain" android:background="@color/Black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/imageProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:transitionName="@string/tran_menu_item_image" />
+    <ImageView android:id="@id/imgGif" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center" android:id="@id/llClose" android:background="?selectableItemBackground" android:padding="10.0dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/lbl_close" android:elevation="3.0dp" android:contextClickable="true">
+        <ImageView android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_white" android:importantForAccessibility="no" android:layout_marginStart="5.0dp" />
+    </LinearLayout>
+</RelativeLayout>

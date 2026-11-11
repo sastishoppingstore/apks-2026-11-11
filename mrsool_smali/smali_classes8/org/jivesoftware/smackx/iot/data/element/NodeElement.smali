@@ -1,0 +1,134 @@
+.class public Lorg/jivesoftware/smackx/iot/data/element/NodeElement;
+.super Lorg/jivesoftware/smackx/iot/data/element/IoTDataExtensionElement;
+.source "NodeElement.java"
+
+
+# static fields
+.field public static final ELEMENT:Ljava/lang/String; = "node"
+
+
+# instance fields
+.field private final nodeInfo:Lorg/jivesoftware/smackx/iot/element/NodeInfo;
+
+.field private final timestampElements:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lorg/jivesoftware/smackx/iot/data/element/TimestampElement;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lorg/jivesoftware/smackx/iot/element/NodeInfo;Ljava/util/List;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/jivesoftware/smackx/iot/element/NodeInfo;",
+            "Ljava/util/List<",
+            "Lorg/jivesoftware/smackx/iot/data/element/TimestampElement;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 2
+    invoke-direct {p0}, Lorg/jivesoftware/smackx/iot/data/element/IoTDataExtensionElement;-><init>()V
+
+    .line 3
+    iput-object p1, p0, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->nodeInfo:Lorg/jivesoftware/smackx/iot/element/NodeInfo;
+
+    .line 4
+    invoke-static {p2}, Lj$/util/DesugarCollections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->timestampElements:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lorg/jivesoftware/smackx/iot/element/NodeInfo;Lorg/jivesoftware/smackx/iot/data/element/TimestampElement;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p2}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object p2
+
+    invoke-direct {p0, p1, p2}, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;-><init>(Lorg/jivesoftware/smackx/iot/element/NodeInfo;Ljava/util/List;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getElementName()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "node"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public getTimestampElements()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lorg/jivesoftware/smackx/iot/data/element/TimestampElement;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->timestampElements:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public bridge synthetic toXML(Lorg/jivesoftware/smack/packet/XmlEnvironment;)Ljava/lang/CharSequence;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->toXML(Lorg/jivesoftware/smack/packet/XmlEnvironment;)Lorg/jivesoftware/smack/util/XmlStringBuilder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public toXML(Lorg/jivesoftware/smack/packet/XmlEnvironment;)Lorg/jivesoftware/smack/util/XmlStringBuilder;
+    .locals 1
+
+    .line 2
+    new-instance v0, Lorg/jivesoftware/smack/util/XmlStringBuilder;
+
+    invoke-direct {v0, p0, p1}, Lorg/jivesoftware/smack/util/XmlStringBuilder;-><init>(Lorg/jivesoftware/smack/packet/FullyQualifiedElement;Lorg/jivesoftware/smack/packet/XmlEnvironment;)V
+
+    .line 3
+    iget-object p1, p0, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->nodeInfo:Lorg/jivesoftware/smackx/iot/element/NodeInfo;
+
+    invoke-virtual {p1, v0}, Lorg/jivesoftware/smackx/iot/element/NodeInfo;->appendTo(Lorg/jivesoftware/smack/util/XmlStringBuilder;)V
+
+    .line 4
+    invoke-virtual {v0}, Lorg/jivesoftware/smack/util/XmlStringBuilder;->rightAngleBracket()Lorg/jivesoftware/smack/util/XmlStringBuilder;
+
+    .line 5
+    iget-object p1, p0, Lorg/jivesoftware/smackx/iot/data/element/NodeElement;->timestampElements:Ljava/util/List;
+
+    invoke-virtual {v0, p1}, Lorg/jivesoftware/smack/util/XmlStringBuilder;->append(Ljava/util/Collection;)Lorg/jivesoftware/smack/util/XmlStringBuilder;
+
+    .line 6
+    invoke-virtual {v0, p0}, Lorg/jivesoftware/smack/util/XmlStringBuilder;->closeElement(Lorg/jivesoftware/smack/packet/NamedElement;)Lorg/jivesoftware/smack/util/XmlStringBuilder;
+
+    return-object v0
+.end method

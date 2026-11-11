@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_saved_bg" android:layout_width="match_parent" android:layout_height="190.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:weightSum="1.0" android:layout_marginHorizontal="20.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smsa_logo_on_card" android:scaleType="fitStart" android:layout_weight="0.5" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mastercard" android:scaleType="fitEnd" android:layout_weight="0.5" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:layout_alignParentBottom="true">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/name_on_card" android:id="@id/name_on_card" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.7" android:fontFamily="@font/inter_semibold" android:letterSpacing="0.05" android:layout_marginHorizontal="24.0dp" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/name_on_card" android:id="@id/validThru" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.3" android:fontFamily="@font/inter_semibold" android:letterSpacing="0.05" android:layout_marginHorizontal="24.0dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/name_on_card" android:id="@id/cardNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_below="@id/name_on_card" android:fontFamily="@font/inter_semibold" android:letterSpacing="0.05" android:layout_marginHorizontal="24.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

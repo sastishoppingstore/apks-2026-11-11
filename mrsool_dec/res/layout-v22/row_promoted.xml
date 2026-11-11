@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clMainPromoted" android:background="@drawable/bg_rounded_4_stroke_2_background" android:layout_width="180.0dp" android:layout_height="86.0dp" android:layout_marginEnd="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivBanner" android:layout_width="match_parent" android:layout_height="60.0dp" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:rippleColor="@color/ternary_color" app:shapeAppearanceOverlay="@style/TopRoundCorners" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivLogo" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="4.0dp" android:layout_marginBottom="6.0dp" android:layout_marginStart="8.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivBanner" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:ellipsize="end" android:id="@id/tvName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:layout_constraintBottom_toBottomOf="@id/ivLogo" app:layout_constraintEnd_toEndOf="@id/ivBanner" app:layout_constraintStart_toEndOf="@id/ivLogo" app:layout_constraintTop_toTopOf="@id/ivLogo" style="@style/TextAppearanceMedium.Medium" />
+    <FrameLayout android:id="@id/flGoldBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="8.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivGoldBar" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_gold_bar" android:scaleType="fitCenter" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivTrueMenuPrice" android:layout_width="20.0dp" android:layout_height="20.0dp" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:layout_marginTop="8.0dp" android:layout_marginRight="8.0dp" android:layout_marginBottom="4.0dp" android:layout_marginHorizontal="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/flDiscountM4B" android:background="@drawable/bg_home_promotion" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="20.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivOfferM4b" android:layout_width="19.0dp" android:layout_height="11.0dp" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/flDiscountMbO" android:background="@drawable/bg_home_promotion" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="20.0dp" android:layout_marginStart="8.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivOfferMbo" android:layout_width="19.0dp" android:layout_height="11.0dp" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/flMrsoolBlack" android:background="@drawable/bg_gray_solid_black_dotted_rounded" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="20.0dp" android:layout_marginStart="8.0dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivMrsoolBlack" android:layout_width="19.0dp" android:layout_height="11.0dp" android:src="@drawable/ic_mrsool_black_label" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackground" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/text_color_5b" android:id="@id/tvFilterItem" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearanceRegular.Large" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivSelected" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_mark_right" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>V profilu vaše strani na kartici »Vizitka« se bo prikazala kljukica</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>V</item>
+        <item>F</item>
+        <item>G</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25-kratna</item>
+        <item>0,5-kratna</item>
+        <item>0,75-kratna</item>
+        <item>Običajna</item>
+        <item>1,25-kratna</item>
+        <item>1,5-kratna</item>
+        <item>2-kratna</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>JV</item>
+        <item>J</item>
+        <item>JZ</item>
+        <item>Z</item>
+        <item>SZ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>sever</item>
+        <item>severovzhod</item>
+        <item>vzhod</item>
+        <item>jugovzhod</item>
+        <item>jug</item>
+        <item>jugozahod</item>
+        <item>zahod</item>
+        <item>severozahod</item>
+    </string-array>
+</resources>

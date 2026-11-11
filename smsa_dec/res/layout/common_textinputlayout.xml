@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/common_textinputlayout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:orientation="horizontal" android:id="@id/til" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:boxBackgroundColor="@color/edittext_bg" app:boxCornerRadiusBottomEnd="12.0dp" app:boxCornerRadiusBottomStart="12.0dp" app:boxCornerRadiusTopEnd="12.0dp" app:boxCornerRadiusTopStart="12.0dp" app:boxStrokeColor="@color/card_stroke" app:boxStrokeWidth="1.0dp" app:hintTextColor="@color/edit_text_border" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:textColor="@color/country_color" android:id="@id/tie" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:textCursorDrawable="@color/colorPrimary1" android:fontFamily="@font/inter_regular" android:backgroundTint="@color/edit_text_bg" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

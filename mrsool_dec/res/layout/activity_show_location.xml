@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llMain" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_title_bar_accent" />
+    <View android:layout_gravity="bottom" android:background="@drawable/toolbar_dropshadow" android:layout_width="match_parent" android:layout_height="2.0dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/flMap" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/layMapContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="167.0dp" />
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/rvWayPoints" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="185.0dp" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/llLocationContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:weightSum="100.0" android:layout_weight="35.0">
+            <RelativeLayout android:id="@id/rlStorePickUpLocation" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="50.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:weightSum="1.0" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivStoreLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:src="@drawable/ic_home" android:scaleType="fitXY" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="19.0dp" android:layout_weight="0.75">
+                        <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:id="@id/txtStoreName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_store_location" style="@style/TextAppearanceProximaNovaSemiBold" />
+                        <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:layout_gravity="left" android:id="@id/txtStoreAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="" style="@style/TextAppearanceProximaNovaRegular" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llDriveStoreLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="37.0dp" android:layout_weight="0.25" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drive" android:alpha="0.7" />
+                    <TextView android:textColor="#7b878f" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/lbl_drive" android:textAllCaps="true" style="@style/TextAppearanceProximaNovaRegular.ExtraSmall" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llDivider" android:background="@color/gray_border" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.30000007dp" android:alpha="0.7" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="50.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:weightSum="1.0" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/ivCustomerLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:src="@drawable/ic_customer" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="19.0dp" android:layout_weight="0.75">
+                        <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:id="@id/txtCustomerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_customer_location" style="@style/TextAppearanceProximaNovaSemiBold" />
+                        <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:layout_gravity="left" android:id="@id/txtCustomerAdd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="" style="@style/TextAppearanceProximaNovaRegular" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llDriveCustomerLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="37.0dp" android:layout_weight="0.25" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drive" android:alpha="0.7" />
+                    <TextView android:textColor="#7b878f" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/lbl_drive" android:textAllCaps="true" style="@style/TextAppearanceProximaNovaRegular.ExtraSmall" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

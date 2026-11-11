@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">导航，第 %d 条路线</item>
+        <item quantity="other">导航，第 %d 条路线</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d 辆自行车可用</item>
+        <item quantity="other">%d 辆自行车可用</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">有 %d 个停靠点</item>
+        <item quantity="other">有 %d 个停靠点</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">地图导向 %d 度。</item>
+        <item quantity="other">地图导向 %d 度。</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s天</item>
+        <item quantity="other">%s天</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s 天</item>
+        <item quantity="other">%s 天</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s 小时</item>
+        <item quantity="other">%s 小时</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s 小时</item>
+        <item quantity="other">%s 小时</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s小时</item>
+        <item quantity="other">%s小时</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s 分钟</item>
+        <item quantity="other">%s 分钟</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s 分钟</item>
+        <item quantity="other">%s 分钟</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s分钟</item>
+        <item quantity="other">%s分钟</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s 秒</item>
+        <item quantity="other">%s 秒</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">继续前行 %1$s 英尺</item>
+        <item quantity="other">继续前行 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">继续前行 %1$s 公里</item>
+        <item quantity="other">继续前行 %1$s 公里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">继续前行 %1$s 米</item>
+        <item quantity="other">继续前行 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">继续前行 %1$s 英里</item>
+        <item quantity="other">继续前行 %1$s 英里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">继续前行 %1$s 码</item>
+        <item quantity="other">继续前行 %1$s 码</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">继续沿%2$s前行 %1$s 英尺</item>
+        <item quantity="other">继续沿%2$s前行 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">继续沿%2$s前行 %1$s 公里</item>
+        <item quantity="other">继续沿%2$s前行 %1$s 公里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">继续沿%2$s前行 %1$s 米</item>
+        <item quantity="other">继续沿%2$s前行 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">继续沿%2$s前行 %1$s 英里</item>
+        <item quantity="other">继续沿%2$s前行 %1$s 英里</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">继续沿%2$s前行 %1$s 码</item>
+        <item quantity="other">继续沿%2$s前行 %1$s 码</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">前方 %1$s 英尺</item>
+        <item quantity="other">前方 %1$s 英尺</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">前行 %1$s 公里后</item>
+        <item quantity="other">前行 %1$s 公里后</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">前方 %1$s 米</item>
+        <item quantity="other">前方 %1$s 米</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">前行 %1$s 英里后</item>
+        <item quantity="other">前行 %1$s 英里后</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">前方 %1$s 码</item>
+        <item quantity="other">前方 %1$s 码</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s 公里/小时</item>
+        <item quantity="other">%s 公里/小时</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s 英里/小时</item>
+        <item quantity="other">%s 英里/小时</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">前行 %1$s 英尺即可到达目的地</item>
+        <item quantity="other">前行 %1$s 英尺即可到达目的地</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">前行 %1$s 公里即可到达目的地</item>
+        <item quantity="other">前行 %1$s 公里即可到达目的地</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">前行 %1$s 米即可到达目的地</item>
+        <item quantity="other">前行 %1$s 米即可到达目的地</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">前行 %1$s 英里即可到达目的地</item>
+        <item quantity="other">前行 %1$s 英里即可到达目的地</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">前行 %1$s 码即可到达目的地</item>
+        <item quantity="other">前行 %1$s 码即可到达目的地</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d 站</item>
+        <item quantity="other">%d 站</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+ %d 条提醒</item>
+        <item quantity="other">+ %d 条提醒</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d 条提醒</item>
+        <item quantity="other">+ %d 条提醒</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">以及另外 %d 条</item>
+        <item quantity="other">以及另外 %d 条</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">以及另外 %d 条</item>
+        <item quantity="other">以及另外 %d 条</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快进 %d 秒</item>
+        <item quantity="other">快进 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">快退 %d 秒</item>
+        <item quantity="other">快退 %d 秒</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+</resources>

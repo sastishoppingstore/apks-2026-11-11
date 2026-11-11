@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="12.0dp" android:layout_marginEnd="12.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.daimajia.swipe.SwipeLayout android:id="@id/swipe_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layoutDirection="locale" app:clickToClose="true" app:show_mode="pull_out">
+            <FrameLayout android:id="@id/flDelete" android:background="@color/error_color" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textColor="@color/pure_white" android:gravity="center" android:layout_gravity="center" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_delete_notification" style="@style/TextAppearanceProximaNovaSemiBold" />
+            </FrameLayout>
+            <LinearLayout android:id="@id/flNotification" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp">
+                    <ImageView android:layout_gravity="center" android:id="@id/imgPic" android:layout_width="45.0dp" android:layout_height="45.0dp" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dp">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/primary_color" android:gravity="start" android:layout_gravity="center" android:id="@id/txtNotTitle" android:text="---" android:fontFamily="@font/proximanova_regular" android:textDirection="firstStrong" style="@style/CustomTitleLable" />
+                        <TextView android:textSize="10.0sp" android:textColor="@color/primary_color" android:gravity="start" android:layout_gravity="center" android:id="@id/txtNotTime" android:visibility="visible" android:text="-" android:maxLines="1" android:fontFamily="@font/proximanova_semibold" style="@style/CustomTitleLable" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.daimajia.swipe.SwipeLayout>
+        <View android:layout_gravity="center" android:background="@color/foreground_color_2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.3" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

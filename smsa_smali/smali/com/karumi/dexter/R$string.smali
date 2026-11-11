@@ -1,0 +1,82 @@
+.class public final Lcom/karumi/dexter/R$string;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/karumi/dexter/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "string"
+.end annotation
+
+
+# static fields
+.field public static final abc_action_bar_home_description:I = 0x7f140008
+
+.field public static final abc_action_bar_up_description:I = 0x7f140009
+
+.field public static final abc_action_menu_overflow_description:I = 0x7f14000a
+
+.field public static final abc_action_mode_done:I = 0x7f14000b
+
+.field public static final abc_activity_chooser_view_see_all:I = 0x7f14000c
+
+.field public static final abc_activitychooserview_choose_application:I = 0x7f14000d
+
+.field public static final abc_capital_off:I = 0x7f14000e
+
+.field public static final abc_capital_on:I = 0x7f14000f
+
+.field public static final abc_search_hint:I = 0x7f14001a
+
+.field public static final abc_searchview_description_clear:I = 0x7f14001b
+
+.field public static final abc_searchview_description_query:I = 0x7f14001c
+
+.field public static final abc_searchview_description_search:I = 0x7f14001d
+
+.field public static final abc_searchview_description_submit:I = 0x7f14001e
+
+.field public static final abc_searchview_description_voice:I = 0x7f14001f
+
+.field public static final abc_shareactionprovider_share_with:I = 0x7f140020
+
+.field public static final abc_shareactionprovider_share_with_application:I = 0x7f140021
+
+.field public static final abc_toolbar_collapse_description:I = 0x7f140022
+
+.field public static final app_name:I = 0x7f1400c1
+
+.field public static final appbar_scrolling_view_behavior:I = 0x7f1400c4
+
+.field public static final bottom_sheet_behavior:I = 0x7f1400dc
+
+.field public static final character_counter_pattern:I = 0x7f1400f7
+
+.field public static final password_toggle_content_description:I = 0x7f1402d0
+
+.field public static final path_password_eye:I = 0x7f1402d2
+
+.field public static final path_password_eye_mask_strike_through:I = 0x7f1402d3
+
+.field public static final path_password_eye_mask_visible:I = 0x7f1402d4
+
+.field public static final path_password_strike_through:I = 0x7f1402d5
+
+.field public static final search_menu_title:I = 0x7f140365
+
+.field public static final status_bar_notification_info_overflow:I = 0x7f1403bc
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

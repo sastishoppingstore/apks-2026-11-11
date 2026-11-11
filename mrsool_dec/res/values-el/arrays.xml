@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>Α</item>
+        <item>Β</item>
+        <item>Γ</item>
+        <item>Δ</item>
+        <item>Ε</item>
+        <item>Ζ</item>
+        <item>Η</item>
+        <item>Θ</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Κανονική</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Β</item>
+        <item>ΒΑ</item>
+        <item>Α</item>
+        <item>ΝΑ</item>
+        <item>Ν</item>
+        <item>ΝΔ</item>
+        <item>Δ</item>
+        <item>ΒΔ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>βόρεια</item>
+        <item>βορειοανατολικά</item>
+        <item>ανατολικά</item>
+        <item>νοτιοανατολικά</item>
+        <item>νότια</item>
+        <item>νοτιοδυτικά</item>
+        <item>δυτικά</item>
+        <item>βορειοδυτικά</item>
+    </string-array>
+</resources>

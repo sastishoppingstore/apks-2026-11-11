@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">Rodyti kelią, %d maršrutas</item>
+        <item quantity="few">Rodyti kelią, %d maršrutas</item>
+        <item quantity="many">Rodyti kelią, %d maršrutas</item>
+        <item quantity="other">Rodyti kelią, %d maršrutas</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">Yra %d dviratis</item>
+        <item quantity="few">Yra %d dviračiai</item>
+        <item quantity="many">Yra %d dviračio</item>
+        <item quantity="other">Yra %d dviračių</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">Yra %d stovas</item>
+        <item quantity="few">Yra %d stovai</item>
+        <item quantity="many">Yra %d stovo</item>
+        <item quantity="other">Yra %d stovų</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Žemėlapio orientacija %d laipsnis.</item>
+        <item quantity="few">Žemėlapio orientacija %d laipsniai.</item>
+        <item quantity="many">Žemėlapio orientacija %d laipsnio.</item>
+        <item quantity="other">Žemėlapio orientacija %d laipsnis.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s diena</item>
+        <item quantity="few">%s dienos</item>
+        <item quantity="many">%s dienos</item>
+        <item quantity="other">%s dienų</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d.</item>
+        <item quantity="few">%s d.</item>
+        <item quantity="many">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s d.</item>
+        <item quantity="few">%s d.</item>
+        <item quantity="many">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s diena</item>
+        <item quantity="few">%s dienos</item>
+        <item quantity="many">%s dienos</item>
+        <item quantity="other">%s dienų</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s valanda</item>
+        <item quantity="few">%s valandos</item>
+        <item quantity="many">%s valandos</item>
+        <item quantity="other">%s valandų</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s val.</item>
+        <item quantity="few">%s val.</item>
+        <item quantity="many">%s val.</item>
+        <item quantity="other">%s val.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s h</item>
+        <item quantity="few">%s h</item>
+        <item quantity="many">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minutė</item>
+        <item quantity="few">%s minutės</item>
+        <item quantity="many">%s minutės</item>
+        <item quantity="other">%s minučių</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min.</item>
+        <item quantity="few">%s min.</item>
+        <item quantity="many">%s min.</item>
+        <item quantity="other">%s min.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s sekundė</item>
+        <item quantity="few">%s sekundės</item>
+        <item quantity="many">%s sekundės</item>
+        <item quantity="other">%s sekundžių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Toliau važiuokite %1$s pėdą</item>
+        <item quantity="few">Toliau važiuokite %1$s pėdų</item>
+        <item quantity="many">Toliau važiuokite %1$s pėdos</item>
+        <item quantity="other">Toliau važiuokite %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Važiuokite toliau %1$s kilometrą</item>
+        <item quantity="few">Važiuokite toliau %1$s kilometrus</item>
+        <item quantity="many">Važiuokite toliau %1$s kilometro</item>
+        <item quantity="other">Važiuokite toliau %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Toliau važiuokite %1$s metrą</item>
+        <item quantity="few">Toliau važiuokite %1$s metrus</item>
+        <item quantity="many">Toliau važiuokite %1$s metro</item>
+        <item quantity="other">Toliau važiuokite %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Važiuokite toliau %1$s mylią</item>
+        <item quantity="few">Važiuokite toliau %1$s mylias</item>
+        <item quantity="many">Važiuokite toliau %1$s mylios</item>
+        <item quantity="other">Važiuokite toliau %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Toliau važiuokite %1$s jardą</item>
+        <item quantity="few">Toliau važiuokite %1$s jardus</item>
+        <item quantity="many">Toliau važiuokite %1$s jardo</item>
+        <item quantity="other">Toliau važiuokite %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s pėdą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s pėdas</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s pėdos</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Važiuokite %2$s dar %1$s kilometrą</item>
+        <item quantity="few">Važiuokite %2$s dar %1$s kilometrus</item>
+        <item quantity="many">Važiuokite %2$s dar %1$s kilometro</item>
+        <item quantity="other">Važiuokite %2$s dar %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s metrą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s metrus</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s metro</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Važiuokite %2$s dar %1$s mylią</item>
+        <item quantity="few">Važiuokite %2$s dar %1$s mylias</item>
+        <item quantity="many">Važiuokite %2$s dar %1$s mylios</item>
+        <item quantity="other">Važiuokite %2$s dar %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Toliau važiuokite %2$s dar %1$s jardą</item>
+        <item quantity="few">Toliau važiuokite %2$s dar %1$s jardus</item>
+        <item quantity="many">Toliau važiuokite %2$s dar %1$s jardo</item>
+        <item quantity="other">Toliau važiuokite %2$s dar %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Už %1$s pėdos</item>
+        <item quantity="few">Už %1$s pėdų</item>
+        <item quantity="many">Už %1$s pėdos</item>
+        <item quantity="other">Už %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Už %1$s kilometro</item>
+        <item quantity="few">Už %1$s kilometrų</item>
+        <item quantity="many">Už %1$s kilometro</item>
+        <item quantity="other">Už %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Už %1$s metro</item>
+        <item quantity="few">Už %1$s metrų</item>
+        <item quantity="many">Už %1$s metro</item>
+        <item quantity="other">Už %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Už %1$s mylios</item>
+        <item quantity="few">Už %1$s mylių</item>
+        <item quantity="many">Už %1$s mylios</item>
+        <item quantity="other">Už %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Už %1$s jardo</item>
+        <item quantity="few">Už %1$s jardų</item>
+        <item quantity="many">Už %1$s jardo</item>
+        <item quantity="other">Už %1$s jardų</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometras per valandą</item>
+        <item quantity="few">%s kilometrai per valandą</item>
+        <item quantity="many">%s kilometro per valandą</item>
+        <item quantity="other">%s kilometrų per valandą</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mylia per valandą</item>
+        <item quantity="few">%s mylios per valandą</item>
+        <item quantity="many">%s mylios per valandą</item>
+        <item quantity="other">%s mylių per valandą</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s pėdos</item>
+        <item quantity="few">Kelionės tikslas – už %1$s pėdų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s pėdos</item>
+        <item quantity="other">Kelionės tikslas – už %1$s pėdų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s kilometro</item>
+        <item quantity="few">Kelionės tikslas – už %1$s kilometrų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s kilometro</item>
+        <item quantity="other">Kelionės tikslas – už %1$s kilometrų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s metro</item>
+        <item quantity="few">Kelionės tikslas – už %1$s metrų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s metro</item>
+        <item quantity="other">Kelionės tikslas – už %1$s metrų</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s mylios</item>
+        <item quantity="few">Kelionės tikslas – už %1$s mylių</item>
+        <item quantity="many">Kelionės tikslas – už %1$s mylios</item>
+        <item quantity="other">Kelionės tikslas – už %1$s mylių</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Kelionės tikslas – už %1$s jardo</item>
+        <item quantity="few">Kelionės tikslas – už %1$s jardų</item>
+        <item quantity="many">Kelionės tikslas – už %1$s jardo</item>
+        <item quantity="other">Kelionės tikslas – už %1$s jardų</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d stotelė</item>
+        <item quantity="few">%d stotelės</item>
+        <item quantity="many">%d stotelės</item>
+        <item quantity="other">%d stotelių</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d įspėjimas</item>
+        <item quantity="few">+%d įspėjimai</item>
+        <item quantity="many">+%d įspėjimo</item>
+        <item quantity="other">+%d įspėjimų</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">ir %d įspėjimas</item>
+        <item quantity="few">ir %d įspėjimai</item>
+        <item quantity="many">ir %d įspėjimų</item>
+        <item quantity="other">ir %d įspėjimų</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">Dar %d</item>
+        <item quantity="few">Dar %d</item>
+        <item quantity="many">Dar %d</item>
+        <item quantity="other">Dar %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">ir dar %d</item>
+        <item quantity="few">ir dar %d</item>
+        <item quantity="many">ir dar %d</item>
+        <item quantity="other">ir dar %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Prasukti pirmyn %d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %d sekundės</item>
+        <item quantity="other">Prasukti pirmyn %d sekundžių</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Atsukti atgal %d sekundę</item>
+        <item quantity="few">Atsukti atgal %d sekundes</item>
+        <item quantity="many">Atsukti atgal %d sekundės</item>
+        <item quantity="other">Atsukti atgal %d sekundžių</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+</resources>

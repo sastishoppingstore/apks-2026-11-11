@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="10.0dp" android:paddingBottom="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14.0dp" android:paddingEnd="14.0dp">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/thunder_1" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" style="@style/TextAppearanceMedium.Large" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dp" android:src="@drawable/icon_picker_up" android:tint="@color/thunder_1" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.mrsool.customeview.WheelView android:id="@id/wheelViewYear" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/llSelector" android:background="#1a7a858c" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:src="@drawable/icon_picker_down" android:tint="@color/thunder_1" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="8.0dp" android:layout_marginEnd="8.0dp">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_action" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvNegative" android:background="?selectableItemBackground" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_me_cancel" android:textAllCaps="true" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginEnd="10.0dp" style="@style/TextAppearanceMedium.Medium" />
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@id/tvPositive" android:background="@drawable/selector_primary_button_new_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dp" android:minHeight="36.0dp" android:text="@string/lbl_ok" android:textAllCaps="true" style="@style/TextAppearanceMedium.Medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

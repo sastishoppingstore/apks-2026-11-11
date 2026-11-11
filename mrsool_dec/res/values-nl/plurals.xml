@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">Navigeer, route %d</item>
+        <item quantity="other">Navigeer, route %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d fiets beschikbaar</item>
+        <item quantity="other">%d fietsen beschikbaar</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d fietsenrek beschikbaar</item>
+        <item quantity="other">%d fietsenrekken beschikbaar</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Kaartrichting %d graad.</item>
+        <item quantity="other">Kaartrichting %d graden.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagen</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s d</item>
+        <item quantity="other">%s d</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s dag</item>
+        <item quantity="other">%s dagen</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s uur</item>
+        <item quantity="other">%s uur</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s u</item>
+        <item quantity="other">%s u</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s u</item>
+        <item quantity="other">%s u</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s minuut</item>
+        <item quantity="other">%s minuten</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s m</item>
+        <item quantity="other">%s m</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s seconde</item>
+        <item quantity="other">%s seconden</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Rijd %1$s voet verder</item>
+        <item quantity="other">Rijd %1$s voet verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Rijd %1$s kilometer verder</item>
+        <item quantity="other">Rijd %1$s kilometer verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Rijd %1$s meter verder</item>
+        <item quantity="other">Rijd %1$s meter verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Rijd %1$s mijl verder</item>
+        <item quantity="other">Rijd %1$s mijl verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Rijd %1$s yard verder</item>
+        <item quantity="other">Rijd %1$s yard verder</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Rijd %1$s voet verder op %2$s</item>
+        <item quantity="other">Rijd %1$s voet verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Rijd %1$s kilometer verder op %2$s</item>
+        <item quantity="other">Rijd %1$s kilometer verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Rijd %1$s meter verder op %2$s</item>
+        <item quantity="other">Rijd %1$s meter verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Rijd %1$s mijl verder op %2$s</item>
+        <item quantity="other">Rijd %1$s mijl verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Rijd %1$s yard verder op %2$s</item>
+        <item quantity="other">Rijd %1$s yard verder op %2$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">Over %1$s voet</item>
+        <item quantity="other">Over %1$s voet</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">Over %1$s kilometer</item>
+        <item quantity="other">Over %1$s kilometer</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">Over %1$s meter</item>
+        <item quantity="other">Over %1$s meter</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">Over %1$s mijl</item>
+        <item quantity="other">Over %1$s mijl</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">Over %1$s yard</item>
+        <item quantity="other">Over %1$s yard</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometer per uur</item>
+        <item quantity="other">%s kilometer per uur</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mijl per uur</item>
+        <item quantity="other">%s mijl per uur</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s voet van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s voet van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s kilometer van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s kilometers van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s meter van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s meter van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s mijl van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s mijl van je bestemming</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Je bevindt je op %1$s yard van je bestemming</item>
+        <item quantity="other">Je bevindt je op %1$s yard van je bestemming</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d halte</item>
+        <item quantity="other">%d haltes</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d melding</item>
+        <item quantity="other">+%d meldingen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d melding</item>
+        <item quantity="other">+ %d meldingen</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d meer</item>
+        <item quantity="other">+%d meer</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ nog %d</item>
+        <item quantity="other">+ nog %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d seconde vooruitspoelen</item>
+        <item quantity="other">%d seconden vooruitspoelen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d seconde terugspoelen</item>
+        <item quantity="other">%d seconden terugspoelen</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+</resources>

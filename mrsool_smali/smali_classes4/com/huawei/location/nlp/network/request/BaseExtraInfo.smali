@@ -1,0 +1,69 @@
+.class public Lcom/huawei/location/nlp/network/request/BaseExtraInfo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private extraPosition:Landroid/location/Location;
+
+.field private resultCode:Ljava/lang/Integer;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public getExtraPosition()Landroid/location/Location;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/location/nlp/network/request/BaseExtraInfo;->extraPosition:Landroid/location/Location;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public getResultCode()Ljava/lang/Integer;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/huawei/location/nlp/network/request/BaseExtraInfo;->resultCode:Ljava/lang/Integer;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public setExtraPosition(Landroid/location/Location;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/location/nlp/network/request/BaseExtraInfo;->extraPosition:Landroid/location/Location;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setResultCode(Ljava/lang/Integer;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/huawei/location/nlp/network/request/BaseExtraInfo;->resultCode:Ljava/lang/Integer;
+
+    .line 2
+    .line 3
+    return-void
+.end method

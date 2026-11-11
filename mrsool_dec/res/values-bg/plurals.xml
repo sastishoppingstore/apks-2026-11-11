@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">Навигиране, маршрут %d</item>
+        <item quantity="other">Навигиране, маршрут %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d наличен велосипед</item>
+        <item quantity="other">%d налични велосипеда</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d нал. място във велопарк.</item>
+        <item quantity="other">%d нал. места във велопарк.</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Пеленг на карта %d градус.</item>
+        <item quantity="other">Пеленг на карта: %d градуса.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s ден</item>
+        <item quantity="other">%s дни</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s д.</item>
+        <item quantity="other">%s д.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sд</item>
+        <item quantity="other">%sд</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s ден</item>
+        <item quantity="other">%s дни</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s час</item>
+        <item quantity="other">%s часа</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ч</item>
+        <item quantity="other">%s ч</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sч</item>
+        <item quantity="other">%sч</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s минута</item>
+        <item quantity="other">%s минути</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s мин</item>
+        <item quantity="other">%s мин</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sм</item>
+        <item quantity="other">%sм</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s секунда</item>
+        <item quantity="other">%s секунди</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">Продължете още %1$s фут</item>
+        <item quantity="other">Продължете още %1$s фута</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">Продължете още %1$s километър</item>
+        <item quantity="other">Продължете още %1$s километра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">Продължете още %1$s метър</item>
+        <item quantity="other">Продължете още %1$s метра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">Продължете още %1$s миля</item>
+        <item quantity="other">Продължете още %1$s мили</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">Продължете още %1$s ярд</item>
+        <item quantity="other">Продължете още %1$s ярда</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">Продължете още %2$s фут по %1$s</item>
+        <item quantity="other">Продължете още %2$s фута по %1$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">Продължете още %2$s километър по %1$s</item>
+        <item quantity="other">Продължете още %2$s километра по %1$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">Продължете още %2$s метър по %1$s</item>
+        <item quantity="other">Продължете още %2$s метра по %1$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">Продължете още %2$s миля по %1$s</item>
+        <item quantity="other">Продължете още %2$s мили по %1$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">Продължете още %2$s ярд по %1$s</item>
+        <item quantity="other">Продължете още %2$s ярда по %1$s</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">След %1$s фут</item>
+        <item quantity="other">След %1$s фута</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">След %1$s километър</item>
+        <item quantity="other">След %1$s километра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">След %1$s метър</item>
+        <item quantity="other">След %1$s метра</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">След %1$s миля</item>
+        <item quantity="other">След %1$s мили</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">След %1$s ярд</item>
+        <item quantity="other">След %1$s ярда</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s километър в час</item>
+        <item quantity="other">%s километра в час</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s миля в час</item>
+        <item quantity="other">%s мили в час</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">До дестинацията ви остава %1$s фут</item>
+        <item quantity="other">До дестинацията ви остават %1$s фута</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">До дестинацията ви остава %1$s километър</item>
+        <item quantity="other">До дестинацията ви остават %1$s километра</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">До дестинацията ви остава %1$s метър</item>
+        <item quantity="other">До дестинацията ви остават %1$s метра</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">До дестинацията ви остава %1$s миля</item>
+        <item quantity="other">До дестинацията ви остават %1$s мили</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">До дестинацията ви остава %1$s ярд</item>
+        <item quantity="other">До дестинацията ви остават %1$s ярда</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d спирка</item>
+        <item quantity="other">%d спирки</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d сигнал</item>
+        <item quantity="other">+%d сигнала</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d сигнал</item>
+        <item quantity="other">+ %d сигнала</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+ още %d</item>
+        <item quantity="other">+ още %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ още %d</item>
+        <item quantity="other">+ още %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Превъртане с %d секунда напред</item>
+        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Превъртане с %d секунда назад</item>
+        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+</resources>

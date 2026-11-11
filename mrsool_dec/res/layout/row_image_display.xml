@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/cvMain" android:layout_width="32.0dp" android:layout_height="24.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="3.0dp" app:cardElevation="2.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true" app:strokeColor="@color/light_gray_17" app:strokeWidth="1.0dp">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:shapeAppearance="@style/ShapeAppearanceOverlay.App.CustomDialog.Rounded" />
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

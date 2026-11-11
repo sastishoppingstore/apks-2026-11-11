@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bottom_sheet_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="15.0dp" android:layout_marginVertical="24.0dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="#24212a" android:id="@id/title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/app_feedback" android:layout_weight="0.9" android:fontFamily="@font/inter_medium" android:letterSpacing="-0.04" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/backArrow" android:padding="7.0dp" android:layout_width="0.0dp" android:layout_height="30.0dp" android:src="@drawable/cross" android:layout_weight="0.1" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_fontStyle="normal" app:ct_text="@string/please_rate_ur_exp" app:ct_textColor="#7c7a7f" app:ct_textSize="13.0sp" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emojiRatingLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="5.0" android:layout_marginVertical="10.0dp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rating1" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/emoji1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/terrible" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/terrible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/terrible" app:ct_textColor="#acacad" app:ct_textSize="12.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rating2" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/emoji2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bad" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/bad" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/bad" app:ct_textColor="#acacad" app:ct_textSize="12.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rating3" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/emoji3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/okay" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/okay" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/okay" app:ct_textColor="#acacad" app:ct_textSize="12.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rating4" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/emoji4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/good" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/good" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/good" app:ct_textColor="#acacad" app:ct_textSize="12.0sp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rating5" android:padding="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/emoji5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/excellent" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/excellent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/excellent" app:ct_textColor="#acacad" app:ct_textSize="12.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/labelthoughts" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_fontStyle="normal" app:ct_text="@string/any_thoughts_to_share" app:ct_textColor="#150640" app:ct_textSize="14.0sp" />
+        <androidx.appcompat.widget.AppCompatEditText android:textSize="16.0sp" android:id="@id/comments" android:background="@drawable/language_unselect" android:layout_width="match_parent" android:layout_height="96.0dp" android:layout_marginTop="10.0dp" android:hint="@string/write_your_comments" android:fontFamily="@font/inter_regular" android:paddingStart="8.0dp" android:letterSpacing="-0.02" />
+        <com.google.android.material.button.MaterialButton android:id="@id/saveFeedbackBtn" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/send_feedback" android:layout_alignParentBottom="true" android:letterSpacing="-0.04" android:layout_marginHorizontal="10.0dp" style="@style/PrimaryButton" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

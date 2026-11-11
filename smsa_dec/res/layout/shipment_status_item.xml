@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/shipment_status_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/statusCircle" android:layout_width="44.0dp" android:layout_height="44.0dp" android:foregroundGravity="center">
+        <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:tag="binding_1" android:layout_width="24.0dp" android:layout_height="24.0dp" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <TextView android:textSize="11.0sp" android:gravity="center" android:id="@id/title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:singleLine="false" android:fontFamily="@font/inter_regular" />
+</LinearLayout>

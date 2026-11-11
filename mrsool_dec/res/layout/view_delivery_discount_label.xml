@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llDiscount" android:background="@drawable/bg_home_promotion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:paddingStart="5.0dp" android:paddingEnd="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivDiscount" android:layout_width="19.0dp" android:layout_height="11.0dp" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/info_color" android:ellipsize="end" android:id="@id/tvDiscount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="5.0dp" style="@style/TextAppearanceMedium.Small" />
+</LinearLayout>

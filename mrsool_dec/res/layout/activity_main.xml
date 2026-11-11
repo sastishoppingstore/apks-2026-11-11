@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llContainerMain" android:background="@color/splash_screen_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="7.0">
+            <ImageView android:layout_gravity="center" android:id="@id/imgLogo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mrsool_logo_black" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/flLoginOptions" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:id="@id/cvLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="0.0" android:transitionName="test1" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="0.0dp" app:cardElevation="0.0dp" app:cardMaxElevation="0.0dp" app:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:id="@id/llLoginMobile" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+                    <TextView android:textSize="24.0sp" android:textColor="@color/primary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:text="@string/lbl_login" android:includeFontPadding="false" style="@style/TextAppearanceRegular" />
+                    <LinearLayout android:layout_gravity="center" android:id="@id/llMobileNumber" android:background="@drawable/bg_login_phone_number" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="14.0dp" android:layoutDirection="ltr">
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCountryFlag" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/flag_sa" />
+                        <TextView android:textColor="@color/primary_color" android:id="@id/tvCountryCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+966" android:drawablePadding="5.0dp" android:drawableStart="@drawable/ic_dropdown_arrow" android:textDirection="ltr" android:layout_marginStart="5.0dp" style="@style/TextAppearanceRegular.Large" />
+                        <TextView android:textColorHint="@color/ternary_color" android:ellipsize="end" android:id="@id/tvEnterMobileNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="ltr" android:layout_marginStart="15.0dp" style="@style/TextAppearanceRegular.Large" />
+                    </LinearLayout>
+                    <TextView android:textColor="@color/primary_action" android:gravity="start|center" android:id="@id/tvLoginWithSocialMedia" android:background="?selectableItemBackground" android:paddingTop="9.0dp" android:paddingBottom="9.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/lbl_login_social_media_account" android:includeFontPadding="false" style="@style/TextAppearanceMedium.Medium" />
+                    <TextView android:textColor="@color/secondary_color" android:id="@id/tvSkipNow" android:background="?selectableItemBackground" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="7.0dp" android:text="@string/lbl_skip_now" android:includeFontPadding="false" style="@style/TextAppearanceRegular.Medium" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/llTerms" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <View style="@style/DividerHorizontal" />
+                        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/ternary_color" android:textColorLink="@color/primary_action" android:id="@id/txtTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_by_using_this_app" android:maxLines="1" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" style="@style/TextAppearanceRegular.Small" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/cvLoginSocial" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="0.0dp" app:cardElevation="0.0dp" app:cardMaxElevation="0.0dp" app:cardUseCompatPadding="false">
+                <LinearLayout android:orientation="vertical" android:id="@id/llLoginSocial" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <FrameLayout android:orientation="horizontal" android:id="@id/flSocialTitle" android:layout_width="match_parent" android:layout_height="?actionBarSize">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start|center" android:id="@id/ivBack" android:background="@drawable/bg_ripple_30" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_back" android:tint="@color/primary_color" android:layout_marginStart="16.0dp" />
+                        <TextView android:textColor="@color/primary_color" android:layout_gravity="center" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_social_media_account" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" style="@style/TextAppearanceMedium.Large" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+                        <com.google.android.material.card.MaterialCardView android:id="@id/cvTwitter" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/login_twitter" app:cardCornerRadius="4.0dp" app:cardElevation="5.0dp">
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="2.0">
+                                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_twitter_white" android:minHeight="30.0dp" />
+                                </LinearLayout>
+                                <View style="@style/ShadowVertical" />
+                                <TextView android:textColor="@color/pure_white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lbl_login_with_twitter" android:layout_weight="9.0" android:layout_marginStart="20.0dp" style="@style/TextAppearanceMedium.Large" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView android:id="@id/cvGoogle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:layout_marginBottom="24.0dp" android:minHeight="40.0dp" app:cardBackgroundColor="@color/login_google" app:cardCornerRadius="4.0dp" app:cardElevation="1.0dp">
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center" android:padding="10.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="2.0">
+                                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="20.0dp" android:src="@drawable/ic_google_logo" android:adjustViewBounds="true" />
+                                </LinearLayout>
+                                <View style="@style/ShadowVertical" />
+                                <TextView android:textColor="@color/pure_white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lbl_login_with_google" android:layout_weight="9.0" android:layout_marginStart="20.0dp" style="@style/TextAppearanceMedium.Large" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView android:textColor="@color/secondary_color" android:id="@id/tvSkipNowSocial" android:background="?selectableItemBackground" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="@string/lbl_skip_now" style="@style/TextAppearanceRegular.Medium" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/llTermsSocial" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <View android:background="@color/foreground_color_2" style="@style/DividerHorizontal" />
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:textColor="@color/ternary_color" android:textColorLink="@color/primary_action" android:id="@id/txtTermsSocial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_by_using_this_app" android:maxLines="1" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" style="@style/TextAppearanceRegular.Small" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/shops_title_text_gray" android:gravity="center_horizontal" android:id="@id/tvBaseUrl" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="Change Url" style="@style/TextAppearanceRegular.Large" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dp" android:layout_alignParentTop="true" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/ivSupport" android:background="@drawable/bg_ripple_30" android:padding="4.0dp" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginBottom="8.0dp" android:src="@drawable/ic_white_support" android:contentDescription="@string/lbl_support" />
+        <ImageView android:id="@id/ivRolloutSettings" android:background="@drawable/bg_white_circle" android:padding="10.0dp" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/img_settings" android:contentDescription="@string/lbl_settings" />
+    </LinearLayout>
+</RelativeLayout>

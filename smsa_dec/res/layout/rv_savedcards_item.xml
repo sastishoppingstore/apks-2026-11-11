@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/rv_savedcards_item_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dp" app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16.0dp" app:cardElevation="4.0dp" app:cardUseCompatPadding="false">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="binding_1" android:background="@color/rv_list_item_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@id/includeTopLayout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/saved_card_top_layout" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

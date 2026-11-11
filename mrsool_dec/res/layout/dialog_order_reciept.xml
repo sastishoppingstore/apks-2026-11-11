@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_round_corner_dialog_receipt" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/Black" android:id="@id/tvOrderReceiptLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/lbl_order_receipt" android:textAlignment="center" style="@style/TextAppearanceBold.ExtraLarge" />
+                <TextView android:textColor="@color/text_color_5b" android:id="@id/tvOrderID" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tvOrderRecieptLabel" android:textAlignment="center" style="@style/TextAppearanceMedium.Small" />
+                <androidx.cardview.widget.CardView android:id="@id/cvReceiptImage" android:visibility="visible" android:layout_width="match_parent" android:layout_height="140.0dp" android:layout_marginTop="26.0dp" android:layout_below="@id/tvOrderID" app:cardCornerRadius="20.0dp" app:cardElevation="0.0dp">
+                    <ImageView android:id="@id/ivReceipt" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="@string/lbl_view_receipt" />
+                </androidx.cardview.widget.CardView>
+                <TextView android:textColor="@color/text_color_5b" android:id="@id/tvInvoice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/lbl_invoice" android:layout_below="@id/cvReceiptImage" android:textAlignment="textStart" style="@style/TextAppearanceBold.ExtraLarge" />
+                <LinearLayout android:orientation="vertical" android:id="@id/llReceiptContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:layout_below="@id/tvInvoice" />
+                <LinearLayout android:orientation="vertical" android:id="@id/llWarning" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+                        <ImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:src="@drawable/ic_warning_red" />
+                        <TextView android:textColor="@color/red_lite_2" android:gravity="top" android:layout_gravity="top" android:id="@id/tvWarning" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="8.0dp" style="@style/TextAppearanceRegular.Large" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/btnDone" android:background="@drawable/bg_sky_blue_ripple_4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:minHeight="40.0dp" android:text="@string/lbl_okay" android:includeFontPadding="false" android:textAllCaps="true" style="@style/TextAppearanceBold.Large" />
+    </LinearLayout>
+</LinearLayout>

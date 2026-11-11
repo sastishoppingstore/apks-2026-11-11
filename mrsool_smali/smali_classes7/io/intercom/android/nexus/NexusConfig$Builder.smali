@@ -1,0 +1,104 @@
+.class public Lio/intercom/android/nexus/NexusConfig$Builder;
+.super Ljava/lang/Object;
+.source "NexusConfig.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/intercom/android/nexus/NexusConfig;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Builder"
+.end annotation
+
+
+# instance fields
+.field connection_timeout:I
+
+.field endpoints:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field presence_heartbeat_interval:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public build()Lio/intercom/android/nexus/NexusConfig;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lio/intercom/android/nexus/NexusConfig;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lio/intercom/android/nexus/NexusConfig;-><init>(Lio/intercom/android/nexus/NexusConfig$Builder;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+.method public withConnectionTimeout(I)Lio/intercom/android/nexus/NexusConfig$Builder;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lio/intercom/android/nexus/NexusConfig$Builder;->connection_timeout:I
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public withEndpoints(Ljava/util/List;)Lio/intercom/android/nexus/NexusConfig$Builder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lio/intercom/android/nexus/NexusConfig$Builder;"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lio/intercom/android/nexus/NexusConfig$Builder;->endpoints:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public withPresenceHeartbeatInterval(I)Lio/intercom/android/nexus/NexusConfig$Builder;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lio/intercom/android/nexus/NexusConfig$Builder;->presence_heartbeat_interval:I
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

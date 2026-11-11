@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>ఏప్రి</item>
+        <item>బి</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>శుక్ర</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>సాధారణం</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>ఉ</item>
+        <item>ఈశా</item>
+        <item>తూ</item>
+        <item>ఆగ్నే</item>
+        <item>ద</item>
+        <item>నైరు</item>
+        <item>ప</item>
+        <item>వాయ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>ఉత్తరం</item>
+        <item>ఈశాన్యం</item>
+        <item>తూర్పు</item>
+        <item>ఆగ్నేయం</item>
+        <item>దక్షిణం</item>
+        <item>నైరుతి</item>
+        <item>పడమర</item>
+        <item>వాయవ్యం</item>
+    </string-array>
+</resources>

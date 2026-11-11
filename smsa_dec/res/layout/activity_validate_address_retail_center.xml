@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_validate_address_retail_center_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/headerBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" layout="@layout/header_layout" />
+    <View android:id="@id/divider" android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="15.0dp" app:layout_constraintTop_toBottomOf="@id/headerBack" />
+    <include android:id="@id/preferedLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginHorizontal="10.0dp" layout="@layout/item_retail_center" />
+    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/selectrclabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp" android:layout_marginVertical="5.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/select_service_center" app:ct_textColor="#929096" app:ct_textSize="12.0sp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRetailerCenterList" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5.0dp" android:layout_marginHorizontal="10.0dp" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#1e1e1e" android:pathData="M0,0h24v24h-24z" />
+    <path android:fillColor="#fc6719" android:pathData="M-1894,-2384C-1894,-2385.1 -1893.1,-2386 -1892,-2386H1714C1715.1,-2386 1716,-2385.1 1716,-2384V2112C1716,2113.1 1715.1,2114 1714,2114H-1892C-1893.1,2114 -1894,2113.1 -1894,2112V-2384Z" android:fillAlpha="0.02" />
+    <group>
+        <clip-path android:pathData="M-40,-70h390v844h-390z" />
+        <path android:fillColor="#f9f7fa" android:pathData="M-40,-70h390v844h-390z" />
+        <path android:fillColor="#00000000" android:pathData="M6,4L2,8M2,8L6,12M2,8L14,8" android:strokeColor="#545455" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="#00000000" android:pathData="M8,-15.5L8,-15.5A23.5,23.5 0,0 1,31.5 8L31.5,8A23.5,23.5 0,0 1,8 31.5L8,31.5A23.5,23.5 0,0 1,-15.5 8L-15.5,8A23.5,23.5 0,0 1,8 -15.5z" android:strokeColor="#ebe6f4" android:strokeWidth="1.0" />
+        <path android:fillColor="#24212a" android:pathData="M12,-16L298,-16A28,28 0,0 1,326 12L326,12A28,28 0,0 1,298 40L12,40A28,28 0,0 1,-16 12L-16,12A28,28 0,0 1,12 -16z" />
+        <path android:fillColor="#c93f38" android:pathData="M12,0L12,0A12,12 0,0 1,24 12L24,12A12,12 0,0 1,12 24L12,24A12,12 0,0 1,0 12L0,12A12,12 0,0 1,12 0z" />
+        <path android:fillColor="#00000000" android:pathData="M8,16L16,8" android:strokeColor="#faeceb" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:fillColor="#00000000" android:pathData="M16,16L8,8" android:strokeColor="#faeceb" android:strokeWidth="2.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+    <path android:fillColor="#ffffff" android:pathData="M-1892,-2385H1714V-2387H-1892V-2385ZM1715,-2384V2112H1717V-2384H1715ZM1714,2113H-1892V2115H1714V2113ZM-1893,2112V-2384H-1895V2112H-1893ZM-1892,2113C-1892.55,2113 -1893,2112.55 -1893,2112H-1895C-1895,2113.66 -1893.66,2115 -1892,2115V2113ZM1715,2112C1715,2112.55 1714.55,2113 1714,2113V2115C1715.66,2115 1717,2113.66 1717,2112H1715ZM1714,-2385C1714.55,-2385 1715,-2384.55 1715,-2384H1717C1717,-2385.66 1715.66,-2387 1714,-2387V-2385ZM-1892,-2387C-1893.66,-2387 -1895,-2385.66 -1895,-2384H-1893C-1893,-2384.55 -1892.55,-2385 -1892,-2385V-2387Z" android:fillAlpha="0.1" />
+</vector>

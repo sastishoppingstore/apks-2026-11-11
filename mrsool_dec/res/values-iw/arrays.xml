@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>א</item>
+        <item>ב</item>
+        <item>"ג'"</item>
+        <item>ד</item>
+        <item>"ה'"</item>
+        <item>"ו'"</item>
+        <item>"ז'"</item>
+        <item>"ח'"</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>רגילה</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>צ</item>
+        <item>"צפ'-מז'"</item>
+        <item>"מז'"</item>
+        <item>"דר'-מז'"</item>
+        <item>ד</item>
+        <item>"דר'-מע'"</item>
+        <item>"מע'"</item>
+        <item>"צפ'-מע'"</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>צפון</item>
+        <item>צפון-מזרח</item>
+        <item>מזרח</item>
+        <item>דרום-מזרח</item>
+        <item>דרום</item>
+        <item>דרום-מערב</item>
+        <item>מערב</item>
+        <item>צפון-מערב</item>
+    </string-array>
+</resources>

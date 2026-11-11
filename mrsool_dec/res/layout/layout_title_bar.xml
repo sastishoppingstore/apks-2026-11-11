@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flToolBar" android:background="@color/foreground_color_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="56.0dp" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" layout="@layout/view_back_arrow_round" />
+    <TextView android:textColor="@color/secondary_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/txtTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearanceBold.ExtraLarge" />
+    <View android:id="@id/focus_thief" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="1.0dp" android:layout_height="1.0dp" android:importantForAccessibility="no" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/ivSupport" android:background="@drawable/bg_ripple_30" android:padding="4.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_blue_support" android:contentDescription="@string/lbl_support" android:layout_marginEnd="12.0dp" />
+</FrameLayout>

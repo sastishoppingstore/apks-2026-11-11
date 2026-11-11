@@ -1,0 +1,717 @@
+.class public final Lu0/v1;
+.super Ljava/lang/Object;
+.source "SheetDefaults.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000@\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0007\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u001a3\u0010\t\u001a\u00020\u00082\u0006\u0010\u0001\u001a\u00020\u00002\u0006\u0010\u0003\u001a\u00020\u00022\u0012\u0010\u0007\u001a\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00060\u0004H\u0000\u00a2\u0006\u0004\u0008\t\u0010\n\u001aC\u0010\u0011\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u000c\u001a\u00020\u000b2\u0014\u0008\u0002\u0010\u000e\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020\u000b0\u00042\u0008\u0008\u0002\u0010\u000f\u001a\u00020\r2\u0008\u0008\u0002\u0010\u0010\u001a\u00020\u000bH\u0001\u00a2\u0006\u0004\u0008\u0011\u0010\u0012\"\u0014\u0010\u0015\u001a\u00020\u00138\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\u0014\"\u001a\u0010\u0019\u001a\u0008\u0012\u0004\u0012\u00020\u00050\u00168\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010\u0018\u00a8\u0006\u001a"
+    }
+    d2 = {
+        "Lu0/w1;",
+        "sheetState",
+        "Ly/q;",
+        "orientation",
+        "Lkotlin/Function1;",
+        "",
+        "Lpz/j0;",
+        "onFling",
+        "Lc2/b;",
+        "a",
+        "(Lu0/w1;Ly/q;Lc00/l;)Lc2/b;",
+        "",
+        "skipPartiallyExpanded",
+        "Lu0/x1;",
+        "confirmValueChange",
+        "initialValue",
+        "skipHiddenState",
+        "d",
+        "(ZLc00/l;Lu0/x1;ZLx0/m;II)Lu0/w1;",
+        "Lb3/i;",
+        "F",
+        "DragHandleVerticalPadding",
+        "Ls/j;",
+        "b",
+        "Ls/j;",
+        "BottomSheetAnimationSpec",
+        "material3_release"
+    }
+    k = 0x2
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field private static final a:F
+
+.field private static final b:Ls/j;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ls/j<",
+            "Ljava/lang/Float;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 5
+
+    .line 1
+    const/16 v0, 0x16
+
+    .line 2
+    .line 3
+    int-to-float v0, v0
+
+    .line 4
+    invoke-static {v0}, Lb3/i;->k(F)F
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v0
+
+    .line 8
+    sput v0, Lu0/v1;->a:F
+
+    .line 9
+    .line 10
+    invoke-static {}, Ls/o0;->d()Ls/f0;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    const/4 v1, 0x2
+
+    .line 15
+    const/4 v2, 0x0
+
+    .line 16
+    const/16 v3, 0x12c
+
+    .line 17
+    .line 18
+    const/4 v4, 0x0
+
+    .line 19
+    invoke-static {v3, v4, v0, v1, v2}, Ls/k;->n(IILs/f0;ILjava/lang/Object;)Ls/b2;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v0
+
+    .line 23
+    sput-object v0, Lu0/v1;->b:Ls/j;
+
+    .line 24
+    .line 25
+    return-void
+.end method
+
+.method public static final a(Lu0/w1;Ly/q;Lc00/l;)Lc2/b;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lu0/w1;",
+            "Ly/q;",
+            "Lc00/l<",
+            "-",
+            "Ljava/lang/Float;",
+            "Lpz/j0;",
+            ">;)",
+            "Lc2/b;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lu0/v1$a;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p2, p1}, Lu0/v1$a;-><init>(Lu0/w1;Lc00/l;Ly/q;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+.method public static final synthetic b()Ls/j;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lu0/v1;->b:Ls/j;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static final synthetic c()F
+    .locals 1
+
+    .line 1
+    sget v0, Lu0/v1;->a:F
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public static final d(ZLc00/l;Lu0/x1;ZLx0/m;II)Lu0/w1;
+    .locals 14
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z",
+            "Lc00/l<",
+            "-",
+            "Lu0/x1;",
+            "Ljava/lang/Boolean;",
+            ">;",
+            "Lu0/x1;",
+            "Z",
+            "Lx0/m;",
+            "II)",
+            "Lu0/w1;"
+        }
+    .end annotation
+
+    .line 1
+    move-object/from16 v4, p4
+
+    .line 2
+    .line 3
+    move/from16 v0, p5
+
+    .line 4
+    .line 5
+    const/4 v1, 0x4
+
+    .line 6
+    const/4 v2, 0x2
+
+    .line 7
+    const/4 v3, 0x1
+
+    .line 8
+    and-int/lit8 v5, p6, 0x1
+
+    .line 9
+    .line 10
+    const/4 v6, 0x0
+
+    .line 11
+    if-eqz v5, :cond_0
+
+    .line 12
+    .line 13
+    const/4 v8, 0x0
+
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    move v8, p0
+
+    .line 16
+    :goto_0
+    and-int/lit8 v5, p6, 0x2
+
+    .line 17
+    .line 18
+    if-eqz v5, :cond_1
+
+    .line 19
+    .line 20
+    sget-object v5, Lu0/v1$b;->b:Lu0/v1$b;
+
+    .line 21
+    .line 22
+    move-object v11, v5
+
+    .line 23
+    goto :goto_1
+
+    .line 24
+    :cond_1
+    move-object v11, p1
+
+    .line 25
+    :goto_1
+    and-int/lit8 v5, p6, 0x4
+
+    .line 26
+    .line 27
+    if-eqz v5, :cond_2
+
+    .line 28
+    .line 29
+    sget-object v5, Lu0/x1;->b:Lu0/x1;
+
+    .line 30
+    .line 31
+    move-object v10, v5
+
+    .line 32
+    goto :goto_2
+
+    .line 33
+    :cond_2
+    move-object/from16 v10, p2
+
+    .line 34
+    .line 35
+    :goto_2
+    and-int/lit8 v5, p6, 0x8
+
+    .line 36
+    .line 37
+    if-eqz v5, :cond_3
+
+    .line 38
+    .line 39
+    const/4 v12, 0x0
+
+    .line 40
+    goto :goto_3
+
+    .line 41
+    :cond_3
+    move/from16 v12, p3
+
+    .line 42
+    .line 43
+    :goto_3
+    invoke-static {}, Lx0/p;->J()Z
+
+    .line 44
+    .line 45
+    .line 46
+    move-result v5
+
+    .line 47
+    if-eqz v5, :cond_4
+
+    .line 48
+    .line 49
+    const/4 v5, -0x1
+
+    .line 50
+    const-string v7, "androidx.compose.material3.rememberSheetState (SheetDefaults.kt:407)"
+
+    .line 51
+    .line 52
+    const v9, 0x3d8f0948
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-static {v9, v0, v5, v7}, Lx0/p;->S(IIILjava/lang/String;)V
+
+    .line 56
+    .line 57
+    .line 58
+    :cond_4
+    invoke-static {}, Landroidx/compose/ui/platform/o1;->e()Lx0/k2;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v5
+
+    .line 62
+    invoke-interface {v4, v5}, Lx0/m;->J(Lx0/v;)Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v5
+
+    .line 66
+    move-object v9, v5
+
+    .line 67
+    check-cast v9, Lb3/e;
+
+    .line 68
+    .line 69
+    invoke-static {v8}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v5
+
+    .line 73
+    invoke-static {v12}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 74
+    .line 75
+    .line 76
+    move-result-object v7
+
+    .line 77
+    const/4 v13, 0x3
+
+    .line 78
+    new-array v13, v13, [Ljava/lang/Object;
+
+    .line 79
+    .line 80
+    aput-object v5, v13, v6
+
+    .line 81
+    .line 82
+    aput-object v11, v13, v3
+
+    .line 83
+    .line 84
+    aput-object v7, v13, v2
+
+    .line 85
+    .line 86
+    sget-object v2, Lu0/w1;->d:Lu0/w1$a;
+
+    .line 87
+    .line 88
+    invoke-virtual {v2, v8, v11, v9, v12}, Lu0/w1$a;->a(ZLc00/l;Lb3/e;Z)Lh1/j;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object v2
+
+    .line 92
+    and-int/lit8 v5, v0, 0xe
+
+    .line 93
+    .line 94
+    xor-int/lit8 v5, v5, 0x6
+
+    .line 95
+    .line 96
+    if-le v5, v1, :cond_5
+
+    .line 97
+    .line 98
+    invoke-interface {v4, v8}, Lx0/m;->b(Z)Z
+
+    .line 99
+    .line 100
+    .line 101
+    move-result v5
+
+    .line 102
+    if-nez v5, :cond_6
+
+    .line 103
+    .line 104
+    :cond_5
+    and-int/lit8 v5, v0, 0x6
+
+    .line 105
+    .line 106
+    if-ne v5, v1, :cond_7
+
+    .line 107
+    .line 108
+    :cond_6
+    const/4 v1, 0x1
+
+    .line 109
+    goto :goto_4
+
+    .line 110
+    :cond_7
+    const/4 v1, 0x0
+
+    .line 111
+    :goto_4
+    invoke-interface {v4, v9}, Lx0/m;->U(Ljava/lang/Object;)Z
+
+    .line 112
+    .line 113
+    .line 114
+    move-result v5
+
+    .line 115
+    or-int/2addr v1, v5
+
+    .line 116
+    and-int/lit16 v5, v0, 0x380
+
+    .line 117
+    .line 118
+    xor-int/lit16 v5, v5, 0x180
+
+    .line 119
+    .line 120
+    const/16 v7, 0x100
+
+    .line 121
+    .line 122
+    if-le v5, v7, :cond_8
+
+    .line 123
+    .line 124
+    invoke-interface {v4, v10}, Lx0/m;->U(Ljava/lang/Object;)Z
+
+    .line 125
+    .line 126
+    .line 127
+    move-result v5
+
+    .line 128
+    if-nez v5, :cond_9
+
+    .line 129
+    .line 130
+    :cond_8
+    and-int/lit16 v5, v0, 0x180
+
+    .line 131
+    .line 132
+    if-ne v5, v7, :cond_a
+
+    .line 133
+    .line 134
+    :cond_9
+    const/4 v5, 0x1
+
+    .line 135
+    goto :goto_5
+
+    .line 136
+    :cond_a
+    const/4 v5, 0x0
+
+    .line 137
+    :goto_5
+    or-int/2addr v1, v5
+
+    .line 138
+    and-int/lit8 v5, v0, 0x70
+
+    .line 139
+    .line 140
+    xor-int/lit8 v5, v5, 0x30
+
+    .line 141
+    .line 142
+    const/16 v7, 0x20
+
+    .line 143
+    .line 144
+    if-le v5, v7, :cond_b
+
+    .line 145
+    .line 146
+    invoke-interface {v4, v11}, Lx0/m;->U(Ljava/lang/Object;)Z
+
+    .line 147
+    .line 148
+    .line 149
+    move-result v5
+
+    .line 150
+    if-nez v5, :cond_c
+
+    .line 151
+    .line 152
+    :cond_b
+    and-int/lit8 v5, v0, 0x30
+
+    .line 153
+    .line 154
+    if-ne v5, v7, :cond_d
+
+    .line 155
+    .line 156
+    :cond_c
+    const/4 v5, 0x1
+
+    .line 157
+    goto :goto_6
+
+    .line 158
+    :cond_d
+    const/4 v5, 0x0
+
+    .line 159
+    :goto_6
+    or-int/2addr v1, v5
+
+    .line 160
+    and-int/lit16 v5, v0, 0x1c00
+
+    .line 161
+    .line 162
+    xor-int/lit16 v5, v5, 0xc00
+
+    .line 163
+    .line 164
+    const/16 v7, 0x800
+
+    .line 165
+    .line 166
+    if-le v5, v7, :cond_e
+
+    .line 167
+    .line 168
+    invoke-interface {v4, v12}, Lx0/m;->b(Z)Z
+
+    .line 169
+    .line 170
+    .line 171
+    move-result v5
+
+    .line 172
+    if-nez v5, :cond_10
+
+    .line 173
+    .line 174
+    :cond_e
+    and-int/lit16 v0, v0, 0xc00
+
+    .line 175
+    .line 176
+    if-ne v0, v7, :cond_f
+
+    .line 177
+    .line 178
+    goto :goto_7
+
+    .line 179
+    :cond_f
+    const/4 v3, 0x0
+
+    .line 180
+    :cond_10
+    :goto_7
+    or-int v0, v1, v3
+
+    .line 181
+    .line 182
+    invoke-interface/range {p4 .. p4}, Lx0/m;->A()Ljava/lang/Object;
+
+    .line 183
+    .line 184
+    .line 185
+    move-result-object v1
+
+    .line 186
+    if-nez v0, :cond_11
+
+    .line 187
+    .line 188
+    sget-object v0, Lx0/m;->a:Lx0/m$a;
+
+    .line 189
+    .line 190
+    invoke-virtual {v0}, Lx0/m$a;->a()Ljava/lang/Object;
+
+    .line 191
+    .line 192
+    .line 193
+    move-result-object v0
+
+    .line 194
+    if-ne v1, v0, :cond_12
+
+    .line 195
+    .line 196
+    :cond_11
+    new-instance v1, Lu0/v1$c;
+
+    .line 197
+    .line 198
+    move-object v7, v1
+
+    .line 199
+    invoke-direct/range {v7 .. v12}, Lu0/v1$c;-><init>(ZLb3/e;Lu0/x1;Lc00/l;Z)V
+
+    .line 200
+    .line 201
+    .line 202
+    invoke-interface {v4, v1}, Lx0/m;->r(Ljava/lang/Object;)V
+
+    .line 203
+    .line 204
+    .line 205
+    :cond_12
+    move-object v3, v1
+
+    .line 206
+    check-cast v3, Lc00/a;
+
+    .line 207
+    .line 208
+    const/4 v5, 0x0
+
+    .line 209
+    const/4 v6, 0x4
+
+    .line 210
+    const/4 v7, 0x0
+
+    .line 211
+    move-object v0, v13
+
+    .line 212
+    move-object v1, v2
+
+    .line 213
+    move-object v2, v7
+
+    .line 214
+    move-object/from16 v4, p4
+
+    .line 215
+    .line 216
+    invoke-static/range {v0 .. v6}, Lh1/b;->d([Ljava/lang/Object;Lh1/j;Ljava/lang/String;Lc00/a;Lx0/m;II)Ljava/lang/Object;
+
+    .line 217
+    .line 218
+    .line 219
+    move-result-object v0
+
+    .line 220
+    check-cast v0, Lu0/w1;
+
+    .line 221
+    .line 222
+    invoke-static {}, Lx0/p;->J()Z
+
+    .line 223
+    .line 224
+    .line 225
+    move-result v1
+
+    .line 226
+    if-eqz v1, :cond_13
+
+    .line 227
+    .line 228
+    invoke-static {}, Lx0/p;->R()V
+
+    .line 229
+    .line 230
+    .line 231
+    :cond_13
+    return-object v0
+.end method

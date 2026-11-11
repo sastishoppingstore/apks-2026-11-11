@@ -1,0 +1,19 @@
+.class public final Lo/g;
+.super Ln/c;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:Lo/j;
+
+
+# direct methods
+.method public constructor <init>(Lo/j;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lo/g;->a:Lo/j;
+
+    return-void
+.end method

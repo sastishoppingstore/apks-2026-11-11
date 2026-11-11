@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:id="@id/cvDone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?selectableItemBackground" android:minWidth="156.0dp" android:minHeight="42.0dp" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@id/btnDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_confirm" style="@style/TextAppearanceRegular.Medium" />
+    <ProgressBar android:theme="@style/progressBarSky" android:layout_gravity="center" android:id="@id/pbAPI" android:visibility="gone" android:layout_width="25.0dp" android:layout_height="25.0dp" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/imgStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tick_sky_blue" app:tint="@color/primary_action" />
+</androidx.cardview.widget.CardView>

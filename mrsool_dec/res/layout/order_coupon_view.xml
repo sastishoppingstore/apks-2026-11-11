@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rlCouponView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llAddCoupon" android:background="@drawable/bg_ripple_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" android:layout_marginEnd="17.0dp" android:layout_alignParentEnd="true">
+            <TextView android:textColor="@color/primary_action" android:id="@id/tvAddCoupon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_add_coupon" android:layout_marginEnd="8.0dp" style="@style/TextAppearanceMedium.Small" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_plus" android:layout_marginEnd="2.0dp" />
+        </LinearLayout>
+        <TextView android:textColor="@color/ternary_color" android:id="@id/tvCoupon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_coupon" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Large" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:id="@id/tvNoCoupon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvCoupon" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Small" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvCoupon" android:paddingTop="7.0dp" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="11.0dp" android:paddingEnd="16.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llCouponWarning" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:paddingStart="16.0dp" android:paddingEnd="0.0dp">
+        <include android:id="@id/llCouponWarningRoot" layout="@layout/view_coupon_warning" />
+    </LinearLayout>
+</LinearLayout>

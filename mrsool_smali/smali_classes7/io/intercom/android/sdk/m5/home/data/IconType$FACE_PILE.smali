@@ -1,0 +1,73 @@
+.class final Lio/intercom/android/sdk/m5/home/data/IconType$FACE_PILE;
+.super Lio/intercom/android/sdk/m5/home/data/IconType;
+.source "HomeV2Response.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/intercom/android/sdk/m5/home/data/IconType;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "FACE_PILE"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\u0008\u00c7\u0001\u0018\u00002\u00020\u0001J\u000f\u0010\u0002\u001a\u0004\u0018\u00010\u0003H\u0016\u00a2\u0006\u0002\u0010\u0004\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Lio/intercom/android/sdk/m5/home/data/IconType$FACE_PILE;",
+        "Lio/intercom/android/sdk/m5/home/data/IconType;",
+        "getIcon",
+        "",
+        "()Ljava/lang/Integer;",
+        "intercom-sdk-base_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lxi/c;
+    value = "facepile"
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, p1, p2, v0}, Lio/intercom/android/sdk/m5/home/data/IconType;-><init>(Ljava/lang/String;ILkotlin/jvm/internal/k;)V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+
+# virtual methods
+.method public getIcon()Ljava/lang/Integer;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return-object v0
+.end method

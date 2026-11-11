@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="296.0dp" android:width="375.0dp" android:viewportWidth="375.0" android:viewportHeight="296.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_butler_onboarding_bottomsheet__0" android:pathData="M-0.38,40.31C-0.38,18.22 17.53,0.31 39.62,0.31H334.62C356.71,0.31 374.62,18.22 374.62,40.31V311H-0.38V40.31Z" />
+</vector>

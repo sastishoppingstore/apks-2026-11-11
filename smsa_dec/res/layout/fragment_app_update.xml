@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#fafbfd" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/tvnewversionavailable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/new_version_available" app:ct_textColor="#1a1026" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/headerdesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:layout_marginTop="14.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/update_app_header" app:ct_textColor="#666666" />
+        <ImageView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/update_dialog_logo" android:scaleType="centerInside" android:layout_weight="4.0" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textSize="22.0sp" android:layout_gravity="center" android:id="@id/tvHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_semibold" app:ct_text="@string/update_require" app:ct_textColor="#440099" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/newVersionTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dp" android:layout_marginTop="14.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/app_update_desc" app:ct_textColor="#1a1026" />
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="center" android:id="@id/updateBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="5.0dp" android:text="@string/update_now" android:letterSpacing="-0.04" android:layout_marginHorizontal="20.0dp" style="@style/PrimaryButton" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

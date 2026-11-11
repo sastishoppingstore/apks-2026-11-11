@@ -1,0 +1,244 @@
+.class public final synthetic Lcom/google/android/libraries/navigation/internal/afh/t;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lcom/google/android/libraries/navigation/internal/afh/az;
+
+
+# instance fields
+.field public final synthetic a:Ljava/util/function/Predicate;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/util/function/Predicate;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/android/libraries/navigation/internal/afh/t;->a:Ljava/util/function/Predicate;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Lcom/google/android/libraries/navigation/internal/afh/az;)Lcom/google/android/libraries/navigation/internal/afh/az;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->a(Lcom/google/android/libraries/navigation/internal/afh/az;Lcom/google/android/libraries/navigation/internal/afh/az;)Lcom/google/android/libraries/navigation/internal/afh/az;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final bridge synthetic and(Ljava/util/function/IntPredicate;)Ljava/util/function/IntPredicate;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->e(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/util/function/IntPredicate;)Ljava/util/function/IntPredicate;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final synthetic and(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+    .locals 0
+
+    .line 2
+    invoke-static {}, Lcom/google/android/libraries/navigation/internal/afh/ay;->l()V
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public final synthetic b(Ljava/util/function/IntPredicate;)Lcom/google/android/libraries/navigation/internal/afh/az;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->b(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/util/function/IntPredicate;)Lcom/google/android/libraries/navigation/internal/afh/az;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final synthetic c()Lcom/google/android/libraries/navigation/internal/afh/az;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/google/android/libraries/navigation/internal/afh/au;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lcom/google/android/libraries/navigation/internal/afh/au;-><init>(Lcom/google/android/libraries/navigation/internal/afh/az;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+.method public final synthetic d(Lcom/google/android/libraries/navigation/internal/afh/az;)Lcom/google/android/libraries/navigation/internal/afh/az;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->c(Lcom/google/android/libraries/navigation/internal/afh/az;Lcom/google/android/libraries/navigation/internal/afh/az;)Lcom/google/android/libraries/navigation/internal/afh/az;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final synthetic e(Ljava/util/function/IntPredicate;)Lcom/google/android/libraries/navigation/internal/afh/az;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->d(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/util/function/IntPredicate;)Lcom/google/android/libraries/navigation/internal/afh/az;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public final f(B)Z
+    .locals 1
+
+    .line 1
+    invoke-static {p1}, Lcom/google/android/libraries/navigation/internal/afg/f;->a(I)B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    invoke-static {p1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/afh/t;->a:Ljava/util/function/Predicate;
+
+    .line 10
+    .line 11
+    invoke-interface {v0, p1}, Ljava/util/function/Predicate;->test(Ljava/lang/Object;)Z
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p1
+
+    .line 15
+    return p1
+.end method
+
+.method public final synthetic g(Ljava/lang/Byte;)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->j(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/lang/Byte;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    return p1
+.end method
+
+.method public final bridge synthetic negate()Ljava/util/function/IntPredicate;
+    .locals 1
+
+    .line 1
+    invoke-static {p0}, Lcom/google/android/libraries/navigation/internal/afh/ay;->f(Lcom/google/android/libraries/navigation/internal/afh/az;)Ljava/util/function/IntPredicate;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic negate()Ljava/util/function/Predicate;
+    .locals 1
+
+    .line 2
+    invoke-static {p0}, Lcom/google/android/libraries/navigation/internal/afh/ay;->h(Lcom/google/android/libraries/navigation/internal/afh/az;)Ljava/util/function/Predicate;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final bridge synthetic or(Ljava/util/function/IntPredicate;)Ljava/util/function/IntPredicate;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->g(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/util/function/IntPredicate;)Ljava/util/function/IntPredicate;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final synthetic or(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+    .locals 0
+
+    .line 2
+    invoke-static {}, Lcom/google/android/libraries/navigation/internal/afh/ay;->m()V
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public final synthetic test(I)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->i(Lcom/google/android/libraries/navigation/internal/afh/az;I)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final bridge synthetic test(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 2
+    invoke-static {p0, p1}, Lcom/google/android/libraries/navigation/internal/afh/ay;->k(Lcom/google/android/libraries/navigation/internal/afh/az;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    return p1
+.end method

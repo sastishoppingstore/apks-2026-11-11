@@ -1,0 +1,316 @@
+.class public final Lt1/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LO0/n;
+
+
+# instance fields
+.field public final a:Lt1/b;
+
+.field public final b:Lx0/o;
+
+.field public c:Z
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Lt1/b;
+
+    invoke-direct {v0}, Lt1/b;-><init>()V
+
+    iput-object v0, p0, Lt1/a;->a:Lt1/b;
+
+    new-instance v0, Lx0/o;
+
+    const/16 v1, 0xae2
+
+    invoke-direct {v0, v1}, Lx0/o;-><init>(I)V
+
+    iput-object v0, p0, Lt1/a;->b:Lx0/o;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c(JJ)V
+    .locals 0
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lt1/a;->c:Z
+
+    iget-object p1, p0, Lt1/a;->a:Lt1/b;
+
+    invoke-virtual {p1}, Lt1/b;->a()V
+
+    return-void
+.end method
+
+.method public final d(LO0/o;LO0/r;)I
+    .locals 4
+
+    iget-object p2, p0, Lt1/a;->b:Lx0/o;
+
+    iget-object v0, p2, Lx0/o;->a:[B
+
+    check-cast p1, LO0/k;
+
+    const/4 v1, 0x0
+
+    const/16 v2, 0xae2
+
+    invoke-virtual {p1, v0, v1, v2}, LO0/k;->read([BII)I
+
+    move-result p1
+
+    const/4 v0, -0x1
+
+    if-ne p1, v0, :cond_0
+
+    return v0
+
+    :cond_0
+    invoke-virtual {p2, v1}, Lx0/o;->G(I)V
+
+    invoke-virtual {p2, p1}, Lx0/o;->F(I)V
+
+    iget-boolean p1, p0, Lt1/a;->c:Z
+
+    iget-object v0, p0, Lt1/a;->a:Lt1/b;
+
+    if-nez p1, :cond_1
+
+    const-wide/16 v2, 0x0
+
+    iput-wide v2, v0, Lt1/b;->n:J
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lt1/a;->c:Z
+
+    :cond_1
+    invoke-virtual {v0, p2}, Lt1/b;->c(Lx0/o;)V
+
+    return v1
+.end method
+
+.method public final g(LO0/p;)V
+    .locals 3
+
+    new-instance v0, Lt1/D;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-direct {v0, v1, v2}, Lt1/D;-><init>(II)V
+
+    iget-object v1, p0, Lt1/a;->a:Lt1/b;
+
+    invoke-virtual {v1, p1, v0}, Lt1/b;->f(LO0/p;Lt1/D;)V
+
+    invoke-interface {p1}, LO0/p;->g()V
+
+    new-instance v0, LO0/s;
+
+    const-wide v1, -0x7fffffffffffffffL    # -4.9E-324
+
+    invoke-direct {v0, v1, v2}, LO0/s;-><init>(J)V
+
+    invoke-interface {p1, v0}, LO0/p;->u(LO0/B;)V
+
+    return-void
+.end method
+
+.method public final k(LO0/o;)Z
+    .locals 13
+
+    new-instance v0, Lx0/o;
+
+    const/16 v1, 0xa
+
+    invoke-direct {v0, v1}, Lx0/o;-><init>(I)V
+
+    const/4 v2, 0x0
+
+    move v3, v2
+
+    :goto_0
+    iget-object v4, v0, Lx0/o;->a:[B
+
+    move-object v5, p1
+
+    check-cast v5, LO0/k;
+
+    invoke-virtual {v5, v4, v2, v1, v2}, LO0/k;->i([BIIZ)Z
+
+    invoke-virtual {v0, v2}, Lx0/o;->G(I)V
+
+    invoke-virtual {v0}, Lx0/o;->x()I
+
+    move-result v4
+
+    const v6, 0x494433
+
+    const/4 v7, 0x3
+
+    if-eq v4, v6, :cond_6
+
+    iput v2, v5, LO0/k;->f:I
+
+    invoke-virtual {v5, v3, v2}, LO0/k;->g(IZ)Z
+
+    move p1, v2
+
+    move v4, v3
+
+    :goto_1
+    iget-object v6, v0, Lx0/o;->a:[B
+
+    const/4 v8, 0x6
+
+    invoke-virtual {v5, v6, v2, v8, v2}, LO0/k;->i([BIIZ)Z
+
+    invoke-virtual {v0, v2}, Lx0/o;->G(I)V
+
+    invoke-virtual {v0}, Lx0/o;->A()I
+
+    move-result v6
+
+    const/16 v9, 0xb77
+
+    if-eq v6, v9, :cond_1
+
+    iput v2, v5, LO0/k;->f:I
+
+    add-int/lit8 v4, v4, 0x1
+
+    sub-int p1, v4, v3
+
+    const/16 v6, 0x2000
+
+    if-lt p1, v6, :cond_0
+
+    return v2
+
+    :cond_0
+    invoke-virtual {v5, v4, v2}, LO0/k;->g(IZ)Z
+
+    move p1, v2
+
+    goto :goto_1
+
+    :cond_1
+    const/4 v6, 0x1
+
+    add-int/2addr p1, v6
+
+    const/4 v9, 0x4
+
+    if-lt p1, v9, :cond_2
+
+    return v6
+
+    :cond_2
+    iget-object v10, v0, Lx0/o;->a:[B
+
+    array-length v11, v10
+
+    const/4 v12, -0x1
+
+    if-ge v11, v8, :cond_3
+
+    move v9, v12
+
+    goto :goto_2
+
+    :cond_3
+    const/4 v11, 0x5
+
+    aget-byte v11, v10, v11
+
+    and-int/lit16 v11, v11, 0xf8
+
+    shr-int/2addr v11, v7
+
+    if-le v11, v1, :cond_4
+
+    const/4 v8, 0x2
+
+    aget-byte v9, v10, v8
+
+    and-int/lit8 v9, v9, 0x7
+
+    shl-int/lit8 v9, v9, 0x8
+
+    aget-byte v10, v10, v7
+
+    and-int/lit16 v10, v10, 0xff
+
+    or-int/2addr v9, v10
+
+    add-int/2addr v9, v6
+
+    mul-int/2addr v9, v8
+
+    goto :goto_2
+
+    :cond_4
+    aget-byte v6, v10, v9
+
+    and-int/lit16 v9, v6, 0xc0
+
+    shr-int/lit8 v8, v9, 0x6
+
+    and-int/lit8 v6, v6, 0x3f
+
+    invoke-static {v8, v6}, LO0/b;->f(II)I
+
+    move-result v9
+
+    :goto_2
+    if-ne v9, v12, :cond_5
+
+    return v2
+
+    :cond_5
+    add-int/lit8 v9, v9, -0x6
+
+    invoke-virtual {v5, v9, v2}, LO0/k;->g(IZ)Z
+
+    goto :goto_1
+
+    :cond_6
+    invoke-virtual {v0, v7}, Lx0/o;->H(I)V
+
+    invoke-virtual {v0}, Lx0/o;->t()I
+
+    move-result v4
+
+    add-int/lit8 v6, v4, 0xa
+
+    add-int/2addr v3, v6
+
+    invoke-virtual {v5, v4, v2}, LO0/k;->g(IZ)Z
+
+    goto/16 :goto_0
+.end method
+
+.method public final release()V
+    .locals 0
+
+    return-void
+.end method

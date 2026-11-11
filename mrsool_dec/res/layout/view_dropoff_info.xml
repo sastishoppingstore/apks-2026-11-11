@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center" android:id="@id/ivIcon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="2.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/dark_gray15" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvDetail" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearanceMedium.Large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

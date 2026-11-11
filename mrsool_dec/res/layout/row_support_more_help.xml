@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/supportSuspendedAccount" android:background="@drawable/bg_white_corner_12" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="10.0dp" android:fontFamily="sans-serif" android:backgroundTint="@color/light_gray_17" app:drawableEndCompat="@drawable/ic_right_arrow_payment" app:drawableTint="@color/thunder_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

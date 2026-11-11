@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/rlMain" android:background="?android:selectableItemBackground" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="17.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivCheckmark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_radio_button_green" />
+    <TextView android:textColor="@color/selector_primary_secondary" android:ellipsize="end" android:gravity="start" android:id="@id/tvName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Small" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="8.0dp" android:layout_marginEnd="15.0dp" android:layout_toStartOf="@id/tvCalories" android:layout_toEndOf="@id/ivCheckmark" style="@style/TextAppearanceMedium.Medium" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/selector_primary_secondary" android:id="@id/tvCalories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20 Cal" android:layout_marginEnd="8.0dp" android:layout_toStartOf="@id/llCurrency" style="@style/TextAppearanceRegular.Small" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/llCurrency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="66.0dp" android:layout_alignParentEnd="true">
+        <TextView android:textColor="@color/selector_primary_secondary" android:id="@id/tvAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="110.00" style="@style/TextAppearanceMedium.Medium" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/selector_primary_secondary" android:id="@id/tvCurrency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SR" style="@style/TextAppearanceMedium" />
+    </LinearLayout>
+    <TextView android:textColor="@color/discount_and_alert_action" android:id="@id/tvError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not Available" android:layout_below="@id/ivCheckmark" android:layout_alignStart="@id/tvName" style="@style/TextAppearanceRegular.ExtraSmall" />
+</RelativeLayout>

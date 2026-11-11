@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:textColor="@color/white" android:id="@id/chipCategory" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dp" android:layout_marginRight="4.0dp" android:checkable="true" android:layout_marginHorizontal="4.0dp" app:checkedIcon="@null" app:chipBackgroundColor="@color/category_filter_chip_selector" app:chipCornerRadius="4.0dp" app:chipIconVisible="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

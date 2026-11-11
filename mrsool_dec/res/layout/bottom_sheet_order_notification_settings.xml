@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/flToolBar" android:background="@color/white" android:layout_width="match_parent" android:layout_height="56.0dp">
+        <TextView android:textColor="@color/shops_title_text_gray" android:layout_gravity="center_vertical" android:id="@id/tvItemName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Large" />
+        <ImageView android:layout_gravity="center" android:id="@id/ivClose" android:background="@drawable/bg_ripple_30" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_close" android:contentDescription="@string/lbl_close" android:layout_marginEnd="10.0dp" app:tint="@color/shops_title_text_gray" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="27.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/shops_title_text_gray" android:layout_gravity="center_vertical" android:id="@id/tvNormalTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_normal_orders" style="@style/TextAppearanceRegular.Medium" />
+            <TextView android:textColor="@color/gray_3" android:layout_gravity="center_vertical" android:id="@id/tvNormalDescription" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearanceRegular.Small" />
+        </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/ivSwitchNormalOrder" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/light_black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" android:alpha="0.05" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/llSubscribeService" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+                <TextView android:textColor="@color/sky_blue_color" android:layout_gravity="center_vertical" android:id="@id/tvSubscribeTitle" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearanceBold.Medium" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/shops_title_text_gray" android:layout_gravity="center_vertical" android:id="@id/tvSubscribeDescription" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearanceRegular" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSubscribeService" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textColor="@color/gray_3" android:layout_gravity="center" android:id="@id/tvTotalResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/lbl_result" app:layout_constraintBottom_toTopOf="@id/flBottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TextAppearanceRegular.Small" />
+        <FrameLayout android:id="@id/flBottom" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/btnSave" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="28.0dp" android:minHeight="54.0dp" android:text="@string/lbl_save_f_caps" android:layout_marginStart="25.0dp" android:layout_marginEnd="25.0dp" app:backgroundTint="@color/sky_blue_color" app:cornerRadius="4.0dp" app:fontFamily="sans-serif" app:textAllCaps="false" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/pgSave" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:layout_marginBottom="5.0dp" style="?android:progressBarStyle" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llOffline" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginStart="25.0dp" android:layout_marginEnd="25.0dp">
+                    <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/btnOffline" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54.0dp" android:text="@string/lbl_go_offline" app:backgroundTint="@color/red_lite_3" app:cornerRadius="4.0dp" app:fontFamily="sans-serif" app:icon="@drawable/img_notification_off" app:iconGravity="textStart" app:iconPadding="10.0dp" app:textAllCaps="false" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/pgOffline" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" style="?android:progressBarStyle" />
+                </FrameLayout>
+                <TextView android:textColor="@color/gray_3" android:layout_gravity="center" android:id="@id/tvOfflineDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dp" style="@style/TextAppearanceRegular.Small" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

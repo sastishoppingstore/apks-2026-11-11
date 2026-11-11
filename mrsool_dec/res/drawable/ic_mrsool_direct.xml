@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dp" android:width="27.0dp" android:viewportWidth="27.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#000000" android:pathData="M3,0C1.34,0 0,1.34 0,3L0,11C0,12.66 1.34,14 3,14H24C25.66,14 27,12.66 27,11L27,3C27,1.34 25.66,0 24,0H3Z" />
+    <path android:fillColor="@drawable/$ic_mrsool_direct__0" android:pathData="M6,7m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="@drawable/$ic_mrsool_direct__1" android:pathData="M13.3,7m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path android:fillColor="@drawable/$ic_mrsool_direct__2" android:pathData="M20.6,7m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>

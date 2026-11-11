@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?paymentMethodListItemSelector" android:paddingLeft="8.0dp" android:paddingTop="5.0dp" android:paddingRight="8.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/list_disclosure_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?listDisclosureDrawable" android:tint="?listDisclosureTintColor" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/card_brands_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/list_disclosure_image" android:layout_toStartOf="@id/list_disclosure_image" />
+</RelativeLayout>

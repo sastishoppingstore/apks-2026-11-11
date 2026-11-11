@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">নেভিগেট, রুট %d</item>
+        <item quantity="other">নেভিগেট, রুট %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%dটি বাইক পাওয়া যাবে</item>
+        <item quantity="other">%dটি বাইক পাওয়া যাবে</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%dটি ডক উপলভ্য</item>
+        <item quantity="other">%dটি ডক উপলভ্য</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">ম্যাপের ওরিয়েন্টেশন %d ডিগ্রী।</item>
+        <item quantity="other">ম্যাপের ওরিয়েন্টেশন %d ডিগ্রী।</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s দিন</item>
+        <item quantity="other">%s দিন</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s দি</item>
+        <item quantity="other">%s দি</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%s দিঃ</item>
+        <item quantity="other">%s দিঃ</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s দিন</item>
+        <item quantity="other">%s দিন</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s ঘণ্টা</item>
+        <item quantity="other">%s ঘণ্টা</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s ঘণ্টা</item>
+        <item quantity="other">%s ঘণ্টা</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%s ঘঃ</item>
+        <item quantity="other">%s ঘঃ</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s মিনিট</item>
+        <item quantity="other">%s মিনিট</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s মিনিট</item>
+        <item quantity="other">%s মিনিট</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%s মিঃ</item>
+        <item quantity="other">%s মিঃ</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s সেকেন্ড</item>
+        <item quantity="other">%s সেকেন্ড</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s ফুট চলতে থাকুন</item>
+        <item quantity="other">%1$s ফুট চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s কিলোমিটার চলতে থাকুন</item>
+        <item quantity="other">%1$s কিলোমিটার চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s মিটার চলতে থাকুন</item>
+        <item quantity="other">%1$s মিটার চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s মাইল চলতে থাকুন</item>
+        <item quantity="other">%1$s মাইল চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s গজ চলতে থাকুন</item>
+        <item quantity="other">%1$s গজ চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s ধরে %1$s ফুট চলতে থাকুন</item>
+        <item quantity="other">%2$s ধরে %1$s ফুট চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s ধরে %1$s কিলোমিটার চলতে থাকুন</item>
+        <item quantity="other">%2$s ধরে %1$s কিলোমিটার চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s ধরে %1$s মিটার চলতে থাকুন</item>
+        <item quantity="other">%2$s ধরে %1$s মিটার চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s ধরে %1$s মাইল চলতে থাকুন</item>
+        <item quantity="other">%2$s ধরে %1$s মাইল চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s ধরে %1$s গজ চলতে থাকুন</item>
+        <item quantity="other">%2$s ধরে %1$s গজ চলতে থাকুন</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s ফুটের মধ্যে</item>
+        <item quantity="other">%1$s ফুটের মধ্যে</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s কিলোমিটারের মধ্যে</item>
+        <item quantity="other">%1$s কিলোমিটারের মধ্যে</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s মিটারের মধ্যে</item>
+        <item quantity="other">%1$s মিটারের মধ্যে</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s মাইলের মধ্যে</item>
+        <item quantity="other">%1$s মাইলের মধ্যে</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s গজের মধ্যে</item>
+        <item quantity="other">%1$s গজের মধ্যে</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">প্রতি ঘন্টায় %s কিলোমিটার</item>
+        <item quantity="other">প্রতি ঘন্টায় %s কিলোমিটার</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">প্রতি ঘন্টায় %s মাইল</item>
+        <item quantity="other">প্রতি ঘন্টায় %s মাইল</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">আপনার গন্তব্যস্থলটি %1$s ফুট দূরে</item>
+        <item quantity="other">আপনার গন্তব্যস্থলটি %1$s ফুট দূরে</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">আপনার গন্তব্যস্থলটি %1$s কিলোমিটার দূরে</item>
+        <item quantity="other">আপনার গন্তব্যস্থলটি %1$s কিলোমিটার দূরে</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">আপনার গন্তব্যস্থলটি %1$s মিটার দূরে</item>
+        <item quantity="other">আপনার গন্তব্যস্থলটি %1$s মিটার দূরে</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">আপনার গন্তব্যস্থলটি %1$s মাইল দূরে</item>
+        <item quantity="other">আপনার গন্তব্যস্থলটি %1$s মাইল দূরে</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">আপনার গন্তব্যস্থলটি %1$s গজ দূরে</item>
+        <item quantity="other">আপনার গন্তব্যস্থলটি %1$s গজ দূরে</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d টি স্টপ</item>
+        <item quantity="other">%d টি স্টপ</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%dটি অ্যালার্ট</item>
+        <item quantity="other">+%dটি অ্যালার্ট</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">আরও %dটি বিজ্ঞপ্তি</item>
+        <item quantity="other">আরও %dটি বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+ আরও %d</item>
+        <item quantity="other">+ আরও %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">আরও %dটি</item>
+        <item quantity="other">আরও %dটি</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d সেকেন্ড ফাস্ট ফরওয়ার্ড করুন</item>
+        <item quantity="other">%d সেকেন্ড ফাস্ট ফরওয়ার্ড করুন</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d সেকেন্ড রিওয়াইন্ড করুন</item>
+        <item quantity="other">%d সেকেন্ড রিওয়াইন্ড করুন</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:layout_gravity="start" android:orientation="vertical" android:id="@id/llToolTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:orientation="horizontal" android:id="@id/ivToolTipArrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="7.0dp" android:src="@drawable/img_tooltip_arrow" app:tint="@color/primary_color" />
+    <com.google.android.material.card.MaterialCardView android:id="@id/cvOrderDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300.0dp" app:cardBackgroundColor="@color/primary_color" app:cardCornerRadius="10.0dp" app:cardElevation="2.0dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/primary_color" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300.0dp">
+            <TextView android:textColor="@color/foreground_color_1" android:gravity="center" android:id="@id/tvTooltipMessage" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" style="@style/TextAppearanceRegular.Large" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

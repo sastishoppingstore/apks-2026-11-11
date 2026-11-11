@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home_new" android:id="@id/bnav_home" android:title="@string/Home" />
+        <item android:icon="@drawable/ic_shipments" android:id="@id/bnav_shipments" android:title="@string/shipments" />
+        <item android:icon="@drawable/ic_ship" android:id="@id/bnav_ship" android:title="@string/ship" />
+        <item android:icon="@drawable/ic_retailcenters" android:id="@id/bnav_retail_center" android:title="@string/support" />
+        <item android:icon="@drawable/ic_account_new" android:id="@id/bnav_account" android:title="@string/account" />
+    </group>
+</menu>

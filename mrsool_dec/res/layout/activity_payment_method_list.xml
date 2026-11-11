@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/toolbar_white_back_gray_rounded" />
+    <View android:background="@color/order_place_holder_bg" android:layout_width="match_parent" android:layout_height="1.0dp" style="@style/DividerHorizontal" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPaymentModes" android:visibility="visible" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <View android:id="@id/vProgress" android:background="@color/white_50" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/pgPaymentMethod" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+    </FrameLayout>
+</LinearLayout>

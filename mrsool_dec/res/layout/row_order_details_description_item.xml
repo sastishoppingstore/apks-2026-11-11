@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llItem" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:gravity="center_vertical" android:id="@id/tvItemQty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="@id/ivIcon" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" style="@style/TextAppearanceBold.Large" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:gravity="center_vertical" android:id="@id/tvItemName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="8.0dp" app:layout_constraintBottom_toBottomOf="@id/ivIcon" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" style="@style/TextAppearanceBold.Large" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/ternary_color" android:gravity="center_vertical" android:id="@id/tvAddOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginBottom="4.0dp" android:includeFontPadding="false" android:paddingStart="42.0dp" app:layout_constraintBottom_toBottomOf="@id/ivIcon" app:layout_constraintStart_toEndOf="@id/ivIcon" app:layout_constraintTop_toTopOf="@id/ivIcon" style="@style/TextAppearanceRegular.Medium" />
+</LinearLayout>

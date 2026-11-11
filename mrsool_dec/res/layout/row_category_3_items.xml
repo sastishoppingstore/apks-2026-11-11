@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cvMain" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/mcvCategoryImage" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_margin="4.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="8.0dp" app:cardElevation="4.0dp" app:cardPreventCornerOverlap="false" app:layout_constraintDimensionRatio="H,4:3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivCategory" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/dark_gray_9" android:ellipsize="end" android:id="@id/tvCategoryLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/lbl_top_categories" android:maxLines="1" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/mcvCategoryImage" style="@style/TextAppearanceMedium.Small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

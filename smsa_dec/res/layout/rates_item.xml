@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/rates_item_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/apperance_unselect" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/country_color" android:gravity="start" android:layout_gravity="start" android:id="@id/tvFromCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_light" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/city_color" android:gravity="start" android:layout_gravity="start" android:id="@id/tvFromCity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_regular" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/title" android:gravity="start" android:layout_gravity="start" android:id="@id/tvFromUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_semibold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:layout_width="40.0dp" android:layout_height="5.0dp" android:src="@drawable/ic_doted_line" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circle_arrow_fwd" />
+                    <ImageView android:layout_gravity="center" android:layout_width="40.0dp" android:layout_height="5.0dp" android:src="@drawable/ic_doted_line" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/country_color" android:gravity="end" android:layout_gravity="end" android:id="@id/tvToCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_light" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/city_color" android:gravity="end" android:layout_gravity="end" android:id="@id/tvToCity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_regular" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/title" android:gravity="end" android:layout_gravity="end" android:id="@id/tvToUser" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/tvTrackingId" android:fontFamily="@font/inter_semibold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:tag="binding_1" android:background="@drawable/bottom_curve_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="12.0dp">
+                <include android:layout_gravity="center" android:id="@id/includeShipmentType" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/shipment_type" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+                <include android:layout_gravity="center" android:id="@id/includeQuantity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/quantity" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+                <include android:layout_gravity="center" android:id="@id/includeWeight" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/weight" android:layout_weight="1.0" layout="@layout/title_subtitle" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvDeliveryOptionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:letterSpacing="0.1" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/select_delivery_option" app:ct_textColor="@color/title" app:ct_textSize="12.0sp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDeliveryoption" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

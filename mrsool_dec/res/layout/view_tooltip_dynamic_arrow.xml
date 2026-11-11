@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/llToolTip" android:layout_width="match_parent" android:layout_height="wrap_content" android:tint="@color/primary_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/llToolTipMain" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="left" android:orientation="horizontal" android:id="@id/ivToolTipArrow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="7.0dp" android:layout_marginLeft="-3.0dp" android:src="@drawable/img_tooltip_arrow" android:tint="@color/primary_color" />
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/cvOrderDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/primary_color" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp">
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:paddingBottom="12.0dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                <TextView android:textSize="16.0sp" android:textColor="@color/foreground_color_1" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvTooltipMessage" android:paddingTop="12.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="292.0dp" />
+                <com.google.android.material.button.MaterialButton android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="end" android:id="@id/btnTooltipDone" android:padding="3.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:minHeight="24.0dp" android:text="@string/lbl_ok" android:includeFontPadding="false" app:backgroundTint="@color/primary_action" app:cornerRadius="4.0dp" app:fontFamily="sans-serif-medium" app:textAllCaps="false" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

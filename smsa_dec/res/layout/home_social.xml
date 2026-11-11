@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:background="@drawable/pattern" android:layout_width="match_parent" android:layout_height="85.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/social_bg" android:layout_width="wrap_content" android:layout_height="40.0dp" android:weightSum="1.0">
+        <TextView android:textSize="12.0sp" android:textColor="#fbfafc" android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/follow_us" android:layout_weight="0.6" android:fontFamily="@font/inter_semibold" android:layout_marginHorizontal="20.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/facebook" android:layout_width="0.0dp" android:layout_height="20.0dp" android:src="@drawable/fb_icon" android:layout_weight="0.15" android:layout_marginEnd="20.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="0.0dp" android:layout_height="20.0dp" android:src="@drawable/ytb_icon" android:layout_weight="0.15" android:layout_marginEnd="20.0dp" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/instaIcon" android:layout_width="0.0dp" android:layout_height="20.0dp" android:src="@drawable/insta_icon" android:layout_weight="0.15" android:layout_marginEnd="20.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

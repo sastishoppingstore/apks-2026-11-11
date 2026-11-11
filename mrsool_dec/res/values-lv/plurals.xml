@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="zero">Doties, maršruts %d</item>
+        <item quantity="one">Doties, maršruts %d</item>
+        <item quantity="other">Doties, maršruts %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="zero">Pieejami %d velosipēdi</item>
+        <item quantity="one">Pieejams %d velosipēds</item>
+        <item quantity="other">Pieejami %d velosipēdi</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="zero">Pieejamas %d piestātnes</item>
+        <item quantity="one">Pieejama %d piestātne</item>
+        <item quantity="other">Pieejamas %d piestātnes</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="zero">Kartes virziens attiecībā pret ziemeļiem ir %d grādu.</item>
+        <item quantity="one">Kartes virziens attiecībā pret ziemeļiem ir %d grāds.</item>
+        <item quantity="other">Kartes virziens attiecībā pret ziemeļiem ir %d grādi.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="zero">%s dienu</item>
+        <item quantity="one">%s diena</item>
+        <item quantity="other">%s dienas</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="zero">%s d.</item>
+        <item quantity="one">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s d.</item>
+        <item quantity="one">%s d.</item>
+        <item quantity="other">%s d.</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="zero">%s dienu</item>
+        <item quantity="one">%s diena</item>
+        <item quantity="other">%s dienas</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="zero">%s stundu</item>
+        <item quantity="one">%s stunda</item>
+        <item quantity="other">%s stundas</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="zero">%s st.</item>
+        <item quantity="one">%s st.</item>
+        <item quantity="other">%s st.</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="zero">%s h</item>
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="zero">%s minūšu</item>
+        <item quantity="one">%s minūte</item>
+        <item quantity="other">%s minūtes</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="zero">%s min.</item>
+        <item quantity="one">%s min.</item>
+        <item quantity="other">%s min.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="zero">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="zero">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="zero">%s sekunžu</item>
+        <item quantity="one">%s sekunde</item>
+        <item quantity="other">%s sekundes</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="zero">Turpiniet braukt %1$s pēdu</item>
+        <item quantity="one">Turpiniet braukt %1$s pēdu</item>
+        <item quantity="other">Turpiniet braukt %1$s pēdas</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="zero">Turpiniet braukt %1$s kilometru</item>
+        <item quantity="one">Turpiniet braukt %1$s kilometru</item>
+        <item quantity="other">Turpiniet braukt %1$s kilometrus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="zero">Turpiniet braukt %1$s metru</item>
+        <item quantity="one">Turpiniet braukt %1$s metru</item>
+        <item quantity="other">Turpiniet braukt %1$s metrus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="zero">Turpiniet braukt %1$s jūdžu</item>
+        <item quantity="one">Turpiniet braukt %1$s jūdzi</item>
+        <item quantity="other">Turpiniet braukt %1$s jūdzes</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="zero">Turpiniet braukt %1$s jardu</item>
+        <item quantity="one">Turpiniet braukt %1$s jardu</item>
+        <item quantity="other">Turpiniet braukt %1$s jardus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="zero">Turpiniet braukt pa ceļu %2$s vēl %1$s pēdu</item>
+        <item quantity="one">Turpiniet braukt pa ceļu %2$s vēl %1$s pēdu</item>
+        <item quantity="other">Turpiniet braukt pa ceļu %2$s vēl %1$s pēdas</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="zero">Turpiniet braukt pa ceļu %2$s vēl %1$s kilometru</item>
+        <item quantity="one">Turpiniet braukt pa ceļu %2$s vēl %1$s kilometru</item>
+        <item quantity="other">Turpiniet braukt pa ceļu %2$s vēl %1$s kilometrus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="zero">Turpiniet braukt pa ceļu %2$s vēl %1$s metru</item>
+        <item quantity="one">Turpiniet braukt pa ceļu %2$s vēl %1$s metru</item>
+        <item quantity="other">Turpiniet braukt pa ceļu %2$s vēl %1$s metrus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="zero">Turpiniet braukt pa ceļu %2$s vēl %1$s jūdžu</item>
+        <item quantity="one">Turpiniet braukt pa ceļu %2$s vēl %1$s jūdzi</item>
+        <item quantity="other">Turpiniet braukt pa ceļu %2$s vēl %1$s jūdzes</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="zero">Turpiniet braukt pa ceļu %2$s vēl %1$s jardu</item>
+        <item quantity="one">Turpiniet braukt pa ceļu %2$s vēl %1$s jardu</item>
+        <item quantity="other">Turpiniet braukt pa ceļu %2$s vēl %1$s jardus</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="zero">Pēc %1$s pēdām</item>
+        <item quantity="one">Pēc %1$s pēdas</item>
+        <item quantity="other">Pēc %1$s pēdām</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="zero">Pēc %1$s kilometriem</item>
+        <item quantity="one">Pēc %1$s kilometra</item>
+        <item quantity="other">Pēc %1$s kilometriem</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="zero">Pēc %1$s metriem</item>
+        <item quantity="one">Pēc %1$s metra</item>
+        <item quantity="other">Pēc %1$s metriem</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="zero">Pēc %1$s jūdzēm</item>
+        <item quantity="one">Pēc %1$s jūdzes</item>
+        <item quantity="other">Pēc %1$s jūdzēm</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="zero">Pēc %1$s jardiem</item>
+        <item quantity="one">Pēc %1$s jarda</item>
+        <item quantity="other">Pēc %1$s jardiem</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s kilometru stundā</item>
+        <item quantity="one">%s kilometrs stundā</item>
+        <item quantity="other">%s kilometri stundā</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="zero">%s jūdžu stundā</item>
+        <item quantity="one">%s jūdze stundā</item>
+        <item quantity="other">%s jūdzes stundā</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="zero">Jūsu galamērķis atrodas %1$s pēdu uz priekšu</item>
+        <item quantity="one">Jūsu galamērķis atrodas %1$s pēdu uz priekšu</item>
+        <item quantity="other">Jūsu galamērķis atrodas %1$s pēdas uz priekšu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="zero">Jūsu galamērķis atrodas %1$s kilometru uz priekšu</item>
+        <item quantity="one">Jūsu galamērķis atrodas %1$s kilometru uz priekšu</item>
+        <item quantity="other">Jūsu galamērķis atrodas %1$s kilometrus uz priekšu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="zero">Jūsu galamērķis atrodas %1$s metru uz priekšu</item>
+        <item quantity="one">Jūsu galamērķis atrodas %1$s metru uz priekšu</item>
+        <item quantity="other">Jūsu galamērķis atrodas %1$s metrus uz priekšu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="zero">Jūsu galamērķis atrodas %1$s jūdzes uz priekšu</item>
+        <item quantity="one">Jūsu galamērķis atrodas %1$s jūdzi uz priekšu</item>
+        <item quantity="other">Jūsu galamērķis atrodas %1$s jūdzes uz priekšu</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="zero">Jūsu galamērķis atrodas %1$s jardu uz priekšu</item>
+        <item quantity="one">Jūsu galamērķis atrodas %1$s jardu uz priekšu</item>
+        <item quantity="other">Jūsu galamērķis atrodas %1$s jardus uz priekšu</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="zero">%d pieturu</item>
+        <item quantity="one">%d pietura</item>
+        <item quantity="other">%d pieturas</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="zero">un vēl %d brīdinājumu</item>
+        <item quantity="one">un vēl %d brīdinājums</item>
+        <item quantity="other">un vēl %d brīdinājumi</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="zero">un vēl %d brīdinājumi</item>
+        <item quantity="one">un vēl %d brīdinājums</item>
+        <item quantity="other">un vēl %d brīdinājumi</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="zero">Vēl +%d</item>
+        <item quantity="one">Vēl +%d</item>
+        <item quantity="other">Vēl +%d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="zero">un vēl %d</item>
+        <item quantity="one">un vēl %d</item>
+        <item quantity="other">un vēl %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+</resources>

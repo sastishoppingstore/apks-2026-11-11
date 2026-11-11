@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@id/shimmerLoading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/bg_foreground_color_2_4" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginLeft="16.0dp" android:layout_marginTop="16.0dp" android:layout_marginRight="16.0dp" android:layout_marginHorizontal="16.0dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dp">
+            <View android:background="@drawable/bg_foreground_color_2_4" android:layout_width="72.0dp" android:layout_height="16.0dp" android:layout_marginStart="24.0dp" />
+            <View android:background="@drawable/bg_foreground_color_2_4" android:layout_width="93.0dp" android:layout_height="16.0dp" android:layout_marginStart="32.0dp" />
+            <View android:background="@drawable/bg_foreground_color_2_4" android:layout_width="92.0dp" android:layout_height="16.0dp" android:layout_marginStart="32.0dp" />
+        </LinearLayout>
+        <View android:background="@drawable/bg_foreground_color_2_4" android:layout_width="97.0dp" android:layout_height="21.0dp" android:layout_marginTop="28.0dp" android:layout_marginBottom="8.0dp" android:layout_marginStart="16.0dp" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+        <include layout="@layout/layout_service_menu_item_shimmer" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

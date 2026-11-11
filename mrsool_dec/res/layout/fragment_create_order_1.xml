@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <androidx.core.widget.NestedScrollView android:orientation="vertical" android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/llItemsMain" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/secondary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="8.0dp" android:text="@string/lbl_items" android:textAllCaps="true" android:layout_marginStart="16.0dp" style="@style/TextAppearanceBold" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/llItems" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" />
+                </LinearLayout>
+                <com.google.android.material.card.MaterialCardView android:layout_gravity="center_vertical" android:id="@id/mrlAddComments" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/ternary_color" android:gravity="center" android:id="@id/tvAddComments" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_add_comments" style="@style/TextAppearanceMedium.Medium" />
+                </com.google.android.material.card.MaterialCardView>
+                <LinearLayout android:orientation="vertical" android:id="@id/llDescription" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/ternary_color" android:id="@id/tvOrderInstructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginStart="16.0dp" style="@style/TextAppearanceBold.Large" />
+                    <com.google.android.material.card.MaterialCardView android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="2.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="8.0dp">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <EditText android:scrollbarStyle="insideInset" android:textColor="@color/secondary_color" android:textColorHint="@color/ternary_color" android:gravity="top" android:id="@id/edtOrderDesc" android:background="@android:color/transparent" android:padding="0.0dp" android:scrollbars="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="14.0dp" android:layout_marginBottom="14.0dp" android:hint="@string/hint_order_now_details" android:maxLines="5" android:minLines="5" android:includeFontPadding="false" android:layout_weight="1.0" android:inputType="textFilter|textMultiLine" android:overScrollMode="always" android:layout_marginStart="16.0dp" style="@style/TextAppearanceRegular.Large" />
+                            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCamera" android:background="?selectableItemBackground" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginBottom="6.0dp" android:src="@drawable/img_camera_new" android:tint="@color/ternary_color" android:contentDescription="@string/lbl_dg_title_camera" android:paddingStart="10.0dp" android:paddingEnd="10.0dp" android:layout_marginEnd="6.0dp" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvImages" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp" />
+                <include android:id="@id/viewLocationSelection" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" layout="@layout/layout_location_selection" />
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" layout="@layout/order_payment_view" />
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" layout="@layout/order_coupon_view" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <include android:layout_gravity="bottom" android:id="@id/iEstimateCost" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/view_total_cost" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="54.0dp">
+        <TextView android:enabled="false" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center|bottom" android:id="@id/btnDone" android:background="@color/primary_action" android:layout_width="match_parent" android:layout_height="54.0dp" android:includeFontPadding="false" android:importantForAccessibility="no" style="@style/TextAppearanceMedium.ExtraLarge" />
+        <ImageView android:enabled="false" android:id="@id/bgDone" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/lbl_next_en" />
+    </FrameLayout>
+</LinearLayout>

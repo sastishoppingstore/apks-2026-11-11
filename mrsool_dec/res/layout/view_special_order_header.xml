@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clServiceDetailMain" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="65.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/startGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="16.0dp" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/endGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="16.0dp" />
+    <com.google.android.material.card.MaterialCardView android:id="@id/mcvIcon" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginTop="20.0dp" android:layout_marginBottom="5.0dp" app:cardCornerRadius="48.0dp" app:cardElevation="4.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/startGuideline" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="16.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivShopIcon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginStart="8.0dp" app:layout_constraintBottom_toBottomOf="@id/mcvIcon" app:layout_constraintEnd_toStartOf="@id/endGuideline" app:layout_constraintStart_toEndOf="@id/mcvIcon" app:layout_constraintTop_toTopOf="@id/mcvIcon">
+        <TextView android:textColor="@color/primary_color" android:id="@id/tvServiceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_special_order" style="@style/TextAppearanceBold.Medium" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/ternary_color" android:id="@id/tvShopName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:includeFontPadding="false" android:textAlignment="viewStart" style="@style/TextAppearanceBold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 ಪಟ್ಟು</item>
+        <item>0.5 ಪಟ್ಟು</item>
+        <item>0.75 ಪಟ್ಟು</item>
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>1.25 ಪಟ್ಟು</item>
+        <item>1.5 ಪಟ್ಟು</item>
+        <item>2 ಪಟ್ಟು</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>ಉ</item>
+        <item>ಈ</item>
+        <item>ಪೂ</item>
+        <item>ಆ</item>
+        <item>ದ</item>
+        <item>ನೈ</item>
+        <item>ಪ</item>
+        <item>ವಾ</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>ಉತ್ತರ</item>
+        <item>ಈಶಾನ್ಯ</item>
+        <item>ಪೂರ್ವ</item>
+        <item>ಆಗ್ನೇಯ</item>
+        <item>ದಕ್ಷಿಣ</item>
+        <item>ನೈಋತ್ಯ</item>
+        <item>ಪಶ್ಚಿಮ</item>
+        <item>ವಾಯವ್ಯ</item>
+    </string-array>
+</resources>

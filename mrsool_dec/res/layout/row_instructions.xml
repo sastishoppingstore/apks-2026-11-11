@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivIcon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/ic_done_success" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/dark_gray15" android:id="@id/tvInstruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Need to show up at the right branch and give the order number to the cashier" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <Space android:id="@id/sBlank" android:layout_width="match_parent" android:layout_height="24.0dp" />
+</LinearLayout>

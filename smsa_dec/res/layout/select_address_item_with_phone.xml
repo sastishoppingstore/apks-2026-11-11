@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/select_address_item_with_phone_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#faf9fc" app:cardCornerRadius="12.0dp" app:cardUseCompatPadding="true" app:strokeColor="#f3f0f6" app:strokeWidth="1.0dp">
+        <androidx.appcompat.widget.LinearLayoutCompat android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+            <include android:id="@id/includeAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dp" layout="@layout/address_card_item_with_phone" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

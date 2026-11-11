@@ -1,0 +1,779 @@
+.class public final Lco/ig;
+.super Ljava/lang/Object;
+.source "HomeScreenQuery_ResponseAdapter.kt"
+
+# interfaces
+.implements Lfa/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lfa/b<",
+        "Lbo/z5$p;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000:\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010 \n\u0002\u0010\u000e\n\u0002\u0008\u0006\u0008\u00c7\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u001f\u0010\t\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\'\u0010\u000f\u001a\u00020\u000e2\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\u0008\u001a\u00020\u00072\u0006\u0010\r\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u001d\u0010\u0017\u001a\u0008\u0012\u0004\u0012\u00020\u00120\u00118\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\u00a8\u0006\u0018"
+    }
+    d2 = {
+        "Lco/ig;",
+        "Lfa/b;",
+        "Lbo/z5$p;",
+        "<init>",
+        "()V",
+        "Lja/f;",
+        "reader",
+        "Lfa/q;",
+        "customScalarAdapters",
+        "c",
+        "(Lja/f;Lfa/q;)Lbo/z5$p;",
+        "Lja/g;",
+        "writer",
+        "value",
+        "Lpz/j0;",
+        "d",
+        "(Lja/g;Lfa/q;Lbo/z5$p;)V",
+        "",
+        "",
+        "b",
+        "Ljava/util/List;",
+        "getRESPONSE_NAMES",
+        "()Ljava/util/List;",
+        "RESPONSE_NAMES",
+        "2026.02.18-12.16.34-v4.3.0-771416981_liveRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final a:Lco/ig;
+
+.field private static final b:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final c:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    .line 1
+    new-instance v0, Lco/ig;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lco/ig;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lco/ig;->a:Lco/ig;
+
+    .line 7
+    .line 8
+    const-string v6, "titleEn"
+
+    .line 9
+    .line 10
+    const-string v7, "showMore"
+
+    .line 11
+    .line 12
+    const-string v1, "title"
+
+    .line 13
+    .line 14
+    const-string v2, "category"
+
+    .line 15
+    .line 16
+    const-string v3, "serviceType"
+
+    .line 17
+    .line 18
+    const-string v4, "shops"
+
+    .line 19
+    .line 20
+    const-string v5, "id"
+
+    .line 21
+    .line 22
+    filled-new-array/range {v1 .. v7}, [Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    invoke-static {v0}, Lqz/u;->p([Ljava/lang/Object;)Ljava/util/List;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v0
+
+    .line 30
+    sput-object v0, Lco/ig;->b:Ljava/util/List;
+
+    .line 31
+    .line 32
+    const/16 v0, 0x8
+
+    .line 33
+    .line 34
+    sput v0, Lco/ig;->c:I
+
+    .line 35
+    .line 36
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(Lja/f;Lfa/q;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lco/ig;->c(Lja/f;Lfa/q;)Lbo/z5$p;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public bridge synthetic b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p3, Lbo/z5$p;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1, p2, p3}, Lco/ig;->d(Lja/g;Lfa/q;Lbo/z5$p;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public c(Lja/f;Lfa/q;)Lbo/z5$p;
+    .locals 11
+
+    .line 1
+    const-string v0, "reader"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "customScalarAdapters"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    const/4 v0, 0x0
+
+    .line 12
+    move-object v1, v0
+
+    .line 13
+    move-object v2, v1
+
+    .line 14
+    move-object v3, v2
+
+    .line 15
+    move-object v4, v3
+
+    .line 16
+    move-object v5, v4
+
+    .line 17
+    move-object v6, v5
+
+    .line 18
+    move-object v7, v6
+
+    .line 19
+    :goto_0
+    sget-object v8, Lco/ig;->b:Ljava/util/List;
+
+    .line 20
+    .line 21
+    invoke-interface {p1, v8}, Lja/f;->U2(Ljava/util/List;)I
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v8
+
+    .line 25
+    const/4 v9, 0x1
+
+    .line 26
+    const/4 v10, 0x0
+
+    .line 27
+    packed-switch v8, :pswitch_data_0
+
+    .line 28
+    .line 29
+    .line 30
+    new-instance p1, Lbo/z5$p;
+
+    .line 31
+    .line 32
+    invoke-static {v2}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 33
+    .line 34
+    .line 35
+    invoke-static {v3}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 36
+    .line 37
+    .line 38
+    invoke-static {v4}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-static {v6}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 42
+    .line 43
+    .line 44
+    invoke-static {v7}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-static {v1}, Lkotlin/jvm/internal/t;->f(Ljava/lang/Object;)V
+
+    .line 48
+    .line 49
+    .line 50
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    .line 51
+    .line 52
+    .line 53
+    move-result v8
+
+    .line 54
+    move-object v1, p1
+
+    .line 55
+    invoke-direct/range {v1 .. v8}, Lbo/z5$p;-><init>(Ljava/lang/String;Lbo/z5$e;Lbo/z5$x;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Z)V
+
+    .line 56
+    .line 57
+    .line 58
+    return-object p1
+
+    .line 59
+    :pswitch_0
+    sget-object v1, Lfa/d;->f:Lfa/b;
+
+    .line 60
+    .line 61
+    invoke-interface {v1, p1, p2}, Lfa/b;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v1
+
+    .line 65
+    check-cast v1, Ljava/lang/Boolean;
+
+    .line 66
+    .line 67
+    goto :goto_0
+
+    .line 68
+    :pswitch_1
+    sget-object v7, Lfa/d;->a:Lfa/b;
+
+    .line 69
+    .line 70
+    invoke-interface {v7, p1, p2}, Lfa/b;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object v7
+
+    .line 74
+    check-cast v7, Ljava/lang/String;
+
+    .line 75
+    .line 76
+    goto :goto_0
+
+    .line 77
+    :pswitch_2
+    sget-object v6, Lfa/d;->a:Lfa/b;
+
+    .line 78
+    .line 79
+    invoke-interface {v6, p1, p2}, Lfa/b;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 80
+    .line 81
+    .line 82
+    move-result-object v6
+
+    .line 83
+    check-cast v6, Ljava/lang/String;
+
+    .line 84
+    .line 85
+    goto :goto_0
+
+    .line 86
+    :pswitch_3
+    sget-object v5, Lco/ug;->a:Lco/ug;
+
+    .line 87
+    .line 88
+    invoke-static {v5, v10, v9, v0}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object v5
+
+    .line 92
+    invoke-static {v5}, Lfa/d;->a(Lfa/b;)Lfa/y;
+
+    .line 93
+    .line 94
+    .line 95
+    move-result-object v5
+
+    .line 96
+    invoke-static {v5}, Lfa/d;->b(Lfa/b;)Lfa/b0;
+
+    .line 97
+    .line 98
+    .line 99
+    move-result-object v5
+
+    .line 100
+    invoke-virtual {v5, p1, p2}, Lfa/b0;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 101
+    .line 102
+    .line 103
+    move-result-object v5
+
+    .line 104
+    check-cast v5, Ljava/util/List;
+
+    .line 105
+    .line 106
+    goto :goto_0
+
+    .line 107
+    :pswitch_4
+    sget-object v4, Lco/qg;->a:Lco/qg;
+
+    .line 108
+    .line 109
+    invoke-static {v4, v10, v9, v0}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 110
+    .line 111
+    .line 112
+    move-result-object v4
+
+    .line 113
+    invoke-virtual {v4, p1, p2}, Lfa/c0;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 114
+    .line 115
+    .line 116
+    move-result-object v4
+
+    .line 117
+    check-cast v4, Lbo/z5$x;
+
+    .line 118
+    .line 119
+    goto :goto_0
+
+    .line 120
+    :pswitch_5
+    sget-object v3, Lco/yf;->a:Lco/yf;
+
+    .line 121
+    .line 122
+    invoke-static {v3, v10, v9, v0}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 123
+    .line 124
+    .line 125
+    move-result-object v3
+
+    .line 126
+    invoke-virtual {v3, p1, p2}, Lfa/c0;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 127
+    .line 128
+    .line 129
+    move-result-object v3
+
+    .line 130
+    check-cast v3, Lbo/z5$e;
+
+    .line 131
+    .line 132
+    goto :goto_0
+
+    .line 133
+    :pswitch_6
+    sget-object v2, Lfa/d;->a:Lfa/b;
+
+    .line 134
+    .line 135
+    invoke-interface {v2, p1, p2}, Lfa/b;->a(Lja/f;Lfa/q;)Ljava/lang/Object;
+
+    .line 136
+    .line 137
+    .line 138
+    move-result-object v2
+
+    .line 139
+    check-cast v2, Ljava/lang/String;
+
+    .line 140
+    .line 141
+    goto :goto_0
+
+    .line 142
+    nop
+
+    .line 143
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public d(Lja/g;Lfa/q;Lbo/z5$p;)V
+    .locals 6
+
+    .line 1
+    const-string v0, "writer"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "customScalarAdapters"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    const-string v0, "value"
+
+    .line 12
+    .line 13
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/t;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-string v0, "title"
+
+    .line 17
+    .line 18
+    invoke-interface {p1, v0}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 19
+    .line 20
+    .line 21
+    sget-object v0, Lfa/d;->a:Lfa/b;
+
+    .line 22
+    .line 23
+    invoke-virtual {p3}, Lbo/z5$p;->f()Ljava/lang/String;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v1
+
+    .line 27
+    invoke-interface {v0, p1, p2, v1}, Lfa/b;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 28
+    .line 29
+    .line 30
+    const-string v1, "category"
+
+    .line 31
+    .line 32
+    invoke-interface {p1, v1}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 33
+    .line 34
+    .line 35
+    sget-object v1, Lco/yf;->a:Lco/yf;
+
+    .line 36
+    .line 37
+    const/4 v2, 0x0
+
+    .line 38
+    const/4 v3, 0x1
+
+    .line 39
+    const/4 v4, 0x0
+
+    .line 40
+    invoke-static {v1, v2, v3, v4}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v1
+
+    .line 44
+    invoke-virtual {p3}, Lbo/z5$p;->a()Lbo/z5$e;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object v5
+
+    .line 48
+    invoke-virtual {v1, p1, p2, v5}, Lfa/c0;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 49
+    .line 50
+    .line 51
+    const-string v1, "serviceType"
+
+    .line 52
+    .line 53
+    invoke-interface {p1, v1}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 54
+    .line 55
+    .line 56
+    sget-object v1, Lco/qg;->a:Lco/qg;
+
+    .line 57
+    .line 58
+    invoke-static {v1, v2, v3, v4}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object v1
+
+    .line 62
+    invoke-virtual {p3}, Lbo/z5$p;->c()Lbo/z5$x;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object v5
+
+    .line 66
+    invoke-virtual {v1, p1, p2, v5}, Lfa/c0;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 67
+    .line 68
+    .line 69
+    const-string v1, "shops"
+
+    .line 70
+    .line 71
+    invoke-interface {p1, v1}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 72
+    .line 73
+    .line 74
+    sget-object v1, Lco/ug;->a:Lco/ug;
+
+    .line 75
+    .line 76
+    invoke-static {v1, v2, v3, v4}, Lfa/d;->d(Lfa/b;ZILjava/lang/Object;)Lfa/c0;
+
+    .line 77
+    .line 78
+    .line 79
+    move-result-object v1
+
+    .line 80
+    invoke-static {v1}, Lfa/d;->a(Lfa/b;)Lfa/y;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object v1
+
+    .line 84
+    invoke-static {v1}, Lfa/d;->b(Lfa/b;)Lfa/b0;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object v1
+
+    .line 88
+    invoke-virtual {p3}, Lbo/z5$p;->d()Ljava/util/List;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object v2
+
+    .line 92
+    invoke-virtual {v1, p1, p2, v2}, Lfa/b0;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 93
+    .line 94
+    .line 95
+    const-string v1, "id"
+
+    .line 96
+    .line 97
+    invoke-interface {p1, v1}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 98
+    .line 99
+    .line 100
+    invoke-virtual {p3}, Lbo/z5$p;->b()Ljava/lang/String;
+
+    .line 101
+    .line 102
+    .line 103
+    move-result-object v1
+
+    .line 104
+    invoke-interface {v0, p1, p2, v1}, Lfa/b;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 105
+    .line 106
+    .line 107
+    const-string v1, "titleEn"
+
+    .line 108
+    .line 109
+    invoke-interface {p1, v1}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 110
+    .line 111
+    .line 112
+    invoke-virtual {p3}, Lbo/z5$p;->g()Ljava/lang/String;
+
+    .line 113
+    .line 114
+    .line 115
+    move-result-object v1
+
+    .line 116
+    invoke-interface {v0, p1, p2, v1}, Lfa/b;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 117
+    .line 118
+    .line 119
+    const-string v0, "showMore"
+
+    .line 120
+    .line 121
+    invoke-interface {p1, v0}, Lja/g;->K(Ljava/lang/String;)Lja/g;
+
+    .line 122
+    .line 123
+    .line 124
+    sget-object v0, Lfa/d;->f:Lfa/b;
+
+    .line 125
+    .line 126
+    invoke-virtual {p3}, Lbo/z5$p;->e()Z
+
+    .line 127
+    .line 128
+    .line 129
+    move-result p3
+
+    .line 130
+    invoke-static {p3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    .line 131
+    .line 132
+    .line 133
+    move-result-object p3
+
+    .line 134
+    invoke-interface {v0, p1, p2, p3}, Lfa/b;->b(Lja/g;Lfa/q;Ljava/lang/Object;)V
+
+    .line 135
+    .line 136
+    .line 137
+    return-void
+.end method

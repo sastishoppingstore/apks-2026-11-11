@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/relativeTracking" android:background="@drawable/top_curve_bg" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/tvStatus" android:background="@drawable/status_bg_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textAllCaps="true" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp" style="@style/SemiBold10FFF0E8" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="" android:layout_below="@id/tvStatus" style="@style/Medium16FBFAFC" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/color_EBE6F4" android:id="@id/tvTrackingId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_below="@id/tvDate" style="@style/Regular12F1EEF4" />
+    </RelativeLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:background="@drawable/bottom_curve_bg_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/relativeTracking">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_retail_loc" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/country_color" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="5.0dp" style="@style/Regular12F1EEF4" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_retail_clock" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/country_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="5.0dp" style="@style/Regular12F1EEF4" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

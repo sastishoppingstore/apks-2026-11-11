@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarLayout" android:layout_width="0.0dp" android:layout_height="?android:actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/MyThemeOverlay_Toolbar" android:id="@id/toolbar" android:background="@color/colorSquidInk" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:actionBarSize">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:textColor="@android:color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pf_cc_title_hint" android:layout_centerInParent="true" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/amountContainer" android:background="@color/pf_light_gray" android:layout_width="match_parent" android:layout_height="@dimen/_38sdp" android:layoutDirection="ltr" app:layout_constraintTop_toBottomOf="@id/appbarLayout">
+        <ImageView android:id="@id/currencySymbolIV" android:visibility="gone" android:layout_width="@dimen/_16sdp" android:layout_height="@dimen/_16sdp" android:layout_marginRight="@dimen/_4sdp" android:layout_marginEnd="@dimen/_4sdp" />
+        <TextView android:textSize="@dimen/_13ssp" android:textColor="@color/colorBlack" android:id="@id/amountTV" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/amountContainer">
+        <com.payfort.fortpaymentsdk.views.FortCardNumberView android:id="@id/etCardNumberView" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/guideline2" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/guideline2" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toBottomOf="@id/etCardNumberView">
+            <com.payfort.fortpaymentsdk.views.CardExpiryView android:id="@id/etCardExpiry" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_4sdp" android:layout_weight="1.4" android:layout_marginEnd="@dimen/_4sdp" />
+            <com.payfort.fortpaymentsdk.views.CardCvvView android:id="@id/etCardCvv" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_4sdp" android:layout_weight="1.0" android:layout_marginStart="@dimen/_4sdp" />
+        </LinearLayout>
+        <com.payfort.fortpaymentsdk.views.CardHolderNameView android:id="@id/cardHolderNameView" android:layout_width="0.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/guideline2" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toBottomOf="@id/linearLayout" />
+        <LinearLayout android:id="@id/rememberMeRL" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" app:layout_constraintEnd_toStartOf="@id/guideline2" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toBottomOf="@id/cardHolderNameView">
+            <TextView android:textSize="@dimen/_12sdp" android:textColor="@android:color/darker_gray" android:gravity="start" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pf_remember_me" android:layout_weight="1.0" />
+            <ToggleButton android:layout_gravity="center" android:id="@id/rememberMeTB" android:background="@drawable/remember_me_toggle" android:layout_width="@dimen/pf_remember_me_tb_width" android:layout_height="@dimen/pf_remember_me_tb_height" android:checked="true" android:textOn="" android:textOff="" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/_17sdp" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/_17sdp" />
+        <RelativeLayout android:background="@drawable/pay_btn_bg" android:layout_width="0.0dp" android:layout_height="@dimen/pf_pay_btn_height" android:layout_marginTop="@dimen/pf_elements_top_space" app:layout_constraintEnd_toStartOf="@id/guideline2" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="@id/guideline" app:layout_constraintTop_toBottomOf="@id/rememberMeRL">
+            <com.payfort.fortpaymentsdk.views.PayfortPayButton android:textSize="@dimen/pf_20_txt_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btnPay" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/pf_pay_btn_hint" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:id="@id/loadingContainer" android:background="@color/colorSquidInkProgressBar" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:theme="@style/AppFortTheme.DarkGreen" android:id="@id/progressLoading" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

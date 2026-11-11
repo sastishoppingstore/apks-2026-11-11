@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="150.0dp">
+            <ImageView android:id="@id/ivBanner" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <FrameLayout android:layout_gravity="start|bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="11.0dp">
+                <ImageView android:layout_gravity="center" android:id="@id/imgShopBg" android:layout_width="45.0dp" android:layout_height="45.0dp" android:src="@drawable/ic_round_white" />
+                <ImageView android:layout_gravity="center" android:id="@id/imgPkgIcon" android:layout_width="32.0dp" android:layout_height="26.0dp" android:src="@drawable/icon_push_small" />
+            </FrameLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/pgProgressBar" android:visibility="gone" android:layout_width="30.0dp" android:layout_height="30.0dp" android:indeterminateTint="@color/primary_action" style="?android:progressBarStyle" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="21.0sp" android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="Title" style="@style/TextAppearanceMedium" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <TextView android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/tvDetail" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="40.0dp" android:layout_marginEnd="40.0dp" style="@style/TextAppearanceRegular.Large" />
+            </LinearLayout>
+            <TextView android:textSize="17.0sp" android:textColor="@color/Black" android:gravity="center" android:layout_gravity="center" android:id="@id/tvOpen" android:background="@drawable/selector_announcement_action" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="20.0dp" android:text="" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" style="@style/TextAppearanceProximaNovaRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="end|top" android:id="@id/llClose" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="45.0dp" android:layout_height="45.0dp" android:layout_marginTop="15.0dp" android:layout_marginEnd="15.0dp" android:elevation="4.0dp">
+        <ImageView android:layout_width="35.0dp" android:layout_height="35.0dp" android:src="@drawable/ic_close_filled" />
+        <ImageView android:visibility="gone" android:layout_width="12.0dp" android:layout_height="12.0dp" android:src="@drawable/ic_cross" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

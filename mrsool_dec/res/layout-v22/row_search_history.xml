@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flMain" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:gravity="center" android:id="@id/tvText" android:background="@drawable/bg_border_foreground_2_4" android:paddingLeft="12.0dp" android:paddingTop="8.0dp" android:paddingRight="12.0dp" android:paddingBottom="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/bg_ripple_4" android:layout_marginEnd="8.0dp" android:paddingHorizontal="12.0dp" android:paddingVertical="8.0dp" style="@style/TextAppearanceBold.ExtraSmall" />
+</FrameLayout>

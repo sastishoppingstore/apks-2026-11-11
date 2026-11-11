@@ -1,0 +1,428 @@
+.class public final Lc0/e$a;
+.super Ljava/lang/Object;
+.source "LazyLayoutSemanticState.kt"
+
+# interfaces
+.implements Landroidx/compose/foundation/lazy/layout/l0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lc0/e;->a(Lc0/d0;Z)Landroidx/compose/foundation/lazy/layout/l0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\'\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0007\n\u0002\u0008\u000b*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J\u0018\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0096@\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0008\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u0014\u0010\r\u001a\u00020\n8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000b\u0010\u000cR\u0014\u0010\u000f\u001a\u00020\n8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000e\u0010\u000cR\u0014\u0010\u0012\u001a\u00020\u00028VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0010\u0010\u0011R\u0014\u0010\u0014\u001a\u00020\u00028VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u0011\u00a8\u0006\u0015"
+    }
+    d2 = {
+        "c0/e$a",
+        "Landroidx/compose/foundation/lazy/layout/l0;",
+        "",
+        "index",
+        "Lpz/j0;",
+        "a",
+        "(ILuz/f;)Ljava/lang/Object;",
+        "Ln2/b;",
+        "d",
+        "()Ln2/b;",
+        "",
+        "f",
+        "()F",
+        "scrollOffset",
+        "c",
+        "maxScrollOffset",
+        "e",
+        "()I",
+        "viewport",
+        "b",
+        "contentPadding",
+        "foundation_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lc0/d0;
+
+.field final synthetic b:Z
+
+
+# direct methods
+.method constructor <init>(Lc0/d0;Z)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    iput-boolean p2, p0, Lc0/e$a;->b:Z
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(ILuz/f;)Ljava/lang/Object;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Luz/f<",
+            "-",
+            "Lpz/j0;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    const/4 v4, 0x2
+
+    .line 4
+    const/4 v5, 0x0
+
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    move v1, p1
+
+    .line 7
+    move-object v3, p2
+
+    .line 8
+    invoke-static/range {v0 .. v5}, Lc0/d0;->K(Lc0/d0;IILuz/f;ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    invoke-static {}, Lvz/b;->g()Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p2
+
+    .line 16
+    if-ne p1, p2, :cond_0
+
+    .line 17
+    .line 18
+    return-object p1
+
+    .line 19
+    :cond_0
+    sget-object p1, Lpz/j0;->a:Lpz/j0;
+
+    .line 20
+    .line 21
+    return-object p1
+.end method
+
+.method public b()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lc0/d0;->w()Lc0/q;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-interface {v0}, Lc0/q;->d()I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    iget-object v1, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 12
+    .line 13
+    invoke-virtual {v1}, Lc0/d0;->w()Lc0/q;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v1
+
+    .line 17
+    invoke-interface {v1}, Lc0/q;->c()I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    add-int/2addr v0, v1
+
+    .line 22
+    return v0
+.end method
+
+.method public c()F
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lc0/d0;->r()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget-object v1, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1}, Lc0/d0;->s()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v1
+
+    .line 13
+    iget-object v2, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 14
+    .line 15
+    invoke-virtual {v2}, Lc0/d0;->d()Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v2
+
+    .line 19
+    invoke-static {v0, v1, v2}, Landroidx/compose/foundation/lazy/layout/m0;->a(IIZ)F
+
+    .line 20
+    .line 21
+    .line 22
+    move-result v0
+
+    .line 23
+    return v0
+.end method
+
+.method public d()Ln2/b;
+    .locals 3
+
+    .line 1
+    iget-boolean v0, p0, Lc0/e$a;->b:Z
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    const/4 v2, -0x1
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    new-instance v0, Ln2/b;
+
+    .line 8
+    .line 9
+    invoke-direct {v0, v2, v1}, Ln2/b;-><init>(II)V
+
+    .line 10
+    .line 11
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :cond_0
+    new-instance v0, Ln2/b;
+
+    .line 14
+    .line 15
+    invoke-direct {v0, v1, v2}, Ln2/b;-><init>(II)V
+
+    .line 16
+    .line 17
+    .line 18
+    :goto_0
+    return-object v0
+.end method
+
+.method public e()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lc0/d0;->w()Lc0/q;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-interface {v0}, Lc0/q;->a()Ly/q;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    sget-object v1, Ly/q;->b:Ly/q;
+
+    .line 12
+    .line 13
+    if-ne v0, v1, :cond_0
+
+    .line 14
+    .line 15
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 16
+    .line 17
+    invoke-virtual {v0}, Lc0/d0;->w()Lc0/q;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    invoke-interface {v0}, Lc0/q;->b()J
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-wide v0
+
+    .line 25
+    invoke-static {v0, v1}, Lb3/t;->f(J)I
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v0
+
+    .line 29
+    goto :goto_0
+
+    .line 30
+    :cond_0
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 31
+    .line 32
+    invoke-virtual {v0}, Lc0/d0;->w()Lc0/q;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v0
+
+    .line 36
+    invoke-interface {v0}, Lc0/q;->b()J
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-wide v0
+
+    .line 40
+    invoke-static {v0, v1}, Lb3/t;->g(J)I
+
+    .line 41
+    .line 42
+    .line 43
+    move-result v0
+
+    .line 44
+    :goto_0
+    return v0
+.end method
+
+.method public f()F
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lc0/d0;->r()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget-object v1, p0, Lc0/e$a;->a:Lc0/d0;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1}, Lc0/d0;->s()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v1
+
+    .line 13
+    invoke-static {v0, v1}, Landroidx/compose/foundation/lazy/layout/m0;->b(II)F
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    return v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clPaymentTypeRoot" android:background="@drawable/bg_rounded_50_foreground2" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/paymentImg" android:layout_width="38.0dp" android:layout_height="24.0dp" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/primary_color" android:id="@id/paymentTv" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STC Pay" android:layout_marginStart="8.0dp" app:layout_constraintBottom_toBottomOf="@id/paymentImg" app:layout_constraintStart_toEndOf="@id/paymentImg" app:layout_constraintTop_toTopOf="@id/paymentImg" style="@style/TextAppearanceBold.Medium" />
+    <ImageView android:id="@id/nextBtn" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_back_arrow_new" android:rotation="180.0" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/ternary_color" />
+</androidx.constraintlayout.widget.ConstraintLayout>

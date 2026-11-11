@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llSearchResultHeader" android:paddingTop="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no_result_new_small" android:scaleType="fitCenter" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/ternary_color" android:id="@id/tvEmptyView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" style="@style/TextAppearanceBold.Small" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottomSheet" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/top_bar_height" android:paddingStart="16.0dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llPayment" android:background="?selectableItemBackground" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/top_bar_height" android:layout_weight="1.0">
+            <ImageView android:id="@id/ivPaymentMethodIcon" android:layout_width="32.0dp" android:layout_height="24.0dp" android:src="@drawable/card_unknown" android:scaleType="fitXY" android:layout_centerVertical="true" android:layout_marginStart="5.0dp" />
+            <TextView android:textColor="@color/secondary_color" android:gravity="start" android:layout_gravity="start|center" android:id="@id/tvPaymentMethodName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="Credit or Debit Card" android:layout_weight="1.0" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" style="@style/TextAppearanceBold.Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/llBack" android:background="@drawable/bg_ripple_30" android:padding="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:layout_marginEnd="2.0dp">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cross_round" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/divider_f2" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llMarkDefault" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/top_bar_height">
+        <ImageView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_edit_pan" android:tint="@color/secondary_color" android:layout_marginStart="25.0dp" />
+        <TextView android:textColor="@color/secondary_color" android:ellipsize="end" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_mark_default" android:singleLine="true" android:layout_marginStart="55.0dp" style="@style/TextAppearanceMedium.Large" />
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="25.0dp" layout="@layout/divider_f2" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llDelete" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_24" android:minHeight="@dimen/top_bar_height">
+        <ImageView android:layout_gravity="start|center" android:id="@id/ivDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_review_delete" android:tint="@color/error_color" android:layout_marginStart="25.0dp" />
+        <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8" android:layout_marginBottom="@dimen/dimen_8" android:layout_marginVertical="@dimen/dimen_8">
+            <TextView android:textColor="@color/error_color" android:layout_gravity="start|center" android:id="@id/tvDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_delete_notification" android:layout_marginStart="55.0dp" style="@style/TextAppearanceMedium.Large" />
+            <TextView android:textColor="@color/secondary_color" android:layout_gravity="start|center" android:id="@id/tvDeleteDesc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="55.0dp" android:layout_marginEnd="@dimen/dimen_16" style="@style/TextAppearanceRegular.Small" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

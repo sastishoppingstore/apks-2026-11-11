@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_color" android:ellipsize="end" android:id="@id/tvTitle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearanceMedium.ExtraLarge" />
+    <ImageView android:id="@id/ivCross" android:layout_width="@dimen/dimen_16" android:layout_height="@dimen/dimen_16" android:layout_margin="@dimen/dimen_16" android:src="@drawable/ic_cross" app:layout_constraintBaseline_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/primary_color" />
+    <View android:id="@id/dividerTop" android:background="@color/foreground_color_4" android:layout_width="0.0dp" android:layout_height="1.0dp" android:layout_marginLeft="@dimen/dimen_12" android:layout_marginTop="@dimen/dimen_12" android:layout_marginRight="@dimen/dimen_12" android:layout_marginHorizontal="@dimen/dimen_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

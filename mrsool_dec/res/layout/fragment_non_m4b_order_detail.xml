@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/scrollview" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/viewOrderComposer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/view_special_service_composer" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

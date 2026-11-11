@@ -1,0 +1,43 @@
+.class final Lcom/google/android/gms/internal/wallet/zzx;
+.super Lcom/google/android/gms/internal/wallet/zzt;
+.source "com.google.android.gms:play-services-wallet@@19.3.0"
+
+
+# instance fields
+.field private final zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/android/gms/internal/wallet/zzt;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/google/android/gms/internal/wallet/zzx;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zzf(Lcom/google/android/gms/common/api/Status;Lcom/google/android/gms/wallet/PaymentData;Landroid/os/Bundle;)V
+    .locals 0
+
+    .line 1
+    iget-object p3, p0, Lcom/google/android/gms/internal/wallet/zzx;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+
+    .line 2
+    .line 3
+    invoke-static {p1, p2, p3}, Lcom/google/android/gms/wallet/AutoResolveHelper;->zzd(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_whyInfo_background">#4c4c4c</color>
+    <color name="mod_daynight_white">@color/mod_google_grey900</color>
+    <color name="shadow_background_end">#00000000</color>
+    <color name="shadow_background_start">#99000000</color>
+    <color name="transit_line_span_default_stroke">@color/mod_grey200_alpha38</color>
+</resources>

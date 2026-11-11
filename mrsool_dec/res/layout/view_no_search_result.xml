@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llEmptyStoreView" android:paddingBottom="66.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83.0dp" android:src="@drawable/ic_no_search_result" />
+    <TextView android:textColor="@color/dark_gray13" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvNoResultFor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/lbl_no_search_result_for" style="@style/TextAppearanceMedium.Medium" />
+    <TextView android:textColor="@color/dark_gray13" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:maxWidth="240.0dp" android:text="@string/lbl_no_search_result_other" style="@style/TextAppearanceRegular.Small" />
+</LinearLayout>

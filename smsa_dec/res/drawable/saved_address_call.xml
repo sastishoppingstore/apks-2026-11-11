@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="17.0dp" android:width="16.0dp" android:viewportWidth="16.0" android:viewportHeight="17.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/address_item_icon" android:pathData="M14,13.167V12.069C14,11.524 13.668,11.034 13.162,10.831L11.806,10.289C11.162,10.031 10.428,10.31 10.118,10.931L10,11.167C10,11.167 8.333,10.833 7,9.5C5.667,8.167 5.333,6.5 5.333,6.5L5.569,6.382C6.19,6.072 6.469,5.338 6.211,4.694L5.669,3.338C5.466,2.832 4.976,2.5 4.431,2.5H3.333C2.597,2.5 2,3.097 2,3.833C2,9.724 6.776,14.5 12.667,14.5C13.403,14.5 14,13.903 14,13.167Z" android:strokeColor="@color/address_item_icon_stroke" android:strokeWidth="1.2" android:strokeLineJoin="round" />
+</vector>

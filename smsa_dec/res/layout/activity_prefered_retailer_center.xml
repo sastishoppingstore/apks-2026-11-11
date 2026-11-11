@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/topLayout" android:background="@color/top_header" android:layout_width="match_parent" android:layout_height="100.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/backArrow" android:background="@drawable/blue_circle_bg" android:padding="7.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/arrow_left_white" android:layout_marginStart="15.0dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/let_s_get_s" android:textSize="20.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="@string/retail_center" android:fontFamily="@font/inter_regular" android:layout_marginStart="15.0dp" android:letterSpacing="-0.02" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map" android:layout_width="match_parent" android:layout_height="match_parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

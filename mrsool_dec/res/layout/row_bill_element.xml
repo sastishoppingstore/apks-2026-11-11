@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/dark_gray_7" android:gravity="start" android:id="@id/tvLabel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_order_cost" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/TextAppearanceMedium" />
+        <LinearLayout android:gravity="end" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/llValues" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/dark_gray_7" android:layout_gravity="bottom" android:id="@id/tvDiscountValue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="4.0dp" style="@style/TextAppearanceRegular.Small" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/dark_gray_7" android:layout_gravity="end" android:id="@id/tvValue" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/TextAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/vDivider" android:background="@color/divider_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" app:layout_constraintTop_toBottomOf="@id/llValues" />
+</LinearLayout>

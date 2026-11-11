@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/addresstypeImg" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_home_address_item" android:scaleType="centerInside" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/addressTypeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_textColor="#171421" app:ct_textSize="16.0sp" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/isPrimary" android:background="@drawable/bg_primary_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" android:paddingHorizontal="8.0dp" android:paddingVertical="4.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/primary" app:ct_textColor="#1f7a4d" app:ct_textSize="12.0sp" />
+            <View android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            <ImageView android:id="@id/ivSelect" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/checkbox_selector" />
+            <ImageView android:id="@id/contextMenu" android:visibility="visible" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_context_menu" android:scaleType="centerInside" />
+        </LinearLayout>
+        <View android:id="@id/view1" android:background="#ebe7f0" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="5.0dp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/fullSavedAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:layout_marginBottom="5.0dp" android:textAlignment="viewStart" android:layoutDirection="locale" app:ct_fontFamily="@font/inter_regular" app:ct_textColor="#5e5572" app:ct_textSize="14.0sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Д</item>
+        <item>Жу</item>
+        <item>3G</item>
+        <item>Ж</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Орточо</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>Түнд.</item>
+        <item>Түн-Чыг</item>
+        <item>Чыг</item>
+        <item>Түш-Чыг</item>
+        <item>Түшт</item>
+        <item>Түшт-Бат</item>
+        <item>Бат</item>
+        <item>Түнд-Бат</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>түндүк</item>
+        <item>түндүк-чыгыш</item>
+        <item>чыгыш</item>
+        <item>түштүк-чыгыш</item>
+        <item>түштүк</item>
+        <item>түштүк-батыш</item>
+        <item>батыш</item>
+        <item>түндүк-батыш</item>
+    </string-array>
+</resources>

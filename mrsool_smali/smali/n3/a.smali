@@ -1,0 +1,17 @@
+.class Ln3/a;
+.super Ln3/g;
+.source "BaselineDimensionDependency.java"
+
+
+# direct methods
+.method constructor <init>(Ln3/p;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Ln3/g;-><init>(Ln3/p;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

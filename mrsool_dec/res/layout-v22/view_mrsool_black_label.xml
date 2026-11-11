@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="11.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tvFreeDelivery" android:background="@drawable/bg_gray_solid_black_dotted_rounded" android:paddingLeft="4.0dp" android:paddingRight="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="20.0dp" android:text="@string/free_delivery" android:drawablePadding="3.0dp" android:layout_marginEnd="8.0dp" android:paddingHorizontal="4.0dp" app:drawableStartCompat="@drawable/ic_mrsool_black_label" style="@style/TextAppearanceMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

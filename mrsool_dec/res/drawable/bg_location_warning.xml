@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ternary_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/white" />
+                    <corners android:radius="12.0dp" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="@color/warring_color_alpha_15" />
+                    <corners android:radius="12.0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>

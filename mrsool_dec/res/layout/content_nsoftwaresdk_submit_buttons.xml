@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/submit" android:background="#ff9800" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/submit" android:textAllCaps="false" style="@style/nsoftware.3ds.Button.Verify" />
+    <Button android:textSize="18.0sp" android:textColor="#ffffff" android:id="@id/resend" android:background="#027a88" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/resend" android:textAllCaps="false" style="@style/nsoftware.3ds.Button.Resend" />
+</LinearLayout>

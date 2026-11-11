@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="24.0dp" android:paddingTop="18.0dp" android:paddingRight="24.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/fingerprint_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/checkout_auth_confirm_payment" style="?checkoutFingerprintTitleTextViewStyle" />
+        <ImageView android:id="@id/fingerprint_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:src="@drawable/ic_fingerprint" android:layout_below="@id/fingerprint_title" android:contentDescription="@string/checkout_layout_text_scan_fingerprint" />
+        <TextView android:textColor="@color/checkout_text_color_hint" android:gravity="center_vertical" android:id="@id/fingerprint_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dp" android:text="@string/checkout_fingerprint_touch_sensor" android:layout_toRightOf="@id/fingerprint_icon" android:layout_alignTop="@id/fingerprint_icon" android:layout_alignBottom="@id/fingerprint_icon" android:layout_marginStart="16.0dp" android:layout_toEndOf="@id/fingerprint_icon" style="?checkoutFingerprintStatusTextViewStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="12.0dp" android:paddingTop="4.0dp" android:paddingRight="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12.0dp" android:paddingEnd="4.0dp">
+        <Space android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_weight="1.0" />
+        <Button android:id="@id/enter_pin_button" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkout_fingerprint_enter_pin" android:contentDescription="@string/checkout_fingerprint_enter_pin" />
+        <Button android:id="@id/cancel_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkout_fingerprint_cancel" android:contentDescription="@string/checkout_fingerprint_cancel" />
+    </LinearLayout>
+</LinearLayout>

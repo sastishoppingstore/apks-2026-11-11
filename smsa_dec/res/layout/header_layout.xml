@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:tag="layout/header_layout_0" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivBack" android:tag="binding_1" android:background="@drawable/bg_circle_back" android:padding="10.0dp" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/header_back_new" android:scaleType="centerInside" android:layout_marginStart="15.0dp" />
+    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:textColor="@color/header_title_color" android:layout_gravity="center" android:id="@id/tvHeader" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:layout_marginStart="10.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_textSize="16.0sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

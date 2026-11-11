@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_color_5b" android:paddingTop="15.0dp" android:paddingBottom="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_change_profile_picture" android:paddingStart="24.0dp" android:paddingEnd="24.0dp" style="@style/TextAppearanceMedium.Large" />
+    <View android:background="@color/color_white_stroke" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <TextView android:textColor="@color/sky_blue_color" android:id="@id/tvCamera" android:background="?selectableItemBackground" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_take_a_photo" android:drawablePadding="9.0dp" android:drawableStart="@drawable/ic_camera" style="@style/TextAppearanceMedium.Large" />
+    <View android:background="@color/color_white_stroke" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="50.0dp" />
+    <TextView android:textColor="@color/sky_blue_color" android:id="@id/tvGallery" android:background="?selectableItemBackground" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_choose_from_gallery" android:drawablePadding="9.0dp" android:drawableStart="@drawable/ic_gallery" style="@style/TextAppearanceMedium.Large" />
+</LinearLayout>

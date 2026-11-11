@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layPaymentMode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/ternary_color" android:id="@id/tvPaymentType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_payment_types" android:layout_marginStart="16.0dp" style="@style/TextAppearanceBold.Medium" />
+    <FrameLayout android:background="@drawable/bg_round_foreground3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:minHeight="48.0dp" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+        <include android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/llChangePayment" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/row_payment_method_new" />
+    </FrameLayout>
+    <include android:id="@id/llForceDigitalPayment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" layout="@layout/layout_force_digital_payment" />
+</LinearLayout>

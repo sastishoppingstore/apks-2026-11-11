@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@id/shimmerLoading" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llOld" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:minHeight="32.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="14.0dp" android:layout_height="18.0dp" android:layout_marginEnd="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp" />
+        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="0.0dp" android:layout_height="18.0dp" android:layout_weight="1.0" android:layout_marginStart="2.0dp" android:layout_marginEnd="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="27.0dp" android:layout_height="18.0dp" android:layout_marginStart="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llNew" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dp" android:minHeight="43.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="191.0dp" android:layout_height="43.0dp" android:layout_marginStart="20.0dp">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginEnd="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp" />
+                        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="75.0dp" android:layout_height="15.0dp" android:layout_marginStart="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="121.0dp" android:layout_height="11.0dp" android:layout_marginTop="2.0dp" android:layout_marginStart="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="191.0dp" android:layout_height="43.0dp" android:layout_marginStart="20.0dp">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dp">
+                        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="18.0dp" android:layout_height="18.0dp" android:layout_marginEnd="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="8.0dp" app:cardElevation="0.0dp" />
+                        <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="75.0dp" android:layout_height="15.0dp" android:layout_marginStart="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+                    </LinearLayout>
+                    <com.google.android.material.card.MaterialCardView android:background="@color/foreground_color_2" android:layout_width="121.0dp" android:layout_height="11.0dp" android:layout_marginTop="2.0dp" android:layout_marginStart="2.0dp" app:cardBackgroundColor="@color/foreground_color_2" app:cardCornerRadius="2.0dp" app:cardElevation="0.0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/llData" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <ImageView android:id="@id/imgvcountry" android:layout_width="24.0dp" android:layout_height="18.0dp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="start" android:layout_gravity="start" android:id="@id/name_savedaddress" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_weight="0.75" android:layout_marginStart="5.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="end" android:id="@id/tvChange" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.25" app:ct_fontFamily="@font/inter_medium" app:ct_fontStyle="bold" app:ct_text="@string/change" app:ct_textColor="#ff671f" app:ct_textSize="14.0sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View android:id="@id/view1" android:background="@color/savedaddress_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/fulladdress_savedaddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:textAlignment="viewStart" android:layoutDirection="locale" app:ct_fontFamily="@font/inter_regular" app:ct_text="" app:ct_textColor="#5e5572" app:ct_textSize="14.0sp" />
+            <View android:id="@id/view3" android:background="@color/savedaddress_divider" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginBottom="8.0dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatButton android:textColor="#ff671f" android:layout_gravity="bottom" android:id="@id/btnAddaddressFromShipment" android:background="@drawable/bg_select_address" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44.0dp" android:text="@string/add_address" android:layout_alignParentBottom="true" android:textAllCaps="false" android:fontFamily="@font/inter_medium" android:elevation="10.0dp" android:layout_marginVertical="16.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

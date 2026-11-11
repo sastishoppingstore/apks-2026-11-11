@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mrsool.utils.widgets.refresh.PullToRefreshView android:id="@id/pullToRefresh" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/foreground_color_1" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentScrim="@color/foreground_color_1" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:scrimVisibleHeightTrigger="180.0dp" app:statusBarScrim="@color/foreground_color_1" app:titleEnabled="false">
+                <include layout="@layout/view_service_detail_header" />
+                <include layout="@layout/row_service_detail_toolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/clHeaderButton" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="62.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivBackHeader" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_expanded" android:contentDescription="@string/lbl_back" android:layout_marginStart="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ivShareHeader" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_expanded" android:contentDescription="@string/lbl_share" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.card.MaterialCardView android:id="@id/loadingView" android:visibility="gone" android:layout_width="69.0dp" android:layout_height="32.0dp" android:layout_marginTop="164.0dp" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="16.0dp" app:cardElevation="4.0dp" app:layout_anchor="@id/appbar" app:layout_anchorGravity="center|top">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:layout_width="30.0dp" android:layout_height="30.0dp" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/primary_action" app:lottie_fileName="horizontal_loader.json" app:lottie_loop="true" />
+        </com.google.android.material.card.MaterialCardView>
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar android:layout_gravity="center" android:id="@id/pgLoadMore" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/primary_action" style="?android:progressBarStyle" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fragmentContainer" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include android:layout_gravity="bottom" android:id="@id/iEstimateCost" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_total_cost" />
+        <include android:layout_gravity="bottom" android:id="@id/iOrderNow" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_order_now_new" />
+        <include android:layout_gravity="bottom" android:id="@id/clOrderNowFloating" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dp" android:layout_alignParentBottom="true" layout="@layout/layout_order_now_floating" />
+        <include android:layout_gravity="bottom" android:id="@id/placeOrderAndCostView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_place_order_and_cost" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.mrsool.utils.widgets.refresh.PullToRefreshView>

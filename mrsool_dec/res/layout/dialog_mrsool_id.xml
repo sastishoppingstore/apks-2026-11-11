@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:orientation="vertical" android:padding="0.0dp" android:layout_width="match_parent" app:cardBackgroundColor="@color/white" app:cardCornerRadius="4.0dp" app:contentPadding="0.0dp" style="@style/style_dialog"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="end" android:id="@id/flClose" android:background="@drawable/bg_ripple_25" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginTop="16.0dp" android:layout_marginEnd="16.0dp" android:layout_alignParentEnd="true">
+                <LinearLayout android:background="@drawable/bg_light_blue_bg" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imgClose" android:layout_width="40.0dp" android:layout_height="match_parent" android:src="@drawable/ic_close_mrsool_id" android:scaleType="center" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llLine" android:background="@drawable/line_mrsool_id" android:layout_width="48.0dp" android:layout_height="8.0dp" android:layout_marginTop="12.0dp" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/TvbadgeHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="MRSOOL ID" android:layout_below="@id/llLine" android:layout_centerHorizontal="true" style="@style/TextAppearanceMedium.Small" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dp" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clProfilePic" android:layout_width="64.0dp" android:layout_height="64.0dp">
+                    <com.google.android.material.imageview.ShapeableImageView android:id="@id/imgPicImage" android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/user_profile" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearanceOverlay="@style/circularImage" />
+                    <ImageView android:id="@id/ivAcStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ac_verified" android:layout_marginEnd="4.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintCircleAngle="45.0" app:layout_constraintCircleRadius="120.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="9.0dp">
+                    <TextView android:textColor="@color/Black" android:id="@id/tvUserFullName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Abdulrahman Alrasal" style="@style/TextAppearanceMedium.Large" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+                        <RatingBar android:layout_gravity="center_horizontal" android:id="@id/rbCourier" android:background="@null" android:layout_width="wrap_content" android:layout_height="16.0dp" android:layout_marginTop="5.0dp" android:progressDrawable="@drawable/custom_rating_review_profile" android:rating="3.0" android:isIndicator="true" />
+                        <ImageView android:layout_gravity="center" android:id="@id/ivCar" android:layout_width="26.0dp" android:layout_height="11.0dp" android:src="@drawable/ic_car_mrsool_id" android:layout_marginStart="8.0dp" />
+                        <TextView android:layout_gravity="center" android:id="@id/tvOrderCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="129780" android:layout_marginStart="6.0dp" style="@style/TextAppearanceMedium.Small" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_weight="1.0">
+                    <TextView android:id="@id/tvLblStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeHeader" />
+                    <TextView android:textColor="@color/color_green_2" android:id="@id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Active" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_weight="1.0">
+                    <TextView android:id="@id/tvLblDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeHeader" />
+                    <TextView android:textColor="@color/text_color_5b" android:id="@id/tvActivatedDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23-03-2020" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/tvLblNationalId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="Iqama ID" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeHeader" />
+            <TextView android:id="@id/tvNationalId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="28377299893787920" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeContent" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/rlSponser" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+                <TextView android:id="@id/tvLblSponser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sponser" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeHeader" />
+                <TextView android:id="@id/tvSponserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not Available" android:layout_below="@id/tvLblSponser" style="@style/TextAppearanceMedium.Medium" />
+                <TextView android:textColor="@color/sky_blue_color" android:id="@id/tvSponserAdd" android:background="?selectableItemBackground" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_add" android:layout_alignBaseline="@id/tvSponserName" android:layout_alignParentEnd="true" style="@style/TextAppearanceMedium.Medium" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@id/rlDateUntil" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dp">
+                <TextView android:id="@id/tvLblValidToDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Vaild to date" android:fontFamily="sans-serif-medium" style="@style/mrsoolBadgeHeader" />
+                <TextView android:id="@id/tvValidDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="23-3-2012" android:layout_below="@id/tvLblValidToDate" style="@style/TextAppearanceMedium.Medium" />
+                <TextView android:textColor="@color/sky_blue_color" android:id="@id/tvDateAdd" android:background="?selectableItemBackground" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_add" android:layout_alignBaseline="@id/tvValidDate" android:layout_alignParentEnd="true" style="@style/TextAppearanceMedium.Medium" />
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="93.0dp" android:layout_marginTop="16.0dp">
+            <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="93.0dp" android:src="@drawable/bg_mrsool_id" android:scaleType="fitXY" />
+            <TextView android:textColor="@color/white" android:layout_gravity="start|bottom" android:id="@id/tvBadgeFooter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dp" android:text="Show this to officials" android:layout_marginStart="19.0dp" style="@style/TextAppearanceMedium.Small" />
+            <ImageView android:layout_gravity="end|bottom" android:layout_width="32.0dp" android:layout_height="28.0dp" android:layout_marginBottom="5.0dp" android:src="@drawable/ic_mrsool_logo_white" android:layout_marginEnd="12.0dp" />
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

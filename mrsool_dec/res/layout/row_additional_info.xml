@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llAdditionalInfo" android:padding="12.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivInfoIcon" android:layout_width="12.0dp" android:layout_height="12.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/ic_info_blue" android:scaleType="fitXY" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/light_blue" android:id="@id/tvInfoTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textIsSelectable="true" android:layout_marginStart="4.0dp" style="@style/TextAppearanceBold" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/light_blue" android:id="@id/tvInfoDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textIsSelectable="true" style="@style/TextAppearanceRegular" />
+</LinearLayout>

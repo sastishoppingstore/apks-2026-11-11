@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/home_bg" android:layout_width="150.0dp" android:layout_height="10.0dp" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="16.0dp" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="129.0dp" android:layout_marginBottom="7.0dp">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp">
+            <com.google.android.material.card.MaterialCardView android:layout_width="51.0dp" android:layout_height="51.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="51.0dp" app:cardElevation="0.0dp" app:cardForegroundColor="@color/home_bg" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:background="@color/home_bg" android:layout_width="150.0dp" android:layout_height="15.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_marginBottom="6.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="16.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="10.0dp" android:layout_marginBottom="20.0dp" android:layout_marginStart="8.0dp" android:layout_marginEnd="16.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp">
+            <com.google.android.material.card.MaterialCardView android:layout_width="10.0dp" android:layout_height="10.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp" app:cardForegroundColor="@color/home_bg" />
+            <com.google.android.material.card.MaterialCardView android:layout_width="10.0dp" android:layout_height="10.0dp" android:layout_marginStart="10.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="10.0dp" app:cardElevation="0.0dp" app:cardForegroundColor="@color/home_bg" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:background="@color/home_bg" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search" android:scaleType="centerInside" app:tint="@color/gray_3" />
+        <TextView android:textColor="@color/gray_3" android:background="@null" android:padding="0.0dp" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/home_search_hint" android:layout_weight="1.0" android:layout_marginStart="5.0dp" style="@style/TextAppearanceRegular.Large" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/shimmerViewRecentOrder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/gray_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/lbl_recent_orders" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Medium" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.card.MaterialCardView android:layout_width="106.0dp" android:layout_height="66.0dp" android:layout_marginEnd="8.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp" />
+                <com.google.android.material.card.MaterialCardView android:layout_width="106.0dp" android:layout_height="66.0dp" android:layout_marginEnd="8.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp" />
+                <com.google.android.material.card.MaterialCardView android:layout_width="106.0dp" android:layout_height="66.0dp" android:layout_marginEnd="8.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp" />
+                <com.google.android.material.card.MaterialCardView android:layout_width="106.0dp" android:layout_height="66.0dp" android:layout_marginEnd="8.0dp" app:cardBackgroundColor="@color/home_bg" app:cardCornerRadius="4.0dp" app:cardElevation="0.0dp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <TextView android:textColor="@color/gray_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/lbl_most_wanted_services" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Medium" />
+    <LinearLayout android:orientation="vertical" android:id="@id/shimmerCategory3Item" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="9.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dp">
+                <View android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="75.0dp" />
+                <View android:background="@color/home_bg" android:layout_width="match_parent" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

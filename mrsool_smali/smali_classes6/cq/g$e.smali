@@ -1,0 +1,317 @@
+.class final Lcq/g$e;
+.super Lkotlin/coroutines/jvm/internal/l;
+.source "XMPPDataManager.kt"
+
+# interfaces
+.implements Lc00/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcq/g;->y(Lorg/jivesoftware/smack/packet/Message;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/l;",
+        "Lc00/p<",
+        "La30/o0;",
+        "Luz/f<",
+        "-",
+        "Lpz/j0;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
+    }
+    d2 = {
+        "La30/o0;",
+        "Lpz/j0;",
+        "<anonymous>",
+        "(La30/o0;)V"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/f;
+    c = "com.mrsool.com.mrsool.utils.xmpp.XMPPDataManager$processReceipt$1"
+    f = "XMPPDataManager.kt"
+    l = {}
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field final synthetic F1:Lcq/g;
+
+.field final synthetic G1:Lorg/jivesoftware/smack/packet/Message;
+
+.field b:I
+
+
+# direct methods
+.method constructor <init>(Lcq/g;Lorg/jivesoftware/smack/packet/Message;Luz/f;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcq/g;",
+            "Lorg/jivesoftware/smack/packet/Message;",
+            "Luz/f<",
+            "-",
+            "Lcq/g$e;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcq/g$e;->F1:Lcq/g;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lcq/g$e;->G1:Lorg/jivesoftware/smack/packet/Message;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x2
+
+    .line 6
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/l;-><init>(ILuz/f;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Luz/f;)Luz/f;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Luz/f<",
+            "*>;)",
+            "Luz/f<",
+            "Lpz/j0;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance p1, Lcq/g$e;
+
+    .line 2
+    .line 3
+    iget-object v0, p0, Lcq/g$e;->F1:Lcq/g;
+
+    .line 4
+    .line 5
+    iget-object v1, p0, Lcq/g$e;->G1:Lorg/jivesoftware/smack/packet/Message;
+
+    .line 6
+    .line 7
+    invoke-direct {p1, v0, v1, p2}, Lcq/g$e;-><init>(Lcq/g;Lorg/jivesoftware/smack/packet/Message;Luz/f;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-object p1
+.end method
+
+.method public final invoke(La30/o0;Luz/f;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "La30/o0;",
+            "Luz/f<",
+            "-",
+            "Lpz/j0;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcq/g$e;->create(Ljava/lang/Object;Luz/f;)Luz/f;
+
+    move-result-object p1
+
+    check-cast p1, Lcq/g$e;
+
+    sget-object p2, Lpz/j0;->a:Lpz/j0;
+
+    invoke-virtual {p1, p2}, Lcq/g$e;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 2
+    check-cast p1, La30/o0;
+
+    check-cast p2, Luz/f;
+
+    invoke-virtual {p0, p1, p2}, Lcq/g$e;->invoke(La30/o0;Luz/f;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lvz/b;->g()Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    iget v0, p0, Lcq/g$e;->b:I
+
+    .line 5
+    .line 6
+    if-nez v0, :cond_1
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Lpz/v;->b(Ljava/lang/Object;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object p1, p0, Lcq/g$e;->F1:Lcq/g;
+
+    .line 12
+    .line 13
+    iget-object v0, p0, Lcq/g$e;->G1:Lorg/jivesoftware/smack/packet/Message;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lorg/jivesoftware/smack/packet/Message;->getThread()Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    const-string v1, "getThread(...)"
+
+    .line 20
+    .line 21
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/t;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {p1, v0}, Lcq/g;->f(Lcq/g;Ljava/lang/String;)Z
+
+    .line 25
+    .line 26
+    .line 27
+    move-result p1
+
+    .line 28
+    if-eqz p1, :cond_0
+
+    .line 29
+    .line 30
+    new-instance p1, Landroid/os/Bundle;
+
+    .line 31
+    .line 32
+    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
+
+    .line 33
+    .line 34
+    .line 35
+    iget-object v0, p0, Lcq/g$e;->G1:Lorg/jivesoftware/smack/packet/Message;
+
+    .line 36
+    .line 37
+    invoke-virtual {v0}, Lorg/jivesoftware/smack/packet/Message;->getSubject()Ljava/lang/String;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v0
+
+    .line 41
+    const-string v1, "subject"
+
+    .line 42
+    .line 43
+    invoke-virtual {p1, v1, v0}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 44
+    .line 45
+    .line 46
+    iget-object v0, p0, Lcq/g$e;->F1:Lcq/g;
+
+    .line 47
+    .line 48
+    invoke-static {v0}, Lcq/g;->b(Lcq/g;)Lqv/w3;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v0
+
+    .line 52
+    const-string v1, "recipt_got"
+
+    .line 53
+    .line 54
+    invoke-virtual {v0, v1, p1}, Lqv/w3;->x1(Ljava/lang/String;Landroid/os/Bundle;)V
+
+    .line 55
+    .line 56
+    .line 57
+    :cond_0
+    sget-object p1, Lpz/j0;->a:Lpz/j0;
+
+    .line 58
+    .line 59
+    return-object p1
+
+    .line 60
+    :cond_1
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    .line 61
+    .line 62
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 63
+    .line 64
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 65
+    .line 66
+    .line 67
+    throw p1
+.end method

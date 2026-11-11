@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:ellipsize="end" android:id="@id/tvTransactionName" android:layout_width="0.0dp" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="@style/TextAppearanceMedium.Large" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="end|center" android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.mrsool.utils.currency.AmountCurrencyTextView android:textColor="@color/primary_action" android:id="@id/tvTransactionCashbackAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" app:amountDefaultTextStyle="medium" app:amountSize="16.0sp" app:currencyDefaultTextStyle="regular" app:currencySize="9.0sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="11.0sp" android:textColor="@color/secondary_color" android:id="@id/tvTransactionTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:layout_marginStart="2.0dp" style="@style/TextAppearanceRegular" />
+    <View android:background="@color/background_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/transactionProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:indeterminateTint="@color/sky_blue" android:layout_marginVertical="10.0dp" style="?android:progressBarStyleSmall" />
+</androidx.appcompat.widget.LinearLayoutCompat>

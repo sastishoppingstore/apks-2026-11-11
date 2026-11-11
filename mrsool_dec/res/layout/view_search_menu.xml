@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/cvSearchMain" android:background="@drawable/bg_rounded_4_background" android:layout_width="match_parent" android:layout_height="40.0dp" android:backgroundTint="@color/foreground_color_2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivSearch" android:layout_width="13.0dp" android:layout_height="13.0dp" android:src="@drawable/ic_search" android:tint="@color/secondary_color" android:layout_marginStart="13.0dp" android:layout_marginEnd="4.0dp" app:layout_constraintBottom_toBottomOf="@id/edSearch" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/edSearch" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:gravity="center_vertical" android:id="@id/tvSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_search_the_menu" android:paddingStart="9.0dp" style="@style/TextAppearanceMedium.Medium" />
+</androidx.appcompat.widget.LinearLayoutCompat>

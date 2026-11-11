@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/foreground_color_1" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="@color/foreground_color_1" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0.0dp">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:transitionName="toolbar" android:elevation="0.0dp" app:contentInsetLeft="0.0dp" app:contentInsetStart="0.0dp" app:layout_collapseMode="pin">
+            <include android:id="@id/searchToolbar" layout="@layout/view_toolbar_grocery_items" />
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGrocery" android:paddingLeft="11.0dp" android:paddingRight="11.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="11.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:layout_gravity="bottom" android:id="@id/clOrderNow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dp" android:layout_alignParentBottom="true" layout="@layout/layout_order_now_floating" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/loadingView" android:layout_width="wrap_content" android:layout_height="40.0dp" app:lottie_autoPlay="true" app:lottie_colorFilter="@color/primary_action" app:lottie_fileName="horizontal_loader.json" app:lottie_loop="true" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

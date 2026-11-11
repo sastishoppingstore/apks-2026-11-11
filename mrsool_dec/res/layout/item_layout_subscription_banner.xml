@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clSubscribeGrocery" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flGroceryHighDemandPricing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivBg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/iCoreView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dp" android:layout_marginTop="11.0dp" android:layout_marginRight="24.0dp" android:layout_marginBottom="11.0dp" layout="@layout/layout_subscription_core" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="62.0dp" android:layout_height="69.0dp" android:layout_marginTop="-9.0dp" android:layout_marginBottom="-7.0dp" android:src="@drawable/ic_subscription_banner_icon" android:scaleType="fitXY" android:tint="@color/info_color" android:layout_marginStart="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

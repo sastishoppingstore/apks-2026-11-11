@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@color/apptheme_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/White" android:layout_gravity="center" android:id="@id/txtTabTitle" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:text="@string/lbl_order_now" android:maxLines="1" style="@style/TextAppearanceProximaNovaBold" />
+    <TextView android:textColor="@color/Black" android:gravity="center" android:layout_gravity="center" android:id="@id/txtTabBadgeCount1" android:background="@drawable/circle_badge_view" android:padding="3.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dp" android:minWidth="20.0dp" android:text="" style="@style/TextAppearanceProximaNovaRegular.Small" />
+</LinearLayout>

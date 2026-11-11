@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/clTag" android:background="@drawable/bg_rounded_4_foreground_2" android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="28.0dp" android:foreground="@drawable/bg_ripple_5" android:paddingStart="12.0dp" android:paddingEnd="12.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivTagIcon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:scaleType="fitCenter" />
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/dark_gray_17" android:ellipsize="end" android:gravity="center" android:id="@id/tvTagName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="sans-serif" android:layout_marginStart="7.0dp" style="@style/TextAppearanceBold.Small" />
+</androidx.appcompat.widget.LinearLayoutCompat>

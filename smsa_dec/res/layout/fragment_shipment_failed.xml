@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="12.0dp" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="24.0dp" app:cardElevation="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end" android:id="@id/closebtn" android:layout_width="18.0dp" android:layout_height="24.0dp" android:src="@drawable/bs_close_icon" android:scaleType="centerInside" android:layout_marginEnd="20.0dp" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="72.0dp" android:layout_height="72.0dp" android:src="@drawable/shipment_created" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_gravity="center_horizontal" android:id="@id/shipmentcreatedlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:ct_fontFamily="@font/inter_semibold" app:ct_text="@string/shipment_created" app:ct_textColor="#249f58" app:ct_textSize="20.0sp" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/shipmentcreateddesclabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dp" android:layout_marginHorizontal="24.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/payment_successful" app:ct_textColor="#7c7a7f" app:ct_textSize="12.0sp" />
+        <com.google.android.material.card.MaterialCardView android:id="@id/llBarcodeCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginHorizontal="16.0dp" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="16.0dp" app:cardElevation="8.0dp">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/airway_bill_new" app:ct_textColor="#5e5572" app:ct_textSize="12.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvAWBNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="SMSA38023742" app:ct_textColor="#150640" app:ct_textSize="18.0sp" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/ivBarcode" android:layout_width="match_parent" android:layout_height="72.0dp" android:layout_marginTop="16.0dp" android:src="@drawable/barcode" android:scaleType="fitXY" />
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/barcodedesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/print_this_label_and_paste_it_on_your_shipment" app:ct_textColor="#7c7a7f" app:ct_textSize="12.0sp" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="end|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp">
+                    <ImageView android:id="@id/ivShare" android:padding="3.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_share" />
+                    <ImageView android:id="@id/ivDownload" android:padding="3.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_download" android:layout_marginStart="8.0dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.button.MaterialButton android:id="@id/navigateToShipmentCreated" android:layout_width="match_parent" android:layout_marginTop="20.0dp" android:text="@string/schedule_your_shipment" android:layout_marginHorizontal="16.0dp" style="@style/PrimaryButton" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

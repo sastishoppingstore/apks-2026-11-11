@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/White" app:cardCornerRadius="50.0dp" app:cardElevation="5.0dp" app:cardUseCompatPadding="true">
+        <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/ivPin" android:background="@android:color/transparent" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_margin="2.0dp" android:src="@drawable/icon_home_pickup" app:shapeAppearanceOverlay="@style/circularImage" app:strokeWidth="0.0dp" />
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

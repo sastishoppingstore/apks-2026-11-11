@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">నావిగేట్ చేయండి, మార్గం %d</item>
+        <item quantity="other">నావిగేట్ చేయండి, మార్గం %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d బైక్ అందుబాటులో ఉంది</item>
+        <item quantity="other">%d బైక్‌లు అందుబాటులో ఉన్నాయి</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d డాక్ అందుబాటులో ఉంది</item>
+        <item quantity="other">%d డాక్‌లు అందుబాటులో ఉన్నాయి</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">మ్యాప్ ఉన్న స్థితి %d డిగ్రీలు.</item>
+        <item quantity="other">మ్యాప్ ఉన్న స్థితి %d డిగ్రీలు.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s రోజు</item>
+        <item quantity="other">%s రోజులు</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s రో</item>
+        <item quantity="other">%s రో</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sరో</item>
+        <item quantity="other">%sరో</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s రోజు</item>
+        <item quantity="other">%s రోజులు</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s గంట</item>
+        <item quantity="other">%s గంటలు</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s గం</item>
+        <item quantity="other">%s గం</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sగం</item>
+        <item quantity="other">%sగం</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s నిమిషం</item>
+        <item quantity="other">%s నిమిషాలు</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s నిమి</item>
+        <item quantity="other">%s నిమి</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sని</item>
+        <item quantity="other">%sని</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s సెకను</item>
+        <item quantity="other">%s సెకన్లు</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s అడుగు కొనసాగండి</item>
+        <item quantity="other">%1$s అడుగులు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s కిలోమీటరు కొనసాగండి</item>
+        <item quantity="other">%1$s కిలోమీటర్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s మీటరు కొనసాగండి</item>
+        <item quantity="other">%1$s మీటర్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s మైలు కొనసాగండి</item>
+        <item quantity="other">%1$s మైళ్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s గజం కొనసాగండి</item>
+        <item quantity="other">%1$s గజాలు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$sలో %1$s అడుగు కొనసాగండి</item>
+        <item quantity="other">%2$sలో %1$s అడుగులు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$sలో %1$s కీలోమీటరు కొనసాగండి</item>
+        <item quantity="other">%2$sలో %1$s కిలోమీటర్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$sలో %1$s మీటరు కొనసాగండి</item>
+        <item quantity="other">%2$sలో %1$s మీటర్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$sలో %1$s మైలు కొనసాగండి</item>
+        <item quantity="other">%2$sలో %1$s మైళ్లు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$sలో %1$s గజం కొనసాగండి</item>
+        <item quantity="other">%2$sలో %1$s గజాలు కొనసాగండి</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s అడుగులో</item>
+        <item quantity="other">%1$s అడుగుల్లో</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s కిలోమీటరులో</item>
+        <item quantity="other">%1$s కిలోమీటర్లలో</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s మీటరులో</item>
+        <item quantity="other">%1$s మీటర్లలో</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s మైలులో</item>
+        <item quantity="other">%1$s మైళ్లలో</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s గజంలో</item>
+        <item quantity="other">%1$s గజాల్లో</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">గంటకు %s కిలోమీటరు</item>
+        <item quantity="other">గంటకు %s కిలోమీటర్లు</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">గంటకు %s మైలు</item>
+        <item quantity="other">గంటకు %s మైళ్లు</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">మీ గమ్యస్థానం %1$s అడుగు ముందు ఉంది</item>
+        <item quantity="other">మీ గమ్యస్థానం %1$s అడుగులు ముందు ఉంది</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">మీ గమ్యస్థానం %1$s కిలోమీటరు ముందు ఉంది</item>
+        <item quantity="other">మీ గమ్యస్థానం %1$s కిలోమీటర్లు ముందు ఉంది</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">మీ గమ్యస్థానం %1$s మీటరు ముందు ఉంది</item>
+        <item quantity="other">మీ గమ్యస్థానం %1$s మీటర్లు ముందు ఉంది</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">మీ గమ్యస్థానం %1$s మైలు ముందు ఉంది</item>
+        <item quantity="other">మీ గమ్యస్థానం %1$s మైళ్లు ముందు ఉంది</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">మీ గమ్యస్థానం %1$s గజం ముందు ఉంది</item>
+        <item quantity="other">మీ గమ్యస్థానం %1$s గజాలు ముందు ఉంది</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d స్టాప్</item>
+        <item quantity="other">%d స్టాప్‌లు</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d హెచ్చరిక</item>
+        <item quantity="other">+%d హెచ్చరికలు</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d అలర్ట్</item>
+        <item quantity="other">+ %d అలర్ట్‌లు</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+మరో %d</item>
+        <item quantity="other">+మరో %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ మరో %d</item>
+        <item quantity="other">+ మరో %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d సెకండ్ వేగంగా ఫార్వర్డ్ చేయండి</item>
+        <item quantity="other">%d సెకన్లు వేగంగా ఫార్వర్డ్ చేయండి</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d సెకండ్ రివైండ్ చేయండి</item>
+        <item quantity="other">%d సెకన్లు రివైండ్ చేయండి</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+    </plurals>
+</resources>

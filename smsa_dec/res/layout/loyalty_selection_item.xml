@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/llData" android:background="@drawable/lp_apperance_unselect" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imgStar" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_star" app:tint="#440099" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/loyaltyHeader" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dp" app:ct_fontFamily="@font/inter_semibold" app:ct_text="@string/use_loyalty_points" app:ct_textColor="#440099" app:ct_textSize="14.0sp" />
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvLoyaltyAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dp" app:ct_fontFamily="@font/inter_semibold" app:ct_text="16.00 SAR" app:ct_textColor="#150640" app:ct_textSize="14.0sp" />
+            <CheckBox android:id="@id/cbLoyalty" android:background="@drawable/selector_loyalty_checkbox" android:focusable="false" android:clickable="true" android:layout_width="22.0dp" android:layout_height="22.0dp" android:button="@null" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/unusedLoyalty" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/availablePoints" android:layout_width="match_parent" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="160 points available · Save 16.00 SAR" app:ct_textColor="#150640" app:ct_textSize="12.0sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/usedLLoyalty" android:paddingBottom="16.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/pointsUsed" android:layout_width="match_parent" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_regular" app:ct_text="You've saved 16.00 SAR with your Loyalty Points!" app:ct_textColor="#249f58" app:ct_textSize="12.0sp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/llHeader" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_corporate_coupons" android:layout_weight="1.0" style="@style/TextAppearanceMedium.ExtraLarge" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivClose" android:layout_width="32.0dp" android:layout_height="32.0dp" android:tint="@color/ternary_color" app:srcCompat="@drawable/ic_clear_text" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.core.widget.NestedScrollView android:id="@id/svMain" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="40.0dp" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/focusThief" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.5dp" android:layout_height="0.5dp" android:importantForAccessibility="no" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatEditText android:gravity="start" android:id="@id/etBusinessEmail" android:background="@drawable/bg_edittext_email" android:padding="14.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="22.0dp" android:hint="@string/hint_enter_email" android:maxLines="1" android:singleLine="true" style="@style/TextAppearanceMedium.Medium" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/ternary_color" android:id="@id/tvEmailSuggestion" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="340.0dp" android:text="@string/lbl_business_email_suggestion_text" style="@style/TextAppearanceMedium.Small" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.mrsool.customeview.CircularProgressButton android:layout_gravity="end" android:id="@id/btnNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_next" android:textAllCaps="false" app:buttonColor="@color/ternary_color" app:buttonCornerRadius="4.0dp" app:buttonText="@string/lbl_next" app:buttonTextColor="@color/white" app:progressBarColor="@color/white" style="@style/TextAppearanceMedium.Medium" />
+</LinearLayout>

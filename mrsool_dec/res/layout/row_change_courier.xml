@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cvTopStack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="2.0dp" app:cardElevation="2.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llCoreContent" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/flBestOffer" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:id="@id/cvBestOffer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-15.0dp" app:cardBackgroundColor="@color/color_best_offer" app:cardCornerRadius="10.0dp" app:cardElevation="4.0dp" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true">
+                <TextView android:textSize="13.0sp" android:textColor="@color/White" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tvBestOffer" android:paddingTop="10.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_best_offer" android:maxLines="1" android:paddingStart="12.0dp" android:paddingEnd="12.0dp" style="@style/TextAppearanceRegular" />
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+                <ImageView android:id="@id/ivCourier" android:layout_width="50.0dp" android:layout_height="50.0dp" android:src="@drawable/hint_userpic" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/llUserInfo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/ivCourier">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="15.0dp">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/llUsenameVeried" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textColor="@color/Black" android:id="@id/tvUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearanceBold.Large" />
+                            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llAccountVerifed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dp">
+                                <ImageView android:id="@id/ivAccountVerifed" android:background="@drawable/icon_ac_verified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/lbl_me_veriry_me" />
+                                <TextView android:textSize="10.0sp" android:textColor="@color/apptheme_color" android:id="@id/txtMeAccountVerified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_edit_p_account_is_verified" android:layout_marginStart="5.0dp" style="@style/TextAppearanceProximaNovaBold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRating" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="-2.0dp">
+                            <RatingBar android:id="@id/rating1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="5" android:numStars="5" android:rating="0.0" android:isIndicator="true" style="@style/verifyRatingBarNew" />
+                            <TextView android:textColor="@color/text_color_c0" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/txtRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="5.0dp" style="@style/TextAppearanceRegular.Medium" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:textColor="@color/white" android:id="@id/txtAccept" android:background="@drawable/bg_sky_blue_ripple_4" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dp" android:text="@string/lbl_accept" android:textAllCaps="true" android:textAlignment="center" style="@style/TextAppearanceMedium.Medium" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_below="@id/llUserInfo" android:layout_marginStart="15.0dp" android:layout_toEndOf="@id/ivCourier">
+                    <TextView android:textSize="13.0sp" android:textColor="@color/text_color_c0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_accepts" style="@style/TextAppearanceRegular" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/llselectedPayments" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="13.0dp" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/text_color_7b" android:gravity="center" android:id="@id/txtDistance" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearanceMedium.ExtraLarge" />
+                    <TextView android:textColor="@color/text_color_c0" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_away_small" style="@style/TextAppearanceRegular.Small" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="@color/gray_ed" android:layout_width="1.0dp" android:layout_height="29.0dp" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp">
+                    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/dialog_text_color" android:gravity="center" android:id="@id/txtDiscountCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="6.0" style="@style/TextAppearanceMedium.ExtraLarge" />
+                        <TextView android:textSize="13.0sp" android:textColor="@color/dialog_text_color" android:id="@id/txtCost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="4.0" android:layout_marginStart="5.0dp" style="@style/TextAppearanceMedium" />
+                    </LinearLayout>
+                    <TextView android:textColor="@color/text_color_c0" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_delivery_cost_sar_small" style="@style/TextAppearanceRegular.Small" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:background="@color/gray_ed" android:layout_width="1.0dp" android:layout_height="29.0dp" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/text_color_7b" android:gravity="center" android:id="@id/txtDeliveryTime" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearanceMedium.ExtraLarge" />
+                    <TextView android:textColor="@color/text_color_c0" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_to_arrive" style="@style/TextAppearanceRegular.Small" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

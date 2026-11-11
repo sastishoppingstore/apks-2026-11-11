@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/llTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tvTitle" android:background="@drawable/marker_order_location_pin" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_dropoff" android:paddingStart="15.0dp" android:paddingEnd="15.0dp" style="@style/TextAppearanceRegular.Small" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivToolTipArrow" android:layout_width="6.0dp" android:layout_height="4.0dp" android:src="@drawable/img_tooltip_arrow" android:scaleType="centerInside" android:rotation="180.0" app:tint="@color/sky_blue_color" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/flMarkerYou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llTitle">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivPin" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_marker_pending_order" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/ivProfilePic" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="3.0dp" android:src="@drawable/user_profile" android:scaleType="centerInside" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivMarkerPlace" android:visibility="gone" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="4.0dp" android:src="@drawable/img_dropoff_new" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

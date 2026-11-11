@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@drawable/add_address_shadow" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginStart="5.0dp" android:layout_marginEnd="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="86.0dp" android:layout_height="86.0dp" android:src="@drawable/service_centers" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/your_shipments" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/service_centers" android:fontFamily="@font/inter_medium" android:letterSpacing="-0.02" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/add_r_edit_address_desc" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:text="@string/find_nearest_retail_center" android:fontFamily="@font/inter_regular" android:letterSpacing="-0.04" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40.0dp" android:layout_marginTop="20.0dp" android:weightSum="1.0">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/splashIcn" android:layout_width="98.0dp" android:layout_height="25.0dp" android:src="@drawable/smsa_full_logo" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="right" android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.3" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right|center" android:id="@id/options_menu" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="30.0dp" android:src="@drawable/menu" android:layout_weight="0.1" android:layout_marginStart="10.0dp" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right|center" android:id="@id/notification" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="30.0dp" android:src="@drawable/ic_notification" android:layout_weight="0.1" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/welcome_name" android:id="@id/name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="" android:fontFamily="@font/inter_semibold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/awb_search_bg" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginTop="15.0dp" android:layout_marginBottom="5.0dp" android:paddingStart="12.0dp">
+                    <ImageView android:id="@id/ivScan" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_scan" />
+                    <EditText android:textSize="14.0sp" android:textColor="#171421" android:textColorHint="#9b9b9b" android:id="@id/trackingNo" android:background="@null" android:layout_width="0.0dp" android:layout_height="wrap_content" android:hint="@string/search_tracking_number" android:singleLine="true" android:maxLength="15" android:layout_weight="1.0" android:inputType="number" android:fontFamily="@font/inter_medium" android:layout_marginStart="12.0dp" />
+                    <ImageView android:id="@id/track" android:padding="2.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_search_new" android:scaleType="fitXY" />
+                </LinearLayout>
+            </LinearLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dp">
+                    <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/quickaccess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/quick_access" app:ct_textColor="#7f7594" app:ct_textSize="14.0sp" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="160.0dp" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" android:paddingHorizontal="6.0dp">
+                        <com.google.android.material.card.MaterialCardView android:id="@id/create_shipment" android:layout_width="0.0dp" android:layout_height="150.0dp" android:layout_weight="1.0" android:layout_marginEnd="6.0dp" app:cardBackgroundColor="#faf9fc" app:cardCornerRadius="16.0dp" app:cardElevation="2.0dp">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="16.0dp">
+                                <ImageView android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/home_shipment" />
+                                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/tvcreateshipment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/create_shipment_home" app:ct_textColor="#440099" app:ct_textSize="14.0sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView android:id="@id/service_center" android:layout_width="0.0dp" android:layout_height="150.0dp" android:layout_weight="1.0" android:layout_marginHorizontal="6.0dp" app:cardBackgroundColor="#faf9fc" app:cardCornerRadius="16.0dp" app:cardElevation="2.0dp">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="16.0dp">
+                                <ImageView android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/home_service_centers" />
+                                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/tvservicecenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/service_centers" app:ct_textColor="#440099" app:ct_textSize="14.0sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView android:id="@id/calculator" android:layout_width="0.0dp" android:layout_height="150.0dp" android:layout_weight="1.0" android:layout_marginStart="6.0dp" app:cardBackgroundColor="#faf9fc" app:cardCornerRadius="16.0dp" app:cardElevation="2.0dp">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="10.0dp">
+                                <ImageView android:layout_width="64.0dp" android:layout_height="64.0dp" android:src="@drawable/home_rate_calculator" />
+                                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/tvratecalculator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/rate_calculator" app:ct_textColor="#440099" app:ct_textSize="14.0sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                    <com.google.android.material.card.MaterialCardView android:id="@id/addressLayout" android:layout_width="match_parent" android:layout_height="76.0dp" android:layout_marginVertical="10.0dp" app:cardBackgroundColor="#fff3ed" app:cardCornerRadius="16.0dp" app:cardElevation="0.0dp">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="16.0dp" android:paddingEnd="16.0dp">
+                            <ImageView android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/home_arrow" android:scaleType="centerInside" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dp">
+                                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvaddyouraddress" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/add_your_address" app:ct_textColor="#171421" app:ct_textSize="14.0sp" />
+                                <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:ellipsize="end" android:id="@id/tvaddyouraddressdesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:maxLines="2" android:textDirection="locale" app:ct_fontFamily="@font/inter_regular" app:ct_text="@string/add_r_edit_address" app:ct_textColor="#6f6a7c" app:ct_textSize="12.0sp" />
+                            </LinearLayout>
+                            <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="center" android:id="@id/home_add_button" android:background="@drawable/add_btn_bg" android:layout_width="wrap_content" android:layout_height="28.0dp" android:minWidth="48.0dp" android:layout_marginStart="3.0dp" android:paddingHorizontal="20.0dp" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/add" app:ct_textColor="#ff671f" app:ct_textSize="12.0sp" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/active_shipments_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:weightSum="1.0">
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:id="@id/tvYourShipmentsLabel" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.5" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/your_shipments" app:ct_textColor="#7f7594" app:ct_textSize="14.0sp" />
+                        <com.smsagrp.smsa.main.views.customcomponents.CustomTextView android:gravity="end" android:id="@id/viewAll" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.5" app:ct_fontFamily="@font/inter_medium" app:ct_text="@string/view_all" app:ct_textColor="#ff671f" app:ct_textSize="14.0sp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/shipments" android:padding="8.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                    <include android:id="@id/include_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="30.0dp" layout="@layout/layout_loyalty_tier_card_home" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

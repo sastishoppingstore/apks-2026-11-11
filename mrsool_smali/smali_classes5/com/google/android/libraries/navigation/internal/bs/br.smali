@@ -1,0 +1,83 @@
+.class public final Lcom/google/android/libraries/navigation/internal/bs/br;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# instance fields
+.field a:Lcom/google/android/libraries/navigation/internal/acu/dd;
+
+.field b:I
+
+.field c:I
+
+.field d:I
+
+.field e:Z
+
+.field f:I
+
+.field g:Ljava/lang/String;
+
+.field h:Lcom/google/android/libraries/navigation/internal/bs/bn;
+
+.field final i:Ljava/util/List;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/google/android/libraries/navigation/internal/bs/br;->i:Ljava/util/List;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/google/android/libraries/navigation/internal/yg/bs;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/libraries/navigation/internal/bs/br;->i:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public final b()V
+    .locals 1
+
+    .line 1
+    const/16 v0, 0xf
+
+    .line 2
+    .line 3
+    iput v0, p0, Lcom/google/android/libraries/navigation/internal/bs/br;->d:I
+
+    .line 4
+    .line 5
+    return-void
+.end method

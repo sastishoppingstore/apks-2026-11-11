@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/flMain" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="24.0sp" android:gravity="center" android:id="@id/edPin" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dp" android:minHeight="48.0dp" android:inputType="number" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    <ImageView android:layout_gravity="center" android:id="@id/bgPin" android:background="@drawable/hint_circle" android:layout_width="16.0dp" android:layout_height="16.0dp" />
+</FrameLayout>

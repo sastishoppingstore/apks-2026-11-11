@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dp" android:width="80.0dp" android:viewportWidth="80.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_mrsool_black__0" android:pathData="M40,0L40,0A40,40 0,0 1,80 40L80,40A40,40 0,0 1,40 80L40,80A40,40 0,0 1,0 40L0,40A40,40 0,0 1,40 0z" />
+    <group>
+        <clip-path android:pathData="M40,40m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
+        <path android:fillColor="#ffffff" android:pathData="M27.589,57.398l12.41,-12.41l12.41,12.41l-12.41,12.41z" />
+        <path android:fillColor="#ffffff" android:pathData="M69.854,28.449C67.466,22.283 63.223,17.041 57.809,13.408C57.3,16.053 56.042,18.506 54.165,20.44C51.669,23.012 48.284,24.457 44.754,24.457C42.122,24.457 39.549,23.653 37.361,22.146C35.172,20.639 33.466,18.497 32.459,15.991C31.586,13.818 31.271,11.455 31.538,9.132C24.971,10.928 19.247,14.764 15.089,19.916C16.789,24.819 19.625,29.269 23.403,32.854C29.288,38.436 37.015,41.498 45.013,41.415C53.011,41.332 60.677,38.111 66.451,32.408C67.696,31.178 68.833,29.853 69.854,28.449Z" />
+    </group>
+</vector>

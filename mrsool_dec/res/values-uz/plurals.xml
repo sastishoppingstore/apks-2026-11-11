@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">%d marshrutida harakatlanish</item>
+        <item quantity="other">%d marshrutida harakatlanish</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d ta velosiped bor</item>
+        <item quantity="other">%d ta velosiped bor</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d ta punkt mavjud</item>
+        <item quantity="other">%d ta punkt mavjud</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">Xarita burchagi %d daraja.</item>
+        <item quantity="other">Xarita burchagi %d daraja.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s kun</item>
+        <item quantity="other">%s kun</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s kun</item>
+        <item quantity="other">%s kun</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sk</item>
+        <item quantity="other">%sk</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s kun</item>
+        <item quantity="other">%s kun</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s soat</item>
+        <item quantity="other">%s soat</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s st</item>
+        <item quantity="other">%s st</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sst</item>
+        <item quantity="other">%sst</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s daqiqa</item>
+        <item quantity="other">%s daqiqa</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s daq.</item>
+        <item quantity="other">%s daq.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sd</item>
+        <item quantity="other">%sd</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s soniya</item>
+        <item quantity="other">%s soniya</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s fut harakatni davom ettiring</item>
+        <item quantity="other">%1$s fut harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s kilometr harakatni davom ettiring</item>
+        <item quantity="other">%1$s kilometr harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s metr harakatni davom ettiring</item>
+        <item quantity="other">%1$s metr harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s mil harakatni davom ettiring</item>
+        <item quantity="other">%1$s mil harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s yard harakatni davom ettiring</item>
+        <item quantity="other">%1$s yard harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s bo‘ylab %1$s fut harakatni davom ettiring</item>
+        <item quantity="other">%2$s bo‘ylab %1$s fut harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s bo‘ylab %1$s kilometr harakatni davom ettiring</item>
+        <item quantity="other">%2$s bo‘ylab %1$s kilometr harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s bo‘ylab %1$s metr harakatni davom ettiring</item>
+        <item quantity="other">%2$s bo‘ylab %1$s metr harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s bo‘ylab %1$s mil harakatni davom ettiring</item>
+        <item quantity="other">%2$s bo‘ylab %1$s mil harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s bo‘ylab %1$s yard harakatni davom ettiring</item>
+        <item quantity="other">%2$s bo‘ylab %1$s yard harakatni davom ettiring</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s futdan so‘ng</item>
+        <item quantity="other">%1$s futdan so‘ng</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s kilometrdan so‘ng</item>
+        <item quantity="other">%1$s kilometrdan so‘ng</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s metrdan so‘ng</item>
+        <item quantity="other">%1$s metrdan so‘ng</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s mildan so‘ng</item>
+        <item quantity="other">%1$s mildan so‘ng</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s yarddan so‘ng</item>
+        <item quantity="other">%1$s yarddan so‘ng</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s kilometr/soat</item>
+        <item quantity="other">%s kilometr/soat</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s mil/soat</item>
+        <item quantity="other">%s mil/soat</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">Belgilangan manzilgacha %1$s fut qoldi</item>
+        <item quantity="other">Belgilangan manzilgacha %1$s fut qoldi</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">Belgilangan manzilgacha %1$s kilometr qoldi</item>
+        <item quantity="other">Belgilangan manzilgacha %1$s kilometr qoldi</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">Belgilangan manzilgacha %1$s metr qoldi</item>
+        <item quantity="other">Belgilangan manzilgacha %1$s metr qoldi</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">Belgilangan manzilgacha %1$s mil qoldi</item>
+        <item quantity="other">Belgilangan manzilgacha %1$s mil qoldi</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">Belgilangan manzilgacha %1$s yard qoldi</item>
+        <item quantity="other">Belgilangan manzilgacha %1$s yard qoldi</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d ta bekat</item>
+        <item quantity="other">%d ta bekat</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d ta ogohlantirish</item>
+        <item quantity="other">+%d ta ogohlantirish</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d ta ogohlantirish</item>
+        <item quantity="other">+ %d ta ogohlantirish</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">+%d ta</item>
+        <item quantity="other">+%d ta</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d</item>
+        <item quantity="other">+ %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d soniya oldinga</item>
+        <item quantity="other">%d soniya oldinga</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d soniya orqaga</item>
+        <item quantity="other">%d soniya orqaga</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+    </plurals>
+</resources>

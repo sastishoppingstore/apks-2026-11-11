@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ج</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="accessibility_names">
+        <item>سيء جدا</item>
+        <item>سيء</item>
+        <item>جيد</item>
+        <item>جيد جدا</item>
+        <item>ممتاز</item>
+    </string-array>
+    <string-array name="delete_account_reasons">
+        <item>تجربة سيئة مع طلب</item>
+        <item>تجربة سيئة مع التطبيق بشكل عام</item>
+        <item>رسوم التوصيل مرتفعة</item>
+        <item>لست بحاجة للحساب</item>
+        <item>أفضل عدم الإفصاح</item>
+        <item>أخرى</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="intro_text">
+        <item>تفضل واطلب من جميع أنواع المتاجر في كل مكان من داخل مدينتك</item>
+        <item>نقدم لك أفضل التجارب لما نجي نتكلم عن الطلبات في مرسول</item>
+        <item>مو بس كذا تقدر تتواصل مع المراسيل في الطلبات دائما</item>
+    </string-array>
+    <string-array name="intro_text_highlight">
+        <item>في كل مكان</item>
+        <item>أفضل التجارب</item>
+        <item>طوال الوقت</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>شمالاً</item>
+        <item>شمال شرق</item>
+        <item>شرقًا</item>
+        <item>جنوب شرق</item>
+        <item>جنوبًا</item>
+        <item>جنوب غرب</item>
+        <item>غربًا</item>
+        <item>شمال غرب</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>شمالاً</item>
+        <item>شمال شرق</item>
+        <item>شرقًا</item>
+        <item>جنوب شرق</item>
+        <item>جنوبًا</item>
+        <item>جنوب غرب</item>
+        <item>غربًا</item>
+        <item>شمال غرب</item>
+    </string-array>
+</resources>

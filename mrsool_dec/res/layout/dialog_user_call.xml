@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="4.0dp" app:cardElevation="8.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+                <TextView android:textSize="20.0sp" android:textColor="@color/text_color_5b" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:lineSpacingExtra="2.0sp" android:inputType="textCapSentences|textMultiLine" style="@style/TextAppearanceBold" />
+                <TextView android:textColor="@color/text_color_7b" android:id="@id/tvMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0sp" android:inputType="textCapSentences|textMultiLine" style="@style/TextAppearanceMedium.Large" />
+                <LinearLayout android:orientation="vertical" android:id="@id/llCallMultiple" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp">
+                <com.google.android.material.button.MaterialButton android:textColor="@color/text_color_96" android:id="@id/btnNegative" android:visibility="visible" android:text="@string/lbl_me_cancel" android:layout_marginEnd="8.0dp" style="@style/DialogButton" />
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/pbPositive" android:visibility="gone" android:layout_width="36.0dp" android:layout_height="36.0dp" android:indeterminateTint="@color/primary_action" />
+                    <com.google.android.material.button.MaterialButton android:id="@id/btnPositive" android:text="@string/lbl_okay_cap" style="@style/DialogButton" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

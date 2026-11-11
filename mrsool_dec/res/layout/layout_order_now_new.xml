@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llTrueMenuIns" android:background="@color/foreground_color_1" android:paddingTop="20.0dp" android:paddingBottom="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="center" android:id="@id/iTrueMenuPriceIns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" layout="@layout/view_tmp_instruction" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llGoldBarIns" android:background="@color/foreground_color_1" android:paddingTop="20.0dp" android:paddingBottom="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_gravity="center" android:id="@id/iGoldBarIns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dp" android:layout_marginEnd="16.0dp" layout="@layout/view_goldbar_instruction" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llSubscriptionNotes" android:background="@color/foreground_color_1" android:paddingTop="12.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/iSubscriptionIns" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/view_subscription_instruction" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/flMenuTotal" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="33.0dp" android:layout_above="@id/iOrderNow">
+        <ImageView android:id="@id/ivBgTotal" android:background="@color/primary_action" android:layout_width="match_parent" android:layout_height="33.0dp" android:scaleType="fitXY" android:alpha="0.75" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="33.0dp">
+            <TextView android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvTotalLbl" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lbl_total_only" android:includeFontPadding="false" android:layout_weight="1.0" android:layout_marginStart="16.0dp" style="@style/TextAppearanceMedium.Large" />
+            <com.mrsool.utils.currency.AmountCurrencyTextView android:textColor="@color/white" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/tvAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="16.0dp" app:amountDefaultTextStyle="medium" app:amountSize="16.0sp" app:currencyDefaultTextStyle="regular" app:currencySize="10.0sp" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/flOrderNowMain" android:background="@color/primary_action" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/rlOrderNow" android:background="@drawable/bg_order_now_ripple" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56.0dp">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llOrderNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvOrderNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_tb_title_order_now" android:includeFontPadding="false" style="@style/TextAppearanceMedium.ExtraLarge" />
+                <TextView android:textColor="@color/primary_action" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tvCount" android:background="@drawable/bg_white_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="24.0dp" android:minHeight="24.0dp" android:text="1" android:includeFontPadding="false" android:layout_marginStart="8.0sp" android:layout_marginEnd="8.0sp" style="@style/TextAppearanceMedium.Small" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llOrderNowDiscount" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/llOrderNow">
+                <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/vSetting" android:visibility="gone" android:layout_width="1.0dp" android:layout_height="1.0dp" android:layout_centerInParent="true" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tvDiscountTemp" android:background="@drawable/bg_discount_tag_red" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="18.0sp" android:text="100.0 % OFF" android:includeFontPadding="false" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" android:layout_marginStart="21.0dp" style="@style/TextAppearanceMedium" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tvDiscount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="on delivery Up to 100 SAR" android:includeFontPadding="false" android:layout_centerVertical="true" android:alpha="0.75" android:layout_marginStart="4.0dp" android:layout_marginEnd="15.0dp" android:layout_toStartOf="@id/vSetting" android:layout_toEndOf="@id/tvDiscountTemp" style="@style/TextAppearanceMedium" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

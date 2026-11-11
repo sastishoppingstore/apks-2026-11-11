@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/stc_navigation" app:startDestination="@id/repeatStcFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dialog android:label="stc_generate_otp_fragment" android:name="com.payfort.fortpaymentsdk.presentation.stc.generate_otp.StcGenerateOtpFragment" android:id="@id/stcGenerateOtpFragment">
+        <action android:id="@id/action_stcGenerateOtpFragment_to_stcPayFragment" app:destination="@id/stcPayFragment" />
+        <argument android:name="environment" app:argType="string" />
+        <argument android:name="merchantReq" app:argType="com.payfort.fortpaymentsdk.domain.model.FortRequest" />
+        <argument android:name="isFromRepeat" android:defaultValue="false" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="StcPayFragment" android:name="com.payfort.fortpaymentsdk.presentation.stc.pay.StcPayFragment" android:id="@id/stcPayFragment">
+        <argument android:name="mobileNumber" app:argType="string" />
+    </dialog>
+    <dialog android:label="RepeatStcFragment" android:name="com.payfort.fortpaymentsdk.presentation.stc.stc_token.RepeatStcFragment" android:id="@id/repeatStcFragment">
+        <action android:id="@id/action_repeatStcFragment_to_stcGenerateOtpFragment" app:destination="@id/stcGenerateOtpFragment" />
+        <action android:id="@id/action_repeatStcFragment_to_stcPayFragment" app:destination="@id/stcPayFragment" />
+        <argument android:name="environment" app:argType="string" />
+        <argument android:name="merchantReq" app:argType="com.payfort.fortpaymentsdk.domain.model.FortRequest" />
+    </dialog>
+</navigation>

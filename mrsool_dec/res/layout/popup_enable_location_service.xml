@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp" app:cardCornerRadius="4.0dp">
+        <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/dummy_map_snapshot" android:scaleType="centerCrop" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_heatmapbg1" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:id="@id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_we_couldn_t_find_your_location" android:includeFontPadding="false" style="@style/TextAppearanceMedium.Large" />
+                <TextView android:textColor="@color/white" android:id="@id/tvDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:text="@string/msg_we_couldn_t_find_your_location_desc" android:includeFontPadding="false" style="@style/TextAppearanceMedium.Small" />
+                <com.mrsool.utils.widgets.ClearTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text_color_5b" android:gravity="center" android:id="@id/btnEnableLocation" android:background="@drawable/bg_white_ripple_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:minHeight="32.0dp" android:text="@string/lbl_enable_location_settings" android:includeFontPadding="false" android:textAllCaps="false" android:fontFamily="sans-serif" android:letterSpacing="0.0" app:backgroundTint="@color/white" app:cornerRadius="4.0dp" />
+                <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/btnPickLocation" android:layout_width="match_parent" android:layout_height="32.0dp" android:layout_marginTop="16.0dp" android:minHeight="49.0dp" android:text="@string/lbl_pick_location_on_map" android:includeFontPadding="false" android:insetTop="0.0dp" android:insetBottom="0.0dp" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:letterSpacing="0.0" app:backgroundTint="@android:color/transparent" app:cornerRadius="4.0dp" app:strokeColor="@color/white" app:strokeWidth="1.0dp" style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

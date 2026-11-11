@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/customMapStyleRoot" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/llMapContainer" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="@drawable/bg_ripple_30" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_map_stlye" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <include layout="@layout/divider_vertical_gray" />
+            <TextView android:textColor="@color/color_text_map_style" android:gravity="center" android:id="@id/tvMap" android:background="@drawable/bg_map_style" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80.0dp" android:text="@string/menu_lbl_map" style="@style/TextAppearanceRegular" />
+            <TextView android:textColor="@color/color_text_map_style" android:gravity="center" android:id="@id/tvSatellite" android:background="@drawable/bg_map_style" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80.0dp" android:text="@string/menu_lbl_satellite" android:paddingStart="5.0dp" android:paddingEnd="5.0dp" style="@style/TextAppearanceRegular" />
+            <TextView android:textColor="@color/color_text_map_style" android:gravity="center" android:id="@id/tvHybrid" android:background="@drawable/bg_map_style" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80.0dp" android:text="@string/menu_lbl_hybrid" style="@style/TextAppearanceRegular" />
+            <include layout="@layout/divider_vertical_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ivMapStyle" android:background="@drawable/bg_ripple_30" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_map_stlye" android:scaleType="centerInside" android:contentDescription="@string/lbl_map_type" app:tint="@color/color_tint_location" />
+</LinearLayout>

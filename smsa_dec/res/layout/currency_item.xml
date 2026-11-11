@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgFlag" android:layout_width="32.0dp" android:layout_height="24.0dp" android:scaleType="fitXY" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="10.0dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#171421" android:id="@id/tvCurrency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAR" android:fontFamily="@font/inter_medium" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#171421" android:id="@id/tvCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Saudi Arabia" android:fontFamily="@font/inter_regular" android:layout_marginStart="3.0dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <ImageView android:id="@id/imgCheck" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/currency_selector" />
+</LinearLayout>

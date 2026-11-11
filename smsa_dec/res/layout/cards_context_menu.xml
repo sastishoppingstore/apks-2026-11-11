@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_context_meu" android:padding="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btnEdit" android:padding="10.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_edit_new" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomFieldLabel android:textSize="14.0sp" android:textColor="#440099" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btnDelete" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@drawable/ic_delete_new" />
+        <com.smsagrp.smsa.main.views.customcomponents.CustomFieldLabel android:textSize="14.0sp" android:textColor="#440099" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_marginStart="8.0dp" />
+    </LinearLayout>
+</LinearLayout>

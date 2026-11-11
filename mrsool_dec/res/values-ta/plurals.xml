@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ACCESSIBILITY_NAVIGATE_AND_CHECK_IN_WITH_ROUTE">
+        <item quantity="one">வழிகாட்டு, வழி %d</item>
+        <item quantity="other">வழிகாட்டு, வழி %d</item>
+    </plurals>
+    <plurals name="BIKESHARING_BIKES_AVAILABLE">
+        <item quantity="one">%d சைக்கிள் உள்ளது</item>
+        <item quantity="other">%d சைக்கிள்கள் உள்ளன</item>
+    </plurals>
+    <plurals name="BIKESHARING_DOCKS_AVAILABLE">
+        <item quantity="one">%d நிறுத்துமிடம் உள்ளது</item>
+        <item quantity="other">%d நிறுத்துமிடங்கள் உள்ளன</item>
+    </plurals>
+    <plurals name="COMPASS_ACCESSIBILITY_BEARING">
+        <item quantity="one">வரைபடத் திசையளவு %d டிகிரி.</item>
+        <item quantity="other">வரைபடத் திசையளவு %d டிகிரி.</item>
+    </plurals>
+    <plurals name="DA_DAYS">
+        <item quantity="one">%s நாள்</item>
+        <item quantity="other">%s நாட்கள்</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED">
+        <item quantity="one">%s நா</item>
+        <item quantity="other">%s நா</item>
+    </plurals>
+    <plurals name="DA_DAYS_ABBREVIATED_SHORT">
+        <item quantity="one">%sநா</item>
+        <item quantity="other">%sநா</item>
+    </plurals>
+    <plurals name="DA_DAYS_SHORT">
+        <item quantity="one">%s நாள்</item>
+        <item quantity="other">%s நாட்கள்</item>
+    </plurals>
+    <plurals name="DA_HOURS">
+        <item quantity="one">%s மணிநேரம்</item>
+        <item quantity="other">%s மணிநேரம்</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED">
+        <item quantity="one">%s மநே</item>
+        <item quantity="other">%s மநே</item>
+    </plurals>
+    <plurals name="DA_HOURS_ABBREVIATED_SHORT">
+        <item quantity="one">%sம.நே</item>
+        <item quantity="other">%sம.நே</item>
+    </plurals>
+    <plurals name="DA_MINUTES">
+        <item quantity="one">%s நிமிடம்</item>
+        <item quantity="other">%s நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED">
+        <item quantity="one">%s நி</item>
+        <item quantity="other">%s நி</item>
+    </plurals>
+    <plurals name="DA_MINUTES_ABBREVIATED_SHORT">
+        <item quantity="one">%sநிமி.</item>
+        <item quantity="other">%sநிமி.</item>
+    </plurals>
+    <plurals name="DA_MINUTES_BARE_FOLLOWING_HOURS">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="DA_SECONDS">
+        <item quantity="one">%s வினாடி</item>
+        <item quantity="other">%s வினாடிகள்</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_FEET">
+        <item quantity="one">%1$s அடி தொடர்ந்து செல்க</item>
+        <item quantity="other">%1$s அடி தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_KILOMETERS">
+        <item quantity="one">%1$s கிலோமீட்டர் தொடர்ந்து செல்க</item>
+        <item quantity="other">%1$s கிலோமீட்டர் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_METERS">
+        <item quantity="one">%1$s மீட்டர் தொடர்ந்து செல்க</item>
+        <item quantity="other">%1$s மீட்டர் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_MILES">
+        <item quantity="one">%1$s மைல் தொடர்ந்து செல்க</item>
+        <item quantity="other">%1$s மைல் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_FOR_X_YARDS">
+        <item quantity="one">%1$s கெஜம் தொடர்ந்து செல்க</item>
+        <item quantity="other">%1$s கெஜம் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_FEET">
+        <item quantity="one">%2$s சாலையில் %1$s அடி தொடர்ந்து செல்க</item>
+        <item quantity="other">%2$s சாலையில் %1$s அடி தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_KILOMETERS">
+        <item quantity="one">%2$s சாலையில் %1$s கிலோமீட்டர் தொடர்ந்து செல்க</item>
+        <item quantity="other">%2$s சாலையில் %1$s கிலோமீட்டர் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_METERS">
+        <item quantity="one">%2$s சாலையில் %1$s மீட்டர் தொடர்ந்து செல்க</item>
+        <item quantity="other">%2$s சாலையில் %1$s மீட்டர் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_MILES">
+        <item quantity="one">%2$s சாலையில் %1$s மைல் தொடர்ந்து செல்க</item>
+        <item quantity="other">%2$s சாலையில் %1$s மைல் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_CONTINUE_ON_ROAD_FOR_X_YARDS">
+        <item quantity="one">%2$s சாலையில் %1$s கெஜம் தொடர்ந்து செல்க</item>
+        <item quantity="other">%2$s சாலையில் %1$s கெஜம் தொடர்ந்து செல்க</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_FEET">
+        <item quantity="one">%1$s அடி தொலைவில்</item>
+        <item quantity="other">%1$s அடி தொலைவில்</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_KILOMETERS">
+        <item quantity="one">%1$s கிலோமீட்டர் தொலைவில்</item>
+        <item quantity="other">%1$s கிலோமீட்டர் தொலைவில்</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_METERS">
+        <item quantity="one">%1$s மீட்டர் தொலைவில்</item>
+        <item quantity="other">%1$s மீட்டர் தொலைவில்</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_MILES">
+        <item quantity="one">%1$s மைல் தொலைவில்</item>
+        <item quantity="other">%1$s மைல் தொலைவில்</item>
+    </plurals>
+    <plurals name="DA_SPEECH_IN_X_YARDS">
+        <item quantity="one">%1$s கெஜம் தொலைவில்</item>
+        <item quantity="other">%1$s கெஜம் தொலைவில்</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_KILOMETERS_PER_HOUR_EXTENDED">
+        <item quantity="one">%s கிலோமீட்டர்/மணிநேரம்</item>
+        <item quantity="other">%s கிலோமீட்டர்/மணிநேரம்</item>
+    </plurals>
+    <plurals name="DA_SPEED_FORMAT_MILES_PER_HOUR_EXTENDED">
+        <item quantity="one">%s மைல்/மணிநேரம்</item>
+        <item quantity="other">%s மைல்/மணிநேரம்</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_FEET_AHEAD">
+        <item quantity="one">நீங்கள் சேருமிடம் இன்னும் %1$s அடி தொலைவில் உள்ளது</item>
+        <item quantity="other">நீங்கள் சேருமிடம் இன்னும் %1$s அடி தொலைவில் உள்ளது</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_KILOMETERS_AHEAD">
+        <item quantity="one">நீங்கள் சேருமிடம் இன்னும் %1$s கிலோமீட்டர் தொலைவில் உள்ளது</item>
+        <item quantity="other">நீங்கள் சேருமிடம் இன்னும் %1$s கிலோமீட்டர் தொலைவில் உள்ளது</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_METERS_AHEAD">
+        <item quantity="one">நீங்கள் சேருமிடம் இன்னும் %1$s மீட்டர் தொலைவில் உள்ளது</item>
+        <item quantity="other">நீங்கள் சேருமிடம் இன்னும் %1$s மீட்டர் தொலைவில் உள்ளது</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_MILES_AHEAD">
+        <item quantity="one">நீங்கள் சேருமிடம் இன்னும் %1$s மைல் தொலைவில் உள்ளது</item>
+        <item quantity="other">நீங்கள் சேருமிடம் இன்னும் %1$s மைல் தொலைவில் உள்ளது</item>
+    </plurals>
+    <plurals name="DA_YOUR_DESTINATION_IS_X_YARDS_AHEAD">
+        <item quantity="one">நீங்கள் சேருமிடம் இன்னும் %1$s கெஜம் தொலைவில் உள்ளது</item>
+        <item quantity="other">நீங்கள் சேருமிடம் இன்னும் %1$s கெஜம் தொலைவில் உள்ளது</item>
+    </plurals>
+    <plurals name="TRANSIT_NUM_STOPS">
+        <item quantity="one">%d நிறுத்தம்</item>
+        <item quantity="other">%d நிறுத்தங்கள்</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE">
+        <item quantity="one">+%d விழிப்பூட்டல்</item>
+        <item quantity="other">+%d விழிப்பூட்டல்கள்</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_ALERTS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ %d விழிப்பூட்டல்</item>
+        <item quantity="other">+ %d விழிப்பூட்டல்கள்</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE">
+        <item quantity="one">மேலும் %d</item>
+        <item quantity="other">மேலும் %d</item>
+    </plurals>
+    <plurals name="TRANSIT_PLUS_NUMBER_OF_INFORMATION_ITEMS_TITLE_CONTENT_DESCRIPTION">
+        <item quantity="one">+ மேலும் %d</item>
+        <item quantity="other">+ மேலும் %d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d வினாடி ஃபாஸ்ட் ஃபார்வர்ட் ஆகும்</item>
+        <item quantity="other">%d வினாடிகள் ஃபாஸ்ட் ஃபார்வர்ட் ஆகும்</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d வினாடி ரீவைண்ட் ஆகும்</item>
+        <item quantity="other">%d வினாடிகள் ரீவைண்ட் ஆகும்</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d புதிய அறிவிப்பு</item>
+        <item quantity="other">%d புதிய அறிவிப்புகள்</item>
+    </plurals>
+</resources>

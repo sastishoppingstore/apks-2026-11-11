@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_map_window" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:elevation="5.0dp">
+        <TextView android:textColor="@color/Black" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:maxWidth="220.0dp" android:text="" style="@style/TextAppearanceRegular.Medium" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llAccuracy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:layout_marginBottom="15.0dp" android:layout_marginStart="10.0dp">
+            <ImageView android:layout_width="15.0dp" android:layout_height="15.0dp" android:src="@drawable/ic_accuracy" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/Black" android:gravity="center" android:id="@id/txtAccuracy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:maxWidth="220.0dp" android:text="" style="@style/TextAppearanceRegular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

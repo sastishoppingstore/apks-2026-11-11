@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/select_address_item_shimmer_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/rv_list_item_bottom" app:cardCornerRadius="12.0dp" app:cardUseCompatPadding="true" app:strokeColor="@color/savedaddress_divider" app:strokeWidth="1.0dp">
+        <include android:id="@id/includeAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dp" layout="@layout/address_card_item_shimmer" />
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

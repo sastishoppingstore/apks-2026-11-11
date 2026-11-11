@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="rtl" android:layoutDirection="rtl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="170.0dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llHeaderTop" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="50.0dp" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llHeaderBottom" android:background="@color/White" android:layout_width="match_parent" android:layout_height="120.0dp" android:layout_below="@id/llHeaderTop">
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="center_horizontal" android:id="@id/txtUserName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="70.0dp" android:layout_marginRight="20.0dp" android:textDirection="ltr" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" style="@style/TextAppearanceProximaNovaBold.ExtraLarge" />
+                <RatingBar android:gravity="center_horizontal" android:id="@id/rbCourierRate" android:layout_width="wrap_content" android:layout_height="23.0dp" android:layout_marginLeft="10.0dp" android:layout_marginRight="10.0dp" android:progressDrawable="@drawable/custom_rating_fill_feedback" android:rating="0.0" android:stepSize="0.1" android:isIndicator="true" android:layout_below="@id/rating_tv_title" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:background="@drawable/profilephotoframe" android:layout_width="105.0dp" android:layout_height="105.0dp" android:layout_marginBottom="60.0dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/imgUserPic" android:layout_width="100.0dp" android:layout_height="100.0dp" android:src="@drawable/hint_userpic" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/llAccountVerifed" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ivAccountVerifed" android:background="@drawable/icon_ac_verified" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/apptheme_color" android:id="@id/txtMeAccountVerified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" android:text="@string/lbl_edit_p_account_is_verified" android:layout_marginStart="5.0dp" style="@style/TextAppearanceProximaNovaBold" />
+            </LinearLayout>
+            <View android:background="@color/dialog_text_color" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="5.0dp" />
+            <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:weightSum="1.0">
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="right" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lbl_edit_p_order_count" android:layout_weight="0.5" android:textDirection="ltr" style="@style/TextAppearanceProximaNovaBold.Large" />
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="right" android:id="@id/txtOrderCount" android:padding="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="0.5" android:textDirection="ltr" style="@style/TextAppearanceProximaNovaRegular.Large" />
+            </LinearLayout>
+            <View android:background="@color/dialog_text_color" android:layout_width="match_parent" android:layout_height="0.5dp" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/llMeUserFeedback" android:background="?selectableItemBackground" android:padding="10.0dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5.0dp" android:weightSum="1.0">
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="right" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/lbl_edit_p_user_feedback" android:layout_weight="0.5" style="@style/TextAppearanceProximaNovaBold.Large" />
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="right" android:id="@id/txtFeedbackCount" android:padding="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="0.4" style="@style/TextAppearanceProximaNovaRegular.Large" />
+                <TextView android:textColor="@color/dialog_text_color" android:gravity="center" android:id="@id/txtFeedbackCountArrow" android:padding="5.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text=">" android:layout_weight="0.1" android:rotation="180.0" android:textDirection="ltr" style="@style/TextAppearanceProximaNovaBold.Large" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

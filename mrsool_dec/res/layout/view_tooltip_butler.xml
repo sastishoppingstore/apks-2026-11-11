@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/llTooltipBubble" android:background="@drawable/bg_gray_5" android:paddingLeft="16.0dp" android:paddingTop="10.0dp" android:paddingRight="16.0dp" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_44" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/tvTooltipMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/butler_ai_tooltip_text" />
+    </LinearLayout>
+    <ImageView android:id="@id/ivTooltipArrow" android:layout_width="@dimen/dimen_24" android:layout_height="@dimen/dimen_8" android:src="@drawable/img_tooltip_arrow" android:contentDescription="@null" android:rotation="180.0" app:layout_constraintEnd_toEndOf="@id/llTooltipBubble" app:layout_constraintStart_toStartOf="@id/llTooltipBubble" app:layout_constraintTop_toBottomOf="@id/llTooltipBubble" app:tint="@android:color/black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

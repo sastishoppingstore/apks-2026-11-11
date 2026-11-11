@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/viewSlide" android:background="@drawable/line_round_corner_3" android:layout_width="30.0dp" android:layout_height="6.0dp" android:backgroundTint="@color/ternary_color" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

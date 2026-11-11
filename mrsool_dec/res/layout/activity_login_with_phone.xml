@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true" android:transitionName="test1">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="6.0dp">
+            <include layout="@layout/layout_title_bar_new" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/llMain" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/layTypeNumber" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+                        <LinearLayout android:orientation="vertical" android:id="@id/llDeleteAccount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/dark_gray15" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_verify_identity" style="@style/TextAppearanceBold.ExtraLarge" />
+                            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/text_color_7d" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/lbl_registered_phone_number" style="@style/TextAppearanceRegular.Medium" />
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/secondary_color" android:layout_gravity="start" android:id="@id/txtPhoneHeader" android:paddingTop="24.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="5.0dp" android:text="@string/lbl_enter_your_mobile_number" style="@style/TextAppearanceRegular.Large" />
+                        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/llMobileNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:layout_marginBottom="5.0dp" android:layout_marginStart="2.0dp" android:layout_marginEnd="5.0dp" android:transitionName="@string/lbl_transition_otp_code" app:cardBackgroundColor="@color/foreground_color_1" app:cardCornerRadius="4.0dp" app:cardElevation="3.0dp" app:strokeColor="@color/primary_action" app:strokeWidth="1.0dp">
+                            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llCountryCode" android:background="?selectableItemBackground" android:padding="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCountryFlag" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/flag_sa" />
+                                    <TextView android:textColor="@color/primary_color" android:gravity="center_vertical" android:id="@id/txtCC" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+966" android:drawablePadding="5.0dp" android:drawableStart="@drawable/ic_dropdown_arrow" android:layout_marginStart="5.0dp" style="@style/TextAppearanceRegular.Large" />
+                                </LinearLayout>
+                                <EditText android:textColor="@color/primary_color" android:textColorHint="@color/ternary_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/edtPhone" android:background="@android:color/transparent" android:padding="0.0dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="1.0dp" android:hint="582124321" android:maxLines="1" android:maxLength="17" android:digits="0123456789+١٢٣٤٥٦٧٨٩٠" android:inputType="number" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/custom_cursor_primary_color" android:textDirection="ltr" android:layout_marginStart="7.0dp" style="@style/TextAppearanceProximaNovaRegular.Large" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                        <TextView android:textColor="@color/error_color" android:id="@id/tvError" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lbl_invalid_mobile_length" android:maxLines="1" android:layout_marginStart="5.0dp" style="@style/TextAppearanceRegular" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/ternary_color" android:layout_gravity="start" android:id="@id/tvVerificationCodeNote" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:text="@string/lbl_send_you_verification_code" style="@style/TextAppearanceRegular.Small" />
+                    </LinearLayout>
+                </LinearLayout>
+                <include layout="@layout/layout_button_with_loader_new" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <View android:id="@id/viewOverlay" android:background="@color/overlay_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

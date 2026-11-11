@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:layout_below="@id/llMain" android:layout_centerHorizontal="true">
+        <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivPin" android:background="@android:color/transparent" android:padding="2.0dp" android:layout_width="@dimen/marker_35" android:layout_height="@dimen/marker_35" android:src="@drawable/icon_home_pickup" app:shapeAppearanceOverlay="@style/circularImage" app:strokeColor="@color/color_green" app:strokeWidth="2.0dp" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/flStatus" android:background="@drawable/circle_success" android:layout_width="12.0dp" android:layout_height="12.0dp">
+            <ImageView android:layout_gravity="center" android:id="@id/ivStatusIcon" android:layout_width="7.0dp" android:layout_height="7.0dp" android:src="@drawable/ic_location_white" />
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/llMain" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/llMarker" android:background="@drawable/bg_rounded_4_marker" android:paddingTop="5.0dp" android:paddingBottom="4.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="11.0dp" android:paddingEnd="11.0dp" android:elevation="8.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textColor="@color/background_color_2" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearanceRegular.Medium" />
+            <TextView android:textColor="@color/success_color" android:layout_gravity="center_horizontal" android:id="@id/tvDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearanceMedium.Small" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dp" android:src="@drawable/ic_arrow_down_filled" android:tint="@color/primary_color" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/llMarker" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

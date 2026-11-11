@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CALLOUT_ALPHABETIC_LABELS">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string-array name="DISTANCE_UNIT_ENTRIES">
+        <item>@string/UNITS_AUTOMATIC</item>
+        <item>@string/UNITS_METRIC</item>
+        <item>@string/UNITS_IMPERIAL</item>
+    </string-array>
+    <string-array name="accessibility_names">
+        <item>Very Bad</item>
+        <item>Bad</item>
+        <item>Good</item>
+        <item>Very Good</item>
+        <item>Excellent</item>
+    </string-array>
+    <array name="av_colors">
+        <item>@color/av_color4</item>
+        <item>@color/av_color3</item>
+        <item>@color/av_color2</item>
+        <item>@color/av_color1</item>
+    </array>
+    <string-array name="delete_account_reasons">
+        <item>Bad experience on an order</item>
+        <item>Bad experience with MRSOOL</item>
+        <item>Delivery fees are expensive</item>
+        <item>No longer need an account</item>
+        <item>Prefer not to say</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="environment_array">
+        <item>Staging</item>
+        <item>Preview</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="intro_text">
+        <item>Get all kinds of services from anywhere in your city</item>
+        <item>When it comes to ordering we have the best experience</item>
+        <item>You can discuss your order with couriers anytime</item>
+    </string-array>
+    <string-array name="intro_text_highlight">
+        <item>anywhere</item>
+        <item>best experience</item>
+        <item>all the time</item>
+    </string-array>
+    <string-array name="maps_compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="maps_full_compass_directions">
+        <item>north</item>
+        <item>northeast</item>
+        <item>east</item>
+        <item>southeast</item>
+        <item>south</item>
+        <item>southwest</item>
+        <item>west</item>
+        <item>northwest</item>
+    </string-array>
+    <string-array name="names">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

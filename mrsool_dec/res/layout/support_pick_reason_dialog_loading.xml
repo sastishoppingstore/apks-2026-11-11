@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/foreground_color_1" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="end" android:id="@id/supportClose" android:background="@drawable/bg_corner_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="16.0dp" />
+    <View android:id="@id/supportTitle" android:background="@drawable/bg_corner_2" android:layout_width="166.0dp" android:layout_height="20.0dp" android:layout_marginTop="-33.0dp" android:layout_marginStart="16.0dp" />
+    <View android:id="@id/supportItemsTopDivider" android:background="@color/light_gray_18" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="16.0dp" />
+    <View android:layout_gravity="end" android:background="@drawable/bg_corner_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="12.0dp" />
+    <View android:background="@drawable/bg_corner_2" android:layout_width="146.0dp" android:layout_height="20.0dp" android:layout_marginTop="-33.0dp" android:layout_marginStart="16.0dp" />
+    <View android:background="@color/light_gray_18" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+    <View android:layout_gravity="end" android:background="@drawable/bg_corner_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="12.0dp" />
+    <View android:background="@drawable/bg_corner_2" android:layout_width="146.0dp" android:layout_height="20.0dp" android:layout_marginTop="-33.0dp" android:layout_marginStart="16.0dp" />
+    <View android:background="@color/light_gray_18" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+    <View android:layout_gravity="end" android:background="@drawable/bg_corner_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="12.0dp" />
+    <View android:background="@drawable/bg_corner_2" android:layout_width="146.0dp" android:layout_height="20.0dp" android:layout_marginTop="-33.0dp" android:layout_marginStart="16.0dp" />
+    <View android:background="@color/light_gray_18" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="12.0dp" />
+    <View android:background="@drawable/bg_corner_2" android:layout_width="146.0dp" android:layout_height="20.0dp" android:layout_marginTop="12.0dp" android:layout_marginStart="16.0dp" />
+    <View android:layout_gravity="end" android:background="@drawable/bg_corner_2" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_margin="12.0dp" />
+    <View android:background="@drawable/bg_corner_2" android:layout_width="46.0dp" android:layout_height="20.0dp" android:layout_marginTop="-33.0dp" android:layout_marginStart="16.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

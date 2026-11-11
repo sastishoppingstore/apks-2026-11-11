@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/activity_retailer_center_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/topBar" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+        <include android:id="@id/header" android:layout_width="0.0dp" android:layout_height="wrap_content" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" layout="@layout/header_layout" />
+        <ImageView android:id="@id/searchRC" android:padding="2.0dp" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/ic_search_new" android:layout_marginEnd="10.0dp" bind:layout_constraintBottom_toBottomOf="@id/header" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintTop_toTopOf="@id/header" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" android:background="#f1eef6" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="15.0dp" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/mapGroup" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/ivCurrentLocation" android:padding="14.0dp" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_marginBottom="120.0dp" android:src="@drawable/ic_locate_new" android:contentDescription="Current Location" android:layout_marginEnd="16.0dp" android:elevation="8.0dp" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
